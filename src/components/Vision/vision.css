@@ -1,0 +1,47 @@
+    .left--v-small-text{
+    color: gray;
+    }
+.div {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+  }
+  .checking-boxes{
+    display: flex;
+  }
+  
+  .selected {
+    background-color:blue;
+    width: 200px;
+    color: white;
+  }
+  
+  .information {
+    margin-top: 20px;
+  }
+  .left--v-small-text{
+    margin: 50px;
+    font-size: 18px;
+  }
+  
+  .info {
+    font-weight: bold;
+    color: #333;
+  }
+.Sections-Vision{
+    display: flex;
+    margin: 100px;
+}
+.Vision-left{
+    width: 50%;
+    height: 100vh;
+}
+.Vision-Right{
+    width: 50%;
+    height: 100vh ;
+}
+  

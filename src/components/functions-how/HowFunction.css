@@ -1,0 +1,46 @@
+.how-do-we-function {
+    justify-content: center;
+}
+
+.heading-how {
+    font-size: 40px;
+
+    text-align: center;
+    margin: 30px;
+}
+
+.how-container {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.function {
+    display: grid;
+    align-items: center;
+    margin: 20px;
+
+}
+
+
+
+.text-how {
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    font: oblique;
+    font-weight: bolder;
+
+}
+
+.text-how {
+    background-color: #f8faff;
+}
+
+@media screen and (max-width:768px) {
+    .how-container {
+        display: grid;
+    }
+}

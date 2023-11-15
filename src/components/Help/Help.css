@@ -1,0 +1,83 @@
+.Help-Main{
+    justify-content: center;
+    align-items: center ;
+    margin: 50px;
+}
+.heading-text-help{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.Main-help-text{
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.Help-small-text{
+    color: gray;
+    font-size: 20px;
+}
+.Wrapper-Help{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50PX;
+    margin-bottom: 50PX;
+    height: 530px;
+}
+.Help-card{
+    display: grid;
+    width: 25vw;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 30px;margin-top: 20px;
+  
+
+}
+.Help-card:hover{
+    transform: scale(1.1);
+}
+.Help-card-text-main{
+    font-size: 40px;
+}
+.Help-card-img{
+    overflow-y: hidden;
+    overflow: hidden;
+}
+.help-card img{
+   height: 300px;
+   width: 100%;
+  
+};
+@media (max-width: 768px) {
+    .Wrapper-Help {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+/* YourComponent.css */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .box-55{
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: black;
+  }
+
+  
+  @media (max-width: 768px) {
+    .container {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+  

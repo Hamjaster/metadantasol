@@ -1,0 +1,39 @@
+.Testmonials {
+    background: blue;
+    margin-top: 100px;
+}
+
+.Heading-Test {
+    text-align: center;
+    margin: 20px 0;
+    color: black;
+    font-size: 40px;
+    font-family: Copperplate, Papyrus, fantasy;
+    filter: drop-shadow(30px 10px 4px #4444dd);
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    border: 0px solid;
+    border-radius: 20px;
+    width: 25rem;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
