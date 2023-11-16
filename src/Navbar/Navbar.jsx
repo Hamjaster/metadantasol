@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import {NavSmall} from "./Navsmall/NavSmall"
+import { NavSmall } from "./Navsmall/NavSmall"
 import { NavBig } from './NavBIg/NavBig';
 
 const Navbar = () => {
@@ -8,7 +8,7 @@ const Navbar = () => {
   // Add an event listener to detect screen width changes
   useEffect(() => {
     const handleResize = () => {
-      setIsSmallScreen(window.innerWidth <= 768);
+      setIsSmallScreen(window.innerWidth <= 970);
     };
 
     // Initial check and set state
@@ -26,9 +26,9 @@ const Navbar = () => {
   return (
     <div className='navbar-main'>
       {isSmallScreen ? (
-        <div><NavSmall/></div>
+        <div><NavSmall /></div>
       ) : (
-        <div><NavBig/></div>
+        <div><NavBig /></div>
       )}
     </div>
   );

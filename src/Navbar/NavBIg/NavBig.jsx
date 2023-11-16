@@ -5,6 +5,7 @@ import { BsFillCartFill } from 'react-icons/bs'
 import { IoBookSharp } from 'react-icons/io5'
 import { FaIndustry } from 'react-icons/fa'
 import { FaLocationDot } from 'react-icons/fa6'
+import { Link } from 'react-router-dom'
 
 export const NavBig = () => {
   return (
@@ -15,12 +16,12 @@ export const NavBig = () => {
 
       <ul className='flex flex-row justify-end text-lg [&>*]:space-x-2 [&>*]:flex [&>*]:flex-row  [&>*]:items-center space-x-10'>
 
-        <li className='hover:text-[#136aff] cursor-pointer'>
+        <Link to={'/about'} className='hover:text-[#136aff] cursor-pointer'>
           <MdMiscellaneousServices className='' />
           <span>
-            Services
+            About
           </span>
-        </li>
+        </Link>
         <li className='hover:text-[#136aff] cursor-pointer'>
           <BsFillCartFill className="" />
           <span>

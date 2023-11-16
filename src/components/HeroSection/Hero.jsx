@@ -5,7 +5,7 @@ import { HeroRight } from './HeroRight'
 
 export const Hero = () => {
   return (
-    <div className='Hero-main bg-[#136aff] px-15'>
+    <div className='Hero-main py-5 md:px-12 flex flex-col-reverse md:flex-row bg-[#136aff] px-15'>
       <Heroleft />
       <HeroRight />
     </div>

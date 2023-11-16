@@ -13,7 +13,6 @@ import Footer from '../components/Footer/Footer'
 export const Home = () => {
   return (
     <>
-      <Navbar />
       <Hero />
       <Tools />
       <Cards />
@@ -22,7 +21,7 @@ export const Home = () => {
       <HowFunction />
       <Testmonilas />
       <Clients />
-      <Footer />
+
     </>
   )
 }

@@ -10,7 +10,7 @@ export const Tools =
         return (
             <div className='py-5 mt-28 mb-36 mx-auto text-center flex flex-col items-center'>
 
-                <div className='text-5xl py-3 w-2/3 text-center font-bold text-[#136aff]'>
+                <div className='text-3xl sm:text-5xl py-3 w-11/12 sm:w-2/3 text-center font-bold text-[#136aff]'>
                     Our Expertise With Leading Business Intelligence Tools
                 </div>
 

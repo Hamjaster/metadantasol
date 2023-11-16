@@ -1,0 +1,6 @@
+.card-bg {}
+
+.card-bg:hover {
+    transform: scale(1.5);
+    transition: all 1s ease-in-out;
+}

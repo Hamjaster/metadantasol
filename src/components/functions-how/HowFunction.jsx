@@ -56,14 +56,13 @@ export const HowFunction = () => {
 
                 </div>
 
-                <div className='function'>
+                <div className='function lg:block hidden'>
                     <div className='icon-aroow'>
                         <center   >
                             <FaArrowRight style={{ color: '#136aff' }} size={'50'} />
                         </center>
                     </div>
                 </div>
-
 
                 <div className='function'>
 
@@ -83,7 +82,7 @@ export const HowFunction = () => {
 
                 </div>
 
-                <div className='function'>
+                <div className='function lg:block hidden'>
 
                     <div className='icon-aroow'>
                         <center   >
@@ -110,7 +109,7 @@ export const HowFunction = () => {
 
                 </div>
 
-                <div className='function'>
+                <div className='function lg:block hidden'>
                     <div className='icon-aroow'>
                         <center   >
                             <FaArrowRight style={{ color: '#136aff' }} size={'50'} />
@@ -136,7 +135,7 @@ export const HowFunction = () => {
 
                 </div>
 
-                <div className='function'>
+                <div className='function lg:block hidden'>
                     <div className='icon-aroow'>
                         <center   >
                             <FaArrowRight style={{ color: '#136aff' }} size={'50'} />
@@ -161,7 +160,6 @@ export const HowFunction = () => {
                     </center>
 
                 </div>
-
 
             </div>
         </div>

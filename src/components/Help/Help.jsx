@@ -8,6 +8,7 @@ export const Help = () => {
   return (
     <div className='Help-Main my-36'>
       <center>
+
         <div className='heading-text-help'>
           <div className='font-bold text-5xl py-2'>
             How Can we Help ?
@@ -17,19 +18,19 @@ export const Help = () => {
           </div>
         </div>
 
-        <div className='flex my-12 flex-row '>
+        <div className='flex my-12 md:flex-row space-y-12 md:space-y-0 flex-col'>
 
-          <div className="card w-1/3 flex flex-col items-center">
+          <div className="card w-full md:w-1/3 flex flex-col items-center">
             <img src={one} className='w-64' alt="" srcset="" />
             <strong className='text-3xl py-1'>Startups</strong>
             <p className='text-center font-thin text-gray-700 w-10/12'>We help startups grasp a hold on the potential of data, explaining to them how to collect data, transform it, and even process it to help you take informed decisions that can help you run your startup towards success</p>
           </div>
-          <div className="card w-1/3 flex flex-col items-center">
+          <div className="card w-full md:w-1/3 flex flex-col items-center">
             <img src={two} className='w-64' alt="" srcset="" />
             <strong className='text-3xl py-1'>SMBs</strong>
             <p className='text-center font-thin text-gray-700 w-10/12'>Small businesses have a lot of potential. The only restriction they might have is the time to expand. This is where we help you. With the potential of AI, data science, analytics and ML, we can help you speed up the expansion</p>
           </div>
-          <div className="card w-1/3 flex flex-col items-center">
+          <div className="card w-full md:w-1/3 flex flex-col items-center">
             <img src={three} className='w-64' alt="" srcset="" />
             <strong className='text-3xl py-1'>Large Enterprises</strong>
             <p className='text-center font-thin text-gray-700 w-10/12'>We help startups grasp a hold on the potential of data, explaining to them how to collect data, transform it, and even process it to help you take informed decisions that can help you run your startup towards success</p>
