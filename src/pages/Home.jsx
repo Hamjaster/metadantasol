@@ -9,6 +9,7 @@ import { Vision } from '../components/Vision/Vision'
 import { Testmonilas } from '../components/Testimonials/Testmonilas'
 import Clients from '../components/Clients/Clients'
 import Footer from '../components/Footer/Footer'
+import { ContactFormWithImage } from '../components/Contact/Contact'
 
 export const Home = () => {
   return (
@@ -17,11 +18,11 @@ export const Home = () => {
       <Tools />
       <Cards />
       <Help />
-      {/* <Vision /> */}
+      <Vision />
       <HowFunction />
-      <Testmonilas />
+      {/* <Testmonilas /> */}
       <Clients />
-
+      <ContactFormWithImage />
     </>
   )
 }

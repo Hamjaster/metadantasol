@@ -9,7 +9,7 @@ import './Clients.css'
 export default function Clients() {
     return (
 
-        <div className='py-24 space-y-8'>
+        <div className='py-24 my-20 space-y-8'>
             <div className='text-6xl py-3 font-bold text-[#136aff] text-center'>Meet our clients
                 <div className="border-b-4 border-blue-500 w-1/3 my-3 mx-auto mb-8"></div>
             </div>
