@@ -4,7 +4,7 @@ import { useState } from 'react';
 export const Visionleft = () => {
 
 
-  const [selectedDiv, setSelectedDiv] = useState(null);
+  const [selectedDiv, setSelectedDiv] = useState(1);
 
   const handleDivClick = (divNumber) => {
     setSelectedDiv(divNumber);
