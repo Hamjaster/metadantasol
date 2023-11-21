@@ -1,5 +1,5 @@
 import React from 'react'
-import './cards.css'
+import './Cards.css'
 import { Tilt } from 'react-tilt'
 import { FaComputer } from 'react-icons/fa6'
 
