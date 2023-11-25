@@ -14,7 +14,7 @@ export default function ExploreModal({ isOpen, onClose }) {
     return (
         <>
 
-            <Modal closeOnOverlayClick={false} isOpen={isOpen} onClose={onClose} size={"lg"} >
+            <Modal closeOnOverlayClick={false} isOpen={isOpen} onClose={onClose} size={{ sm: 'full', md: "lg" }} >
                 <ModalOverlay />
                 <ModalContent>
                     <ModalHeader>Book An Audit With Us</ModalHeader>

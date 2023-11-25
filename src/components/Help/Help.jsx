@@ -10,7 +10,7 @@ export const Help = () => {
       <center>
 
         <div className='heading-text-help'>
-          <div className='font-bold text-5xl py-2'>
+          <div className='font-bold text-4xl md:text-5xl py-2'>
             How Can we Assist ?
           </div>
           <div className='text-lg mt-3 text-gray-500'>

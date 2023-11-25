@@ -15,7 +15,7 @@ export const NavSmall = () => (
 
   <div className="nav-header">
     <div className="nav-content">
-      <div className='Logo'>Logo</div>
+      <div className='text-2xl font-bold font-roboto'>Logo</div>
       <Popup
         modal
         trigger={

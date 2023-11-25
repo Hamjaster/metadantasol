@@ -8,7 +8,7 @@ const ContactSection = () => {
         <div className="flex flex-col shadow-2xl md:flex-row rounded-2xl  text-white w-11/12 mx-auto my-44">
 
             {/* Left Part */}
-            <div className="p-20 md:w-1/2 bg-[#136aff] rounded-br-2xl rounded-bl-2xl md:rounded-tl-2xl md:rounded-bl-2xl text-xl">
+            <div className="p-20 md:w-1/2 bg-[#136aff] rounded-tr-2xl rounded-tl-2xl md:rounded-tl-2xl md:rounded-bl-2xl text-xl">
                 <h2 className="text-5xl font-bold mb-8">Call US</h2>
 
                 <p className="mb-4 flex flex-row items-center space-x-5">

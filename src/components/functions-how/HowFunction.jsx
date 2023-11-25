@@ -33,7 +33,7 @@ export const HowFunction = () => {
     }, []);
     return (
         <div className='how-do-we-function py-12 space-y-12 bg-[#f7faff]'>
-            <div className='text-5xl py-3 font-bold text-center'>
+            <div className='text-4xl md:text-5xl py-3 font-bold text-center'>
                 How do we function ?
             </div>
             <div className='how-container'>
