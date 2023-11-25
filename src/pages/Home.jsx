@@ -10,19 +10,22 @@ import { Testmonilas } from '../components/Testimonials/Testmonilas'
 import Clients from '../components/Clients/Clients'
 import Footer from '../components/Footer/Footer'
 import { ContactFormWithImage } from '../components/Contact/Contact'
+import YouBusiness from '../components/YouBusiness'
+import Contact from '../components/Contact'
 
 export const Home = () => {
   return (
-    <>
+    <div div className='font-opensans'>
       <Hero />
-      <Tools />
+      {/* <Tools /> */}
       <Cards />
       <Help />
-      <Vision />
+      <YouBusiness />
+      {/* <Vision /> */}
       <HowFunction />
       {/* <Testmonilas /> */}
-      <Clients />
-      <ContactFormWithImage />
-    </>
+      {/* <Clients /> */}
+      <Contact />
+    </div>
   )
 }

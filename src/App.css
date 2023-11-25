@@ -3,3 +3,15 @@
   padding: 0;
   /* box-sizing: border-box; */
 }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Bcard {
+  transition: 1s all;
+}
+
+.Bcard:hover {
+  transform: translateY(10px);
+}

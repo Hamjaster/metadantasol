@@ -11,29 +11,29 @@ export const Help = () => {
 
         <div className='heading-text-help'>
           <div className='font-bold text-5xl py-2'>
-            How Can we Help ?
+            How Can we Assist ?
           </div>
           <div className='text-lg mt-3 text-gray-500'>
-            We can potentially help all kinds of businesses achieve their best with data science, regardless of the size of your business. Right from making businesses understand the potential of data to implementing the right structure to process it to make decisions.
+            Our expertise is tailored to assist businesses of all sizes in harnessing the power of their existing data. Whether you're just beginning to explore the possibilities of data or ready to implement effective structures for data processing and decision-making, we're here to guide you every step of the way.
           </div>
         </div>
 
-        <div className='flex my-12 md:flex-row space-y-12 md:space-y-0 flex-col'>
+        <div className='flex my-12 text-base md:flex-row space-y-12 items-center md:space-y-0 flex-col'>
 
-          <div className="w-full md:w-1/3 flex flex-col items-center">
+          <div className="w-full space-y-3 md:w-1/3 flex flex-col items-center">
             <img src={one} className='w-64' alt="" srcset="" />
             <strong className='text-3xl py-1'>Startups</strong>
-            <p className='text-center font-thin text-gray-700 w-10/12'>We help startups grasp a hold on the potential of data, explaining to them how to collect data, transform it, and even process it to help you take informed decisions that can help you run your startup towards success</p>
+            <p className='text-center font-thin text-gray-700 w-10/12'>Our services are designed to empower startups in unlocking the full potential of data. We guide you on how to effectively gather, transform, and process data, enabling you to make well-informed decisions that steer your startup towards success.</p>
           </div>
-          <div className="w-full md:w-1/3 flex flex-col items-center">
+          <div className="w-full space-y-3 md:w-1/3 flex flex-col items-center">
             <img src={two} className='w-64' alt="" srcset="" />
             <strong className='text-3xl py-1'>SMBs</strong>
-            <p className='text-center font-thin text-gray-700 w-10/12'>Small businesses have a lot of potential. The only restriction they might have is the time to expand. This is where we help you. With the potential of AI, data science, analytics and ML, we can help you speed up the expansion</p>
+            <p className='text-center leading-snug font-thin text-gray-700 w-10/12'>Small and medium-sized businesses are brimming with potential, often limited only by the time needed for expansion. Our role is to help you overcome this barrier. Leveraging the power of AI, data science, analytics, and machine learning, we offer solutions that accelerate your business growth and expansion.</p>
           </div>
-          <div className="w-full md:w-1/3 flex flex-col items-center">
+          <div className="w-full space-y-3 md:w-1/3 flex flex-col items-center">
             <img src={three} className='w-80' alt="" srcset="" />
             <strong className='text-3xl py-1'>Large Enterprises</strong>
-            <p className='text-center font-thin text-gray-700 w-10/12'>We help startups grasp a hold on the potential of data, explaining to them how to collect data, transform it, and even process it to help you take informed decisions that can help you run your startup towards success</p>
+            <p className='text-center leading-tight font-thin text-gray-700 w-10/12'>For substantial organizations, complexity scales with size. While you may already be capitalizing on data, the scope for advancement is vast. Our focus is to enhance your overall data strategy, encompassing everything from business intelligence to comprehensive data analytics. We step in to refine and streamline your data handling processes, ensuring they align with the advanced demands of your enterprise and drive continuous progress.</p>
           </div>
 
         </div>

@@ -8,7 +8,7 @@ export default function Footer() {
             <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div class="md:flex md:justify-between">
                     <div class="mb-6 md:mb-0">
-                        <strong className='text-2xl sm:text-4xl md:text-5xl font-bold'>Metadantasol</strong>
+                        <strong className='text-2xl font-poppins md:text-3xl font-bold'>Logo</strong>
                     </div>
                     <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                         <div>
