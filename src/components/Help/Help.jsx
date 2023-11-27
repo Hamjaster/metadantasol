@@ -1,8 +1,8 @@
 import React from 'react'
 import './Help.css'
-import one from '../../images/startup-min.webp'
-import two from '../../images/sm-min.webp'
-import three from '../../images/three.webp'
+import one from '../../images/bg1.jpg'
+import two from '../../images/bg2.jpg'
+import three from '../../images/bg3.jpg'
 
 export const Help = () => {
   return (
@@ -20,18 +20,27 @@ export const Help = () => {
 
         <div className='flex my-12 text-base md:flex-row space-y-12 items-center md:space-y-0 flex-col'>
 
-          <div className="w-full space-y-3 md:w-1/3 flex flex-col items-center">
-            <img src={one} className='w-64' alt="" srcset="" />
+          <div className="w-full space-y-5 md:w-1/3 flex flex-col items-center">
+            {/* <img src={one} className='w-64' alt="" srcset="" /> */}
+            <div style={{ backgroundImage: `url(${one})` }} className="bg-center bg-cover rounded-lg shadow-xl hover:shadow-2xl transition-all h-44 w-64">
+
+            </div>
             <strong className='text-3xl py-1'>Startups</strong>
             <p className='text-center font-thin text-gray-700 w-10/12'>Our services are designed to empower startups in unlocking the full potential of data. We guide you on how to effectively gather, transform, and process data, enabling you to make well-informed decisions that steer your startup towards success.</p>
           </div>
-          <div className="w-full space-y-3 md:w-1/3 flex flex-col items-center">
-            <img src={two} className='w-64' alt="" srcset="" />
+          <div className="w-full space-y-5 md:w-1/3 flex flex-col items-center">
+            {/* <img src={two} className='w-64' alt="" srcset="" /> */}
+            <div style={{ backgroundImage: `url(${two})` }} className="bg-center bg-cover rounded-lg shadow-xl hover:shadow-2xl transition-all h-44 w-64">
+
+            </div>
             <strong className='text-3xl py-1'>SMBs</strong>
             <p className='text-center leading-snug font-thin text-gray-700 w-10/12'>Small and medium-sized businesses are brimming with potential, often limited only by the time needed for expansion. Our role is to help you overcome this barrier. Leveraging the power of AI, data science, analytics, and machine learning, we offer solutions that accelerate your business growth and expansion.</p>
           </div>
-          <div className="w-full space-y-3 md:w-1/3 flex flex-col items-center">
-            <img src={three} className='w-80' alt="" srcset="" />
+          <div className="w-full space-y-5 md:w-1/3 flex flex-col items-center">
+            {/* <img src={three} className='w-80' alt="" srcset="" /> */}
+            <div style={{ backgroundImage: `url(${three})` }} className="bg-center bg-cover rounded-lg shadow-xl hover:shadow-2xl transition-all h-44 w-64">
+
+            </div>
             <strong className='text-3xl py-1'>Large Enterprises</strong>
             <p className='text-center leading-tight font-thin text-gray-700 w-10/12'>For substantial organizations, complexity scales with size. While you may already be capitalizing on data, the scope for advancement is vast. Our focus is to enhance your overall data strategy, encompassing everything from business intelligence to comprehensive data analytics. We step in to refine and streamline your data handling processes, ensuring they align with the advanced demands of your enterprise and drive continuous progress.</p>
           </div>

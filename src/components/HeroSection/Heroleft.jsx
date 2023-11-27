@@ -6,9 +6,9 @@ import ExploreModal from '../ExploreModal'
 export const Heroleft = () => {
   const { isOpen, onOpen, onClose } = useDisclosure()
   return (
-    <div className='Hero-left-main px-4 overflow-hidden  bg-[#136aff]'>
+    <div className='Hero-left-main px-4 overflow-hidden  bg-[#444fff]'>
 
-      <div className='Hero-left-silly w-full md:mt-4 pb-12 md:h-[66vh] bg-[#136aff]'>
+      <div className='Hero-left-silly w-full md:mt-4 pb-12 md:h-[66vh] bg-[#444fff]'>
 
         <div className='Text sm:mt-2 md:mt-24 overflow-hidden'>
           <div className='text-4xl md:text-5xl py-4 text-white font-bold'>

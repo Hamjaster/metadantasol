@@ -8,7 +8,7 @@ const ContactSection = () => {
         <div className="flex flex-col shadow-2xl md:flex-row rounded-2xl  text-white w-11/12 mx-auto my-44">
 
             {/* Left Part */}
-            <div className="p-20 md:w-1/2 bg-[#136aff] rounded-tr-2xl rounded-tl-2xl md:rounded-tl-2xl md:rounded-bl-2xl text-xl">
+            <div className="p-12 lg:p-20 md:w-1/2 bg-[#444fff] rounded-tr-2xl rounded-tl-2xl md:rounded-tl-2xl md:rounded-bl-2xl text-xl">
                 <h2 className="text-5xl font-bold mb-8">Call US</h2>
 
                 <p className="mb-4 flex flex-row items-center space-x-5">
@@ -42,7 +42,7 @@ const ContactSection = () => {
                     <p className="text-3xl">
                         <MdEmail />
                     </p>
-                    <p className='underline mb-2 cursor-pointer'>support@metadatansol.com</p>
+                    <p className='underline mb-2 cursor-pointer text-base md:text-md lg:text-lg'>support@metadatansol.com</p>
                 </div>
             </div>
 
@@ -58,7 +58,7 @@ const ContactSection = () => {
                             type="text"
                             id="name"
                             name="name"
-                            className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-[#136aff]"
+                            className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-[#444fff]"
                             required
                         />
                     </div>
@@ -70,7 +70,7 @@ const ContactSection = () => {
                             type="tel"
                             id="phone"
                             name="phone"
-                            className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-[#136aff]"
+                            className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-[#444fff]"
                             required
                         />
                     </div>
@@ -82,7 +82,7 @@ const ContactSection = () => {
                             type="email"
                             id="email"
                             name="email"
-                            className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-[#136aff]"
+                            className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-[#444fff]"
                             required
                         />
                     </div>
@@ -94,7 +94,7 @@ const ContactSection = () => {
                             id="message"
                             name="message"
                             rows="4"
-                            className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-[#136aff]"
+                            className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-[#444fff]"
                             required
                         ></textarea>
                     </div>
@@ -106,12 +106,12 @@ const ContactSection = () => {
                             type="text"
                             id="organization"
                             name="organization"
-                            className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-[#136aff]"
+                            className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-[#444fff]"
                         />
                     </div>
                     <button
                         type="submit"
-                        className="bg-[#136aff] text-white w-full py-2 px-4 rounded-md transition duration-300 hover:bg-blue-600"
+                        className="bg-[#444fff] text-white w-full py-2 px-4 rounded-md transition duration-300 hover:bg-[#2e3cff]"
                     >
                         Send Message
                     </button>

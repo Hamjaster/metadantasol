@@ -42,14 +42,14 @@ export const HowFunction = () => {
 
                     <center>
 
-                        <div className='icon w-24 bg-[#136aff] rounded-full p-6'>
+                        <div className='icon w-24 bg-[#444fff] rounded-full p-6'>
                             <div className="text-white text-5xl">
                                 <BsDatabaseFillGear />
                             </div>
 
                         </div>
 
-                        <div className='text-base font-bold mt-3'>
+                        <div className='text-sm font-bold mt-3'>
                             1. COLLECTING <br />DATA
                         </div>
                     </center>
@@ -59,7 +59,7 @@ export const HowFunction = () => {
                 <div className='function lg:block hidden'>
                     <div className='icon-aroow'>
                         <center   >
-                            <FaArrowRight style={{ color: '#136aff' }} size={'50'} />
+                            <FaArrowRight style={{ color: '#444fff' }} size={'50'} />
                         </center>
                     </div>
                 </div>
@@ -68,15 +68,15 @@ export const HowFunction = () => {
 
                     <center>
 
-                        <div className='icon w-24 bg-[#136aff] rounded-full p-6'>
+                        <div className='icon w-24 bg-[#444fff] rounded-full p-6'>
                             <div className="text-white text-5xl">
                                 <BsTranslate />
                             </div>
 
                         </div>
 
-                        <div className='text-base font-bold mt-3'>
-                            1. COLLECTING <br />DATA
+                        <div className='text-sm font-bold mt-3'>
+                            2.  TRANSFORMING <br />DATA
                         </div>
                     </center>
 
@@ -86,7 +86,7 @@ export const HowFunction = () => {
 
                     <div className='icon-aroow'>
                         <center   >
-                            <FaArrowRight style={{ color: '#136aff' }} size={'50'} />
+                            <FaArrowRight style={{ color: '#444fff' }} size={'50'} />
                         </center>
                     </div>
                 </div>
@@ -95,15 +95,15 @@ export const HowFunction = () => {
 
                     <center>
 
-                        <div className='icon w-24 bg-[#136aff] rounded-full p-6'>
+                        <div className='icon w-24 bg-[#444fff] rounded-full p-6'>
                             <div className="text-white text-5xl">
                                 <FaLowVision />
                             </div>
 
                         </div>
 
-                        <div className='text-base font-bold mt-3'>
-                            1. COLLECTING <br />DATA
+                        <div className='text-sm font-bold mt-3'>
+                            3. RUNNING ANALYTICS <br />ALGORITHMS
                         </div>
                     </center>
 
@@ -112,7 +112,7 @@ export const HowFunction = () => {
                 <div className='function lg:block hidden'>
                     <div className='icon-aroow'>
                         <center   >
-                            <FaArrowRight style={{ color: '#136aff' }} size={'50'} />
+                            <FaArrowRight style={{ color: '#444fff' }} size={'50'} />
                         </center>
                     </div>
                 </div>
@@ -121,15 +121,15 @@ export const HowFunction = () => {
 
                     <center>
 
-                        <div className='icon w-24 bg-[#136aff] rounded-full p-6'>
+                        <div className='icon w-24 bg-[#444fff] rounded-full p-6'>
                             <div className="text-white text-5xl">
                                 <SiThealgorithms />
                             </div>
 
                         </div>
 
-                        <div className='text-base font-bold mt-3'>
-                            1. COLLECTING <br />DATA
+                        <div className='text-sm font-bold mt-3'>
+                            4. PREAPARING <br />VISUALIZATION
                         </div>
                     </center>
 
@@ -138,7 +138,7 @@ export const HowFunction = () => {
                 <div className='function lg:block hidden'>
                     <div className='icon-aroow'>
                         <center   >
-                            <FaArrowRight style={{ color: '#136aff' }} size={'50'} />
+                            <FaArrowRight style={{ color: '#444fff' }} size={'50'} />
                         </center>
                     </div>
                 </div>
@@ -147,15 +147,15 @@ export const HowFunction = () => {
 
                     <center>
 
-                        <div className='icon w-24 bg-[#136aff] rounded-full p-6'>
+                        <div className='icon w-24 bg-[#444fff] rounded-full p-6'>
                             <div className="text-white text-5xl">
                                 <MdAutoGraph />
                             </div>
 
                         </div>
 
-                        <div className='text-base font-bold mt-3'>
-                            1. COLLECTING <br />DATA
+                        <div className='text-sm font-bold mt-3'>
+                            5. HELPING <br />DECISION-MAKING
                         </div>
                     </center>
 

@@ -7,11 +7,11 @@ export default function YouBusiness() {
     });
 
     return (
-        // <div className='bg-[[[#136aff]]] text-[#136aff]'>
-        <div className="my-24 bg-gradient-to-t from-[#5594ff] to-[#176cff] bg-radial py-36">
+        // <div className='bg-[[[#444fff]]] text-[#444fff]'>
+        <div className="my-24 bg-gradient-to-t from-[#5e69f9] to-[#444fff] bg-radial py-36">
             <div className="max-w-6xl mx-auto">
 
-                <h2 className="text-3xl md:text-4xl w-11/12 mx-auto font-semibold text-center text-white mb-24 md:mb-44">
+                <h2 className="text-3xl md:text-4xl w-full mx-auto font-semibold text-center text-white mb-24 md:mb-44">
                     Data Maturity : Where Does Your Business Stand?
                 </h2>
 
@@ -24,7 +24,7 @@ export default function YouBusiness() {
                             <p className="text-gray-700 mb-4">
                                 You have data but are unsure of its potential. This stage is all about uncovering the value and purpose of your business data."
                             </p>
-                            <button className="bg-[#136aff] text-white  py-2 px-4 w-11/12 hover:bg-blue-600">
+                            <button className="bg-[#444fff] text-white  py-2 px-2 w-full hover:bg-[#3441ff]">
                                 Explore the Possibilities
                             </button>
                         </div>
@@ -39,7 +39,7 @@ export default function YouBusiness() {
                             <p className="text-gray-700 mb-4">
                                 You're aware of your data's promise but need insights on harnessing it effectively. Here, the exploration of your data's power begins
                             </p>
-                            <button className="bg-[#136aff] text-white  py-2 px-4 w-11/12 hover:bg-blue-600">
+                            <button className="bg-[#444fff] text-white  py-2 px-2 w-full hover:bg-[#3441ff]">
                                 Let Us Guide You
                             </button>
                         </div>
@@ -54,7 +54,7 @@ export default function YouBusiness() {
                             <p className="text-gray-700 mb-4">
                                 Enthusiastic about the prospects of data, you're ready to delve deep for impactful insights. You're set to fully utilize your data's capabilities
                             </p>
-                            <button className="bg-[#136aff] text-white  py-2 px-4 w-11/12 hover:bg-blue-600">
+                            <button className="bg-[#444fff] text-white py-2 px-2 w-full hover:bg-[#3441ff]">
                                 Let's Explore Your Data’
                             </button>
                         </div>
@@ -69,7 +69,7 @@ export default function YouBusiness() {
                             <p className="text-gray-700 mb-4">
                                 Actively using data for insights, you seek ways to further elevate its utility. Your focus is on optimizing and advancing your data strategies
                             </p>
-                            <button className="bg-[#136aff] text-white text-sm py-2 px-1 w-full hover:bg-blue-600">
+                            <button className="bg-[#444fff] text-white text-sm py-2 px-1 w-full hover:bg-[#3441ff]">
                                 Let's Optimize Your Data Strategy
                             </button>
                         </div>

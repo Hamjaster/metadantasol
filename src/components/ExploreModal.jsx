@@ -30,7 +30,7 @@ export default function ExploreModal({ isOpen, onClose }) {
                                         type="text"
                                         id="fullName"
                                         name="fullName"
-                                        className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-blue-500"
+                                        className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-[#444fff]"
                                         placeholder="Enter your full name"
                                         required
                                     />
@@ -43,7 +43,7 @@ export default function ExploreModal({ isOpen, onClose }) {
                                         type="email"
                                         id="workEmail"
                                         name="workEmail"
-                                        className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-blue-500"
+                                        className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-[#444fff]"
                                         placeholder="Enter your work email"
                                         required
                                     />
@@ -56,7 +56,7 @@ export default function ExploreModal({ isOpen, onClose }) {
                                         type="tel"
                                         id="phoneNumber"
                                         name="phoneNumber"
-                                        className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-blue-500"
+                                        className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-[#444fff]"
                                         placeholder="Enter your phone number"
                                         required
                                     />
@@ -69,7 +69,7 @@ export default function ExploreModal({ isOpen, onClose }) {
                                         id="howCanWeHelp"
                                         name="howCanWeHelp"
                                         rows="4"
-                                        className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-blue-500"
+                                        className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-[#444fff]"
                                         placeholder="Please describe your query or request"
                                         required
                                     ></textarea>
@@ -81,7 +81,7 @@ export default function ExploreModal({ isOpen, onClose }) {
                     <ModalFooter>
                         <button
                             type="submit"
-                            className="w-full bg-blue-500 text-white py-2 rounded-md transition duration-300 hover:bg-blue-600"
+                            className="w-full bg-[#444fff] text-white py-2 rounded-md transition duration-300 hover:bg-[#444fff]"
                         >
                             Submit
                         </button>
