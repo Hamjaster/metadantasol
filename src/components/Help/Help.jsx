@@ -1,8 +1,9 @@
 import React from 'react'
 import './Help.css'
-import one from '../../images/bg1.jpg'
-import two from '../../images/bg2.jpg'
-import three from '../../images/bg3.jpg'
+import one from '../../images/bg4.jpg'
+import two from '../../images/bg5.jpg'
+import three from '../../images/bg6.jpg'
+
 
 export const Help = () => {
   return (
@@ -42,7 +43,7 @@ export const Help = () => {
 
             </div>
             <strong className='text-3xl py-1'>Large Enterprises</strong>
-            <p className='text-center leading-tight font-thin text-gray-700 w-10/12'>For substantial organizations, complexity scales with size. While you may already be capitalizing on data, the scope for advancement is vast. Our focus is to enhance your overall data strategy, encompassing everything from business intelligence to comprehensive data analytics. We step in to refine and streamline your data handling processes, ensuring they align with the advanced demands of your enterprise and drive continuous progress.</p>
+            <p className='text-center leading-snug font-thin text-gray-700 w-10/12'>For expansive organizations, complexity grows in tandem with size. Our dedicated focus involves optimizing your data strategy comprehensively. From enhancing business intelligence to deploying thorough data analytics, we refine processes to align with your enterprise's evolving demands, fostering continual growth and improvement</p>
           </div>
 
         </div>

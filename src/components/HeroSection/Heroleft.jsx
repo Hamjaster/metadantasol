@@ -2,20 +2,24 @@ import { useDisclosure } from '@chakra-ui/react';
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
 import ExploreModal from '../ExploreModal'
+import { useMediaQuery } from 'react-responsive'
 
 export const Heroleft = () => {
   const { isOpen, onOpen, onClose } = useDisclosure()
-  return (
-    <div className='Hero-left-main px-4 overflow-hidden  bg-[#444fff]'>
+  const isSmall = useMediaQuery({ query: '(max-width: 640px)' })
 
-      <div className='Hero-left-silly w-full md:mt-4 pb-12 md:h-[66vh] bg-[#444fff]'>
+
+  return (
+    <div className='Hero-left-main px-4 overflow-hidden'>
+
+      <div className='Hero-left-silly w-full md:mt-4 pb-12 md:h-[66vh]'>
 
         <div className='Text sm:mt-2 md:mt-24 overflow-hidden'>
-          <div className='text-4xl md:text-5xl py-4 text-white font-bold'>
+          <div className='text-3xl sm:text-4xl md:text-5xl py-4 text-white font-bold'>
             Empowering Data-Driven Success
 
           </div>
-          <div className="animatingText">
+          <div className="animatingText text-gray-400 text-lg sm:text-2xl md:text-3xl">
             <TypeAnimation className='Animating-text'
               sequence={[
                 // Same substring at the start will only be typed out once, initially
@@ -32,8 +36,7 @@ export const Heroleft = () => {
               wrapper="span"
               speed={20}
               style={{
-                fontSize: '30px',
-                display: 'inline-block', color: 'black',
+                display: 'inline-block', color: '#C0C0C0',
                 fontWeight: 600
               }}
               repeat={Infinity}
