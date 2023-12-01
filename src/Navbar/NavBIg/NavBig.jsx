@@ -19,31 +19,31 @@ export const NavBig = () => {
 
       <ul className='flex flex-row justify-end text-lg [&>*]:space-x-2 [&>*]:flex [&>*]:flex-row  [&>*]:items-center space-x-10'>
 
-        <Link to={'/about'} className='hover:text-[#444fff] cursor-pointer'>
+        <Link to={'/about'} className='hover:text-[#0083e8] cursor-pointer'>
           <MdMiscellaneousServices className='' />
           <span>
             About
           </span>
         </Link>
-        <li className='hover:text-[#444fff] cursor-pointer'>
+        <li className='hover:text-[#0083e8] cursor-pointer'>
           <BsFillCartFill className="" />
           <span>
             Products
           </span>
         </li>
-        <li className='hover:text-[#444fff] cursor-pointer'>
+        <li className='hover:text-[#0083e8] cursor-pointer'>
           <IoBookSharp className="" />
           <span>
             Resources
           </span>
         </li>
-        <li className='hover:text-[#444fff] cursor-pointer'>
+        <li className='hover:text-[#0083e8] cursor-pointer'>
           <FaIndustry className="" />
           <span>
             Industries
           </span>
         </li>
-        <li className='hover:text-[#444fff] cursor-pointer'>
+        <li className='hover:text-[#0083e8] cursor-pointer'>
           <FaLocationDot className="" />
           <span>
             Company
@@ -54,8 +54,8 @@ export const NavBig = () => {
 
       <ul className='flex flex-row space-x-5'>
         {/* <div className=' cursor-pointer hover:bg-[#1057d2] px-5 py-2 text-white bg-[#136aff] text-center rounded-3xl'>Get in touch </div> */}
-        <div className=' cursor-pointer px-5 hover:bg-[#323cca] py-2 border-2 text-white  bg-[#444fff] text-center rounded-3xl'>Get in touch </div>
-        <div className=' cursor-pointer px-5 hover:bg-[#444fff] hover:text-white py-2 border-2 text-[#444fff]  border-[#444fff] text-center rounded-3xl'>Build your team </div>
+        <div className=' cursor-pointer px-5 hover:bg-[#005ea6] py-2 border-2 text-white  bg-[#0083e8] text-center rounded-3xl'>Get in touch </div>
+        <div className=' cursor-pointer px-5 hover:bg-[#0083e8] hover:text-white py-2 border-2 text-[#0083e8]  border-[#0083e8] text-center rounded-3xl'>Build your team </div>
       </ul>
 
     </nav>

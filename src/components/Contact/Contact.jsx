@@ -21,50 +21,50 @@ export const ContactFormWithImage = () => {
             {/* Right side with form */}
             <div className="flex-shrink-0 w-full md:w-1/2 p-4 md:p-8">
                 <div className="p-8">
-                    <h2 className="text-5xl font-bold text-[#444fff] mb-6">Contact Us</h2>
+                    <h2 className="text-5xl font-bold text-[#0083e8] mb-6">Contact Us</h2>
                     <form>
                         <div className="mb-4">
-                            <label htmlFor="name" className="text-[#444fff] block mb-2">
+                            <label htmlFor="name" className="text-[#0083e8] block mb-2">
                                 Name
                             </label>
                             <input
                                 type="text"
                                 id="name"
                                 name="name"
-                                className="w-full p-2 rounded-md outline-none border-2 border-[#444fff]"
+                                className="w-full p-2 rounded-md outline-none border-2 border-[#0083e8]"
                                 placeholder="Your Name"
                             />
                         </div>
 
                         <div className="mb-4">
-                            <label htmlFor="company" className="text-[#444fff] block mb-2">
+                            <label htmlFor="company" className="text-[#0083e8] block mb-2">
                                 Email
                             </label>
                             <input
                                 type="text"
                                 id="company"
                                 name="company"
-                                className="w-full p-2 rounded-md outline-none border-2 border-[#444fff]"
+                                className="w-full p-2 rounded-md outline-none border-2 border-[#0083e8]"
                                 placeholder="Your Company"
                             />
                         </div>
 
                         <div className="mb-4">
-                            <label htmlFor="phone" className="text-[#444fff] block mb-2">
+                            <label htmlFor="phone" className="text-[#0083e8] block mb-2">
                                 Phone Number
                             </label>
                             <input
                                 type="tel"
                                 id="phone"
                                 name="phone"
-                                className="w-full p-2 rounded-md outline-none border-2 border-[#444fff]"
+                                className="w-full p-2 rounded-md outline-none border-2 border-[#0083e8]"
                                 placeholder="Your Phone Number"
                             />
                         </div>
 
                         <button
                             type="submit"
-                            className="w-full border-2 my-3 border-[#444fff] rounded-md text-[#444fff] hover:bg-[#444fff] hover:text-white transition-all"
+                            className="w-full border-2 my-3 border-[#0083e8] rounded-md text-[#0083e8] hover:bg-[#0083e8] hover:text-white transition-all"
                         >
                             Submit
                         </button>

@@ -12,14 +12,14 @@ export const Cards = () => {
       <div className="wrapper bg-white my-20 py-12">
 
         <div className=" mx-auto w-full">
-          <h1 className="title text-5xl sm:text-6xl font-bold w-full py-3 text-[#444fff]">Our Solutions</h1>
+          <h1 className="title text-4xl sm:text-6xl font-bold w-full py-3 text-[#0083e8]">Our Solutions</h1>
 
-          <p className=' mt-3 text-lg text-gray-500 mx-7 sm:mx-24 '>At Metadatan Solutions, we bring over a decade of unwavering dedication to the BI and analytics sector, and we've embarked on a mission to leverage our extensive experience to support your journey to success. Our core mission revolves around empowering your management with the essential BI tools, ensuring a seamless voyage toward data-driven decision-making.</p>
+          <p className=' mt-3 text-sm sm:text-lg text-gray-500 mx-7 sm:mx-24 text-center '>At Metadatan Solutions, we bring over a decade of unwavering dedication to the BI and analytics sector, and we've embarked on a mission to leverage our extensive experience to support your journey to success. Our core mission revolves around empowering your management with the essential BI tools, ensuring a seamless voyage toward data-driven decision-making.</p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 w-10/12 mx-auto gap-6 my-16 ">
 
 
-            <div className="group pb-7 w-full mx-auto rounded-sm bg-[#cee0ff] text-[#57647c] flex flex-col space-y-4 items-center border-none hover:bg-[#444fff] hover:text-[#444fff] cursor-pointer transition-all duration-500">
+            <div className="group pb-7 w-full mx-auto rounded-sm bg-[#a3d7ff] text-[#57647c] flex flex-col space-y-4 items-center border-none hover:bg-[#1a87db] hover:text-[#1a87db] cursor-pointer transition-all duration-500">
 
               <div className="img relative overflow-hidden w-full h-72  ">
                 <video
@@ -55,7 +55,7 @@ export const Cards = () => {
 
             </div>
 
-            <div className="group pb-7 w-full mx-auto rounded-sm bg-[#cee0ff] text-[#57647c] flex flex-col space-y-4 items-center border-none hover:bg-[#444fff] hover:text-[#444fff] cursor-pointer transition-all duration-500">
+            <div className="group pb-7 w-full mx-auto rounded-sm bg-[#a3d7ff] text-[#57647c] flex flex-col space-y-4 items-center border-none hover:bg-[#1a87db] hover:text-[#1a87db] cursor-pointer transition-all duration-500">
 
               <div className="img relative overflow-hidden w-full h-72  ">
                 <video
@@ -92,7 +92,7 @@ export const Cards = () => {
 
             </div>
 
-            <div className="group pb-7 w-full mx-auto rounded-sm bg-[#cee0ff] text-[#57647c] flex flex-col space-y-4 items-center border-none hover:bg-[#444fff] hover:text-[#444fff] cursor-pointer transition-all duration-500">
+            <div className="group pb-7 w-full mx-auto rounded-sm bg-[#a3d7ff] text-[#57647c] flex flex-col space-y-4 items-center border-none hover:bg-[#1a87db] hover:text-[#1a87db] cursor-pointer transition-all duration-500">
 
               <div className="img relative overflow-hidden w-full h-72  ">
                 <video
@@ -127,7 +127,7 @@ export const Cards = () => {
 
             </div>
 
-            <div className="group pb-7 w-full mx-auto rounded-sm bg-[#cee0ff] text-[#57647c] flex flex-col space-y-4 items-center border-none hover:bg-[#444fff] hover:text-[#444fff] cursor-pointer transition-all duration-500">
+            <div className="group pb-7 w-full mx-auto rounded-sm bg-[#a3d7ff] text-[#57647c] flex flex-col space-y-4 items-center border-none hover:bg-[#1a87db] hover:text-[#1a87db] cursor-pointer transition-all duration-500">
 
               <div className="img relative overflow-hidden w-full h-72  ">
                 <video
@@ -170,65 +170,6 @@ export const Cards = () => {
 
         </div>
 
-
-        {/*----------------------------------------------------------------
-    <div className="container">
-    
-      <div className="inner-wrapper">
-        <div className="card">
-          <div className="inner-card">
-            <div className="img-wrapper">
-              <img src="https://source.unsplash.com/collection/190727/900x600" alt=""/>
-            </div>
-            <div className="content">
-              <h1>Card Title</h1>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, dolore!</p>
-            </div>
-            <div className="btn-wrapper">
-              <button className="view-btn" data-src="https://source.unsplash.com/collection/190727/900x600">View</button>
-            </div>
-          </div>
-        </div>
-        <div className="card">
-          <div className="inner-card">
-            <div className="img-wrapper">
-              <img src="https://source.unsplash.com/collection/190727/901x601" alt=""/>
-            </div>
-            <div className="content">
-              <h1>Card Title</h1>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, dolore!</p>
-            </div>
-            <div className="btn-wrapper">
-              <button className="view-btn" data-src="https://source.unsplash.com/collection/190727/901x601">View</button>
-            </div>
-          </div>
-        </div>
-        <div className="card">
-          <div className="inner-card">
-            <div className="img-wrapper">
-              <img src="https://source.unsplash.com/collection/190727/903x603" alt=""/>
-            </div>
-            <div className="content">
-              <h1>Card Title</h1>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, dolore!</p>
-            </div>
-            <div className="btn-wrapper">
-              <button className="view-btn" data-src="https://source.unsplash.com/collection/190727/903x603">View</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div className="light-box">
-    <div className="box-wrapper">
-      <div className="box">
-        <span className="close-btn">&times</span>
-        <img src="" alt="" className="light-img"/>
-      </div>
-    </div>
-     ksjfkjsfjskfjksjfksjfksjfksjfksfkjskfsfksjfksjfkjsf*/}
 
 
       </div>

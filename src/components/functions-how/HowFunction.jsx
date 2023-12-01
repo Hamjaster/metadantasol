@@ -33,7 +33,7 @@ export const HowFunction = () => {
     }, []);
     return (
         <div className='how-do-we-function py-12 space-y-12 bg-[#f7faff]'>
-            <div className='text-4xl md:text-5xl py-3 font-bold text-center'>
+            <div className='mx-12 text-4xl md:text-5xl py-3 font-bold text-center'>
                 How do we function ?
             </div>
             <div className='how-container'>
@@ -42,7 +42,7 @@ export const HowFunction = () => {
 
                     <center>
 
-                        <div className='icon w-24 bg-[#444fff] rounded-full p-6'>
+                        <div className='icon w-24 bg-[#0083e8] rounded-full p-6'>
                             <div className="text-white text-5xl">
                                 <BsDatabaseFillGear />
                             </div>
@@ -59,7 +59,7 @@ export const HowFunction = () => {
                 <div className='function lg:block hidden'>
                     <div className='icon-aroow'>
                         <center   >
-                            <FaArrowRight style={{ color: '#444fff' }} size={'50'} />
+                            <FaArrowRight style={{ color: '#0083e8' }} size={'50'} />
                         </center>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ export const HowFunction = () => {
 
                     <center>
 
-                        <div className='icon w-24 bg-[#444fff] rounded-full p-6'>
+                        <div className='icon w-24 bg-[#0083e8] rounded-full p-6'>
                             <div className="text-white text-5xl">
                                 <BsTranslate />
                             </div>
@@ -86,7 +86,7 @@ export const HowFunction = () => {
 
                     <div className='icon-aroow'>
                         <center   >
-                            <FaArrowRight style={{ color: '#444fff' }} size={'50'} />
+                            <FaArrowRight style={{ color: '#0083e8' }} size={'50'} />
                         </center>
                     </div>
                 </div>
@@ -95,7 +95,7 @@ export const HowFunction = () => {
 
                     <center>
 
-                        <div className='icon w-24 bg-[#444fff] rounded-full p-6'>
+                        <div className='icon w-24 bg-[#0083e8] rounded-full p-6'>
                             <div className="text-white text-5xl">
                                 <FaLowVision />
                             </div>
@@ -112,7 +112,7 @@ export const HowFunction = () => {
                 <div className='function lg:block hidden'>
                     <div className='icon-aroow'>
                         <center   >
-                            <FaArrowRight style={{ color: '#444fff' }} size={'50'} />
+                            <FaArrowRight style={{ color: '#0083e8' }} size={'50'} />
                         </center>
                     </div>
                 </div>
@@ -121,7 +121,7 @@ export const HowFunction = () => {
 
                     <center>
 
-                        <div className='icon w-24 bg-[#444fff] rounded-full p-6'>
+                        <div className='icon w-24 bg-[#0083e8] rounded-full p-6'>
                             <div className="text-white text-5xl">
                                 <SiThealgorithms />
                             </div>
@@ -138,7 +138,7 @@ export const HowFunction = () => {
                 <div className='function lg:block hidden'>
                     <div className='icon-aroow'>
                         <center   >
-                            <FaArrowRight style={{ color: '#444fff' }} size={'50'} />
+                            <FaArrowRight style={{ color: '#0083e8' }} size={'50'} />
                         </center>
                     </div>
                 </div>
@@ -147,7 +147,7 @@ export const HowFunction = () => {
 
                     <center>
 
-                        <div className='icon w-24 bg-[#444fff] rounded-full p-6'>
+                        <div className='icon w-24 bg-[#0083e8] rounded-full p-6'>
                             <div className="text-white text-5xl">
                                 <MdAutoGraph />
                             </div>

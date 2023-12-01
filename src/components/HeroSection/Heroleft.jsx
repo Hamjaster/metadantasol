@@ -19,8 +19,8 @@ export const Heroleft = () => {
             Empowering Data-Driven Success
 
           </div>
-          <div className="animatingText text-gray-400 text-lg sm:text-2xl md:text-3xl">
-            <TypeAnimation className='Animating-text'
+          <div className=" text-gray-400 text-xl sm:text-2xl md:text-3xl ">
+            <TypeAnimation className=''
               sequence={[
                 // Same substring at the start will only be typed out once, initially
                 'Business Intelligence & Integration ',
@@ -37,12 +37,12 @@ export const Heroleft = () => {
               speed={20}
               style={{
                 display: 'inline-block', color: '#C0C0C0',
-                fontWeight: 600
+                fontWeight: 600,
               }}
               repeat={Infinity}
             />
           </div>
-          <div className=' text-white text-lg mt-3'>
+          <div className=' text-white text-sm sm:text-lg mt-3'>
             We are a pioneering IT solutions provider dedicated to guiding organizations through digital transformation. Our focus spans data-driven decision-making, from dynamic dashboards to AI and custom software, addressing diverse business challenges with expertise and innovation.
           </div>
         </div>
