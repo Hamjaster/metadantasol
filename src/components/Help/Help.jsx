@@ -7,7 +7,7 @@ import three from '../../images/bg6.jpg'
 
 export const Help = () => {
   return (
-    <div className='Help-Main my-36'>
+    <div className='Help-Main'>
       <center>
 
         <div className=''>

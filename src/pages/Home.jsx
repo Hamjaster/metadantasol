@@ -17,14 +17,10 @@ export const Home = () => {
   return (
     <div div className='font-opensans'>
       <Hero />
-      {/* <Tools /> */}
       <Cards />
       <Help />
       <YouBusiness />
-      {/* <Vision /> */}
-      <HowFunction />
-      {/* <Testmonilas /> */}
-      {/* <Clients /> */}
+      {/* <HowFunction /> */}
       <Contact />
     </div>
   )

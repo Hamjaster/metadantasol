@@ -12,10 +12,10 @@ export const NavBig = () => {
   return (
 
     <nav className='flex flex-row justify-between mx-5 py-3 items-center'>
-      <div className="flex items-center flex-row space-x-3">
+      <Link to={'/'} className="flex cursor-pointer items-center flex-row space-x-3">
         <img src={logo} className='w-10' alt="" srcset="" />
         <strong className='text-xl'>MetaDantAsol</strong>
-      </div>
+      </Link>
 
       <ul className='flex flex-row justify-end text-lg [&>*]:space-x-2 [&>*]:flex [&>*]:flex-row  [&>*]:items-center space-x-10'>
 
@@ -25,12 +25,12 @@ export const NavBig = () => {
             About
           </span>
         </Link>
-        <li className='hover:text-[#0083e8] cursor-pointer'>
+        <Link to={'/services'} className='hover:text-[#0083e8] cursor-pointer'>
           <BsFillCartFill className="" />
           <span>
-            Products
+            Services
           </span>
-        </li>
+        </Link>
         <li className='hover:text-[#0083e8] cursor-pointer'>
           <IoBookSharp className="" />
           <span>

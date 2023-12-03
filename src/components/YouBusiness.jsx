@@ -1,5 +1,6 @@
 import React from 'react'
 import { useMediaQuery } from 'react-responsive';
+import { GoArrowUpRight } from "react-icons/go";
 
 export default function YouBusiness() {
     const isSmall = useMediaQuery({
@@ -9,13 +10,14 @@ export default function YouBusiness() {
     return (
         // <div className='bg-[[[#0083e8]]] text-[#0083e8]'>
         <div className="my-24 bg-gradient-to-t from-[#2da4ff] to-[#006dc1] bg-radial py-36">
-            <div className="max-w-6xl mx-auto">
+            <div className="w-[95%] mx-auto">
 
                 <h2 className="text-3xl md:text-4xl w-full mx-auto font-semibold text-center text-white mb-24 md:mb-44">
                     Data Maturity : Where Does Your Business Stand?
                 </h2>
 
-                <div className="flex space-y-16 mx-12 flex-col lg:flex-row lg:space-x-8">
+                <div className="flex space-y-16 mx-1 flex-col lg:flex-row lg:space-x-2">
+
 
                     <div className="Bcard flex flex-col lg:w-1/4 mb-4 lg:mb-0">
 
@@ -28,6 +30,10 @@ export default function YouBusiness() {
                                 Explore the Possibilities
                             </button>
                         </div>
+                    </div>
+                    {/* arrow */}
+                    <div style={{ marginTop: "150px" }} className="lg:block hidden arrow text-white text-6xl">
+                        <GoArrowUpRight />
                     </div>
 
                     <div style={{
@@ -45,6 +51,11 @@ export default function YouBusiness() {
                         </div>
                     </div>
 
+                    {/* Arrow */}
+                    <div style={{ marginTop: "70px" }} className="lg:block hidden arrow text-white text-6xl">
+                        <GoArrowUpRight />
+                    </div>
+
                     <div style={{
                         marginTop: isSmall ? "" : '-80px'
                     }} className=" Bcard   flex flex-col lg:w-1/4 mb-4 lg:mb-0">
@@ -58,6 +69,10 @@ export default function YouBusiness() {
                                 Let's Explore Your Data’
                             </button>
                         </div>
+                    </div>
+                    {/* Arrow */}
+                    <div style={{ marginTop: "20px" }} className="lg:block hidden arrow text-white text-6xl">
+                        <GoArrowUpRight />
                     </div>
 
                     <div style={{

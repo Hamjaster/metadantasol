@@ -16,10 +16,10 @@ export default function Footer() {
                             <h2 class="mb-6 text-sm font-semibold  uppercase ">Resources</h2>
                             <ul class="font-medium">
                                 <li class="mb-4">
-                                    <a href="https://flowbite.com/" class="hover:underline">Agency</a>
+                                    <a class="hover:underline">Agency</a>
                                 </li>
                                 <li>
-                                    <a href="https://tailwindcss.com/" class="hover:underline">Tailwind CSS</a>
+                                    <a class="hover:underline">Blogs</a>
                                 </li>
                             </ul>
                         </div>
@@ -27,10 +27,10 @@ export default function Footer() {
                             <h2 class="mb-6 text-sm font-semibold  uppercase ">Follow us</h2>
                             <ul class=" font-medium">
                                 <li class="mb-4">
-                                    <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Github</a>
+                                    <a class="hover:underline ">Github</a>
                                 </li>
                                 <li>
-                                    <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Discord</a>
+                                    <a class="hover:underline">Discord</a>
                                 </li>
                             </ul>
                         </div>
@@ -49,7 +49,7 @@ export default function Footer() {
                 </div>
                 <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
                 <div class="sm:flex sm:items-center sm:justify-between">
-                    <span class="text-sm  sm:text-center ">© 2023 <a href="https://flowbite.com/" class="hover:underline">Agency</a>. All Rights Reserved.
+                    <span class="text-sm  sm:text-center ">© 2023 <a class="hover:underline">Metadatansol</a>. All Rights Reserved.
                     </span>
                     <div class="flex mt-4 sm:justify-center sm:mt-0">
                         <a href="#" class="  dark:hover:text-white">
