@@ -5,9 +5,13 @@ import one from '../images/bg1.jpg'
 import two from '../images/bg2.jpg'
 import three from '../images/bg3.jpg'
 import four from '../images/bg4.jpg'
+import { useDisclosure } from '@chakra-ui/react'
+import ServiceModal from '../components/ServiceModal'
+import { useState } from 'react'
 
 export default function Services() {
-
+    const { isOpen, onOpen, onClose } = useDisclosure()
+    const [service, setService] = useState()
 
     return (
         <div>
@@ -46,7 +50,7 @@ export default function Services() {
                             <div className=" w-full text-start text-sm md:text-base text-gray-600">
                                 In today's digital landscape, data has become the lifeblood of organizations, driving decision-making, strategic planning, and operational excellence. Yet, the raw data generated within a company is often complex, scattered, and untamed, making it challenging to extract valuable insights. This is where Data Engineering steps in, serving as the unsung hero behind the scenes.
                             </div>
-                            <div className="button cursor-pointer px-12 py-2 transition-all border-[#0083e8] border-[1px] text-[#0083e8] hover:bg-[#0083e8] hover:text-white">Read More</div>
+                            <div onClick={() => { setService("data-engineering"); onOpen() }} className="button cursor-pointer px-12 py-2 transition-all border-[#0083e8] border-[1px] text-[#0083e8] hover:bg-[#0083e8] hover:text-white">Read More</div>
                         </div>
                     </div>
                 }
@@ -71,7 +75,7 @@ export default function Services() {
                             <div className=" w-full text-start text-sm md:text-base text-gray-600">
                                 Data Analysis is the transformative process of delving deep into your data to reveal concealed insights, trends, and patterns. It's the key to unlocking the wealth of information hidden within your organization's data reports. In today's data-driven world, Data Analysis is your compass for making informed decisions, setting strategic direction, and realizing untapped potential.
                             </div>
-                            <div className="button cursor-pointer px-12 py-2 transition-all border-[#0083e8] border-[1px] text-[#0083e8] hover:bg-[#0083e8] hover:text-white">Read More</div>
+                            <div onClick={() => { setService("data-analysis"); onOpen() }} className="button cursor-pointer px-12 py-2 transition-all border-[#0083e8] border-[1px] text-[#0083e8] hover:bg-[#0083e8] hover:text-white">Read More</div>
                         </div>
                     </div>
 
@@ -97,7 +101,7 @@ export default function Services() {
                             <div className=" w-full text-start text-sm md:text-base text-gray-600">
                                 Data Science is the scientific art of uncovering profound insights from diverse data sources. This multidisciplinary field marries various methods, algorithms, and systems to extract knowledge that fuels innovation and informed decision-making. A pivotal element in this process is Machine Learning (ML), which enhances optimization and operational efficiency.
                             </div>
-                            <div className="button cursor-pointer px-12 py-2 transition-all border-[#0083e8] border-[1px] text-[#0083e8] hover:bg-[#0083e8] hover:text-white">Read More</div>
+                            <div onClick={() => { setService("data-science"); onOpen() }} className="button cursor-pointer px-12 py-2 transition-all border-[#0083e8] border-[1px] text-[#0083e8] hover:bg-[#0083e8] hover:text-white">Read More</div>
                         </div>
                     </div>
                 }>
@@ -122,7 +126,7 @@ export default function Services() {
                             <div className=" w-full text-start text-sm md:text-base text-gray-600">
                                 At Metadatan Solutions, we also specialize in developing custom software solutions designed to meet your organization's unique complexities and challenges. Whether you require simple or bespoke applications or tailor-made software, our team is equipped to cater to your specific business needs.
                             </div>
-                            <div className="button cursor-pointer px-12 py-2 transition-all border-[#0083e8] border-[1px] text-[#0083e8] hover:bg-[#0083e8] hover:text-white">Read More</div>
+                            <div onClick={() => { setService("custom-software"); onOpen() }} className="button cursor-pointer px-12 py-2 transition-all border-[#0083e8] border-[1px] text-[#0083e8] hover:bg-[#0083e8] hover:text-white">Read More</div>
                         </div>
                     </div>
                 }>
@@ -131,6 +135,8 @@ export default function Services() {
 
             </div>
 
+            {/* Service Modal */}
+            <ServiceModal service={service} onClose={onClose} isOpen={isOpen} />
         </div>
     )
 }
