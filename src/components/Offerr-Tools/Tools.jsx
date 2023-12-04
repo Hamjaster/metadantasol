@@ -1,56 +1,40 @@
 import React from 'react'
 import './Tools.css'
-import looker from '../../images/looker.png'
 import powerbi from '../../images/powerBI.png'
 import salesforce from '../../images/salesforce.png'
-import table from '../../images/table.png'
+import aws from '../../images/aws.png'
+import sap from '../../images/sap.png'
+import sapa from '../../images/sapa.png'
+import sapo from '../../images/sapo.png'
+import FadeUp from '../FadeUp'
 
 export const Tools =
     () => {
         return (
-            <div className='py-5 mt-28 mb-36 mx-auto text-center flex flex-col items-center'>
+            <FadeUp delay={1} component={
+                <div className='py-5 mt-28 mb-12 mx-auto text-center flex flex-col items-center'>
 
-                <div className='text-3xl leading-loose sm:text-5xl py-3 w-11/12 sm:w-2/3 text-center font-bold text-[#136aff]'>
-                    Let’s Tap Into The Potential Of Data &
-                    Explore The Unexplored Vision
-                </div>
-
-                <div className='flex flex-row items-center gap-3 gap-x-5 justify-center flex-wrap w-11/12 py-20 mx-auto'>
-
-                    <div className=" p-10  hover:shadow-2xl transition-shadow
- cursor-pointer shadow-xl rounded-xl">
-                        <img src={looker} className='w-56' alt="" srcset="" />
-                        <div className="glow"></div>
+                    <div className='text-3xl sm:leading-[4rem] sm:text-5xl py-3 w-11/12 sm:w-2/3 text-center font-bold text-[#0083e8]'>
+                        Proficiency in Leading Business Intelligence Solutions
                     </div>
 
-                    <div className=" p-10  hover:shadow-2xl transition-shadow
- cursor-pointer shadow-xl rounded-xl">
-                        <img src={powerbi} className='w-56' alt="" srcset="" />
-                        <div className="glow"></div>
-                    </div>
+                    <div className='grid grid-cols-2 sm:grid-cols-3 w-11/12 sm:w-9/12 gap-16 p-10 mx-auto mt-12'>
 
-                    <div className=" p-10  hover:shadow-2xl transition-shadow
- cursor-pointer shadow-xl rounded-xl">
-                        <img src={salesforce} className='w-36' alt="" srcset="" />
-                        <div className="glow"></div>
-                    </div>
 
-                    <div className=" p-10  hover:shadow-2xl transition-shadow
- cursor-pointer shadow-xl rounded-xl">
-                        <img src={table} className='w-56' alt="" srcset="" />
-                        <div className="glow"></div>
-                    </div>
+                        <img src={powerbi} className='w' alt="" srcset="" />
+                        <img src={aws} className='w-' alt="" srcset="" />
+                        <img src={sap} className='' alt="" srcset="" />
+                        <img src={sapo} className='w-' alt="" srcset="" />
+                        <img src={sapa} className='w' alt="" srcset="" />
+                        <img src={salesforce} className='' alt="" srcset="" />
 
+
+                    </div>
 
                 </div>
+            }>
 
-                {/* <div className="mx-24 text-gray-600 leading-relaxed text-xl my-8">
-                    In today's rapidly evolving digital landscape, having a forward-looking partner is crucial. We pride ourselves on being that visionary partner, wholeheartedly committed to facilitating organizations on their path to digital transformation.
-                    As a next-gen global IT solutions provider, we specialize in assisting organizations in making data-driven decisions. Our expertise lies in crafting insightful reports, dynamic dashboards, and engaging data visualizations.
-                    Beyond these core services, we extend our offerings to encompass data science, ML, AI, basic flows, applications for process automation as well as crafting custom software solutions tailored to address your complex business challenges.
+            </FadeUp>
 
-                </div> */}
-
-            </div>
         )
     }

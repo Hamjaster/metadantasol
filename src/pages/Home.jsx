@@ -19,9 +19,6 @@ export const Home = () => {
       <Hero />
       <Cards />
       <Help />
-      <YouBusiness />
-      {/* <HowFunction /> */}
-      <Contact />
     </div>
   )
 }

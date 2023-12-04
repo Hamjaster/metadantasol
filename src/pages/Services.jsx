@@ -1,5 +1,5 @@
 import React from 'react'
-import service from '../images/banner2.jpg'
+import img from '../images/banner2.jpg'
 import FadeUp from '../components/FadeUp'
 import one from '../images/bg1.jpg'
 import two from '../images/bg2.jpg'
@@ -8,6 +8,8 @@ import four from '../images/bg4.jpg'
 import { useDisclosure } from '@chakra-ui/react'
 import ServiceModal from '../components/ServiceModal'
 import { useState } from 'react'
+import { Tools } from '../components/Offerr-Tools/Tools'
+import YouBusiness from '../components/YouBusiness'
 
 export default function Services() {
     const { isOpen, onOpen, onClose } = useDisclosure()
@@ -16,18 +18,18 @@ export default function Services() {
     return (
         <div>
             <div style={{
-                backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(${service})`,
+                backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(${img})`,
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
                 backgroundAttachment: 'fixed'
-            }} className="banner flex justify-center items-center text-white text-5xl font-bold h-96 w-full uppercase">
+            }} className="banner flex justify-center items-center text-white text-4xl sm:text-5xl font-bold h-96 w-full uppercase">
 
-                <div className="text">
+                <div className="text ">
                     What we do ?
                 </div>
             </div>
 
-            <div className="text w-2/3 mx-auto text-xl my-20 leading-loose text-center italic ">
+            <div className="text w-11/12 sm:w-2/3 mx-auto text-lg sm:text-xl my-20 leading-normal sm:leading-loose text-center italic ">
                 At Metadatan Solutions, we bring over a decade of unwavering dedication to the BI and analytics sector, and we've embarked on a mission to leverage our extensive experience to support your journey to success. Our core mission revolves around empowering your management with the essential BI tools, ensuring a seamless voyage toward data-driven decision-making
             </div>
 
@@ -35,7 +37,7 @@ export default function Services() {
             <div className="flex flex-col bg-[#e2f1ff] py-24">
                 <FadeUp component={
                     <div
-                        className="service mx-24 py-20 md:border-b-2 border-[#abcbea] flex flex-col md:flex-row justify-between space-y-8 md:space-y-0 md:space-x-10">
+                        className="service mx-5 sm:mx-12 md:mx-24 py-20 md:border-b-2 border-[#abcbea] flex flex-col md:flex-row justify-between space-y-8 md:space-y-0 md:space-x-10">
 
                         <div style={{
                             backgroundImage: `url(${one})`,
@@ -60,7 +62,7 @@ export default function Services() {
 
                 <FadeUp component={
                     <div
-                        className="service mx-24 py-20 md:border-b-2 border-[#abcbea] flex flex-col md:flex-row justify-between space-y-8 md:space-y-0 md:space-x-10">
+                        className="service mx-5 sm:mx-12 md:mx-24 py-20 md:border-b-2 border-[#abcbea] flex flex-col md:flex-row justify-between space-y-8 md:space-y-0 md:space-x-10">
 
                         <div style={{
                             backgroundImage: `url(${two})`,
@@ -86,7 +88,7 @@ export default function Services() {
 
                 <FadeUp component={
                     <div
-                        className="service mx-24 py-20 md:border-b-2 border-[#abcbea] flex flex-col md:flex-row justify-between space-y-8 md:space-y-0 md:space-x-10">
+                        className="service mx-5 sm:mx-12 md:mx-24 py-20 md:border-b-2 border-[#abcbea] flex flex-col md:flex-row justify-between space-y-8 md:space-y-0 md:space-x-10">
 
                         <div style={{
                             backgroundImage: `url(${three})`,
@@ -111,7 +113,7 @@ export default function Services() {
 
                 <FadeUp component={
                     <div
-                        className="service mx-24 py-20 flex flex-col md:flex-row justify-between space-y-8 md:space-y-0 md:space-x-10">
+                        className="service mx-5 sm:mx-12 md:mx-24 py-20 flex flex-col md:flex-row justify-between space-y-8 md:space-y-0 md:space-x-10">
 
                         <div style={{
                             backgroundImage: `url(${four})`,
@@ -134,7 +136,7 @@ export default function Services() {
                 </FadeUp>
 
             </div>
-
+            <Tools />
             {/* Service Modal */}
             <ServiceModal service={service} onClose={onClose} isOpen={isOpen} />
         </div>

@@ -1,11 +1,17 @@
 import React from 'react'
 import { useMediaQuery } from 'react-responsive';
 import { GoArrowUpRight } from "react-icons/go";
+import { useEffect } from 'react';
 
 export default function YouBusiness() {
     const isSmall = useMediaQuery({
-        query: "(max-device-width: 1024px)",
+        query: "(min-device-width: 1024px)",
     });
+
+    useEffect(() => {
+        console.log(isSmall)
+    }, [isSmall])
+
 
     return (
         // <div className='bg-[[[#0083e8]]] text-[#0083e8]'>
@@ -16,7 +22,7 @@ export default function YouBusiness() {
                     Data Maturity : Where Does Your Business Stand?
                 </h2>
 
-                <div className="flex space-y-16 mx-1 flex-col lg:flex-row lg:space-x-2">
+                <div className="flex lg:space-y-0 mx-1 flex-col lg:flex-row lg:space-x-2">
 
 
                     <div className="Bcard flex flex-col lg:w-1/4 mb-4 lg:mb-0">
@@ -32,7 +38,7 @@ export default function YouBusiness() {
                         </div>
                     </div>
                     {/* arrow */}
-                    <div style={{ marginTop: "150px" }} className="lg:block hidden arrow text-white text-6xl">
+                    <div style={{ marginTop: isSmall ? "" : "150px" }} className="lg:block hidden arrow text-white text-6xl">
                         <GoArrowUpRight />
                     </div>
 
@@ -52,7 +58,7 @@ export default function YouBusiness() {
                     </div>
 
                     {/* Arrow */}
-                    <div style={{ marginTop: "70px" }} className="lg:block hidden arrow text-white text-6xl">
+                    <div style={{ marginTop: isSmall ? "" : "70px" }} className="lg:block hidden arrow text-white text-6xl">
                         <GoArrowUpRight />
                     </div>
 
@@ -71,7 +77,7 @@ export default function YouBusiness() {
                         </div>
                     </div>
                     {/* Arrow */}
-                    <div style={{ marginTop: "20px" }} className="lg:block hidden arrow text-white text-6xl">
+                    <div style={{ marginTop: isSmall ? "" : "20px" }} className="lg:block hidden arrow text-white text-6xl">
                         <GoArrowUpRight />
                     </div>
 
