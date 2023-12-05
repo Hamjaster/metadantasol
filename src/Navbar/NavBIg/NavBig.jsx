@@ -14,7 +14,7 @@ export const NavBig = () => {
     <nav className='flex flex-row justify-between mx-5 py-3 items-center'>
       <Link to={'/'} className="flex cursor-pointer items-center flex-row space-x-3">
         <img src={logo} className='w-10' alt="" srcset="" />
-        <strong className='text-xl'>MetaDantAsol</strong>
+        <strong className='text-xl'>MetaDatAnsol</strong>
       </Link>
 
       <ul className='flex flex-row justify-end text-lg [&>*]:space-x-2 [&>*]:flex [&>*]:flex-row  [&>*]:items-center space-x-10'>

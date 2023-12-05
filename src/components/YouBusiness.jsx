@@ -5,7 +5,7 @@ import { useEffect } from 'react';
 
 export default function YouBusiness() {
     const isSmall = useMediaQuery({
-        query: "(min-device-width: 1024px)",
+        query: "(max-device-width: 1024px)",
     });
 
     useEffect(() => {
