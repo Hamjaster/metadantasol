@@ -38,7 +38,7 @@ export default function YouBusiness() {
                         </div>
                     </div>
                     {/* arrow */}
-                    <div style={{ marginTop: isSmall ? "" : "150px" }} className="lg:block hidden arrow text-white text-6xl">
+                    <div style={{ marginTop: isSmall ? "" : "100px" }} className="lg:block hidden arrow text-white text-6xl">
                         <GoArrowUpRight />
                     </div>
 
@@ -58,7 +58,7 @@ export default function YouBusiness() {
                     </div>
 
                     {/* Arrow */}
-                    <div style={{ marginTop: isSmall ? "" : "70px" }} className="lg:block hidden arrow text-white text-6xl">
+                    <div style={{ marginTop: isSmall ? "" : "60px" }} className="lg:block hidden arrow text-white text-6xl">
                         <GoArrowUpRight />
                     </div>
 
@@ -77,7 +77,7 @@ export default function YouBusiness() {
                         </div>
                     </div>
                     {/* Arrow */}
-                    <div style={{ marginTop: isSmall ? "" : "20px" }} className="lg:block hidden arrow text-white text-6xl">
+                    <div style={{ marginTop: isSmall ? "" : "0px" }} className="lg:block hidden arrow text-white text-6xl">
                         <GoArrowUpRight />
                     </div>
 

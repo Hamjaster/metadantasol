@@ -25,13 +25,14 @@ export const Tools =
 
 
                         <img src={powerbi} className='w' alt="" srcset="" />
-                        <img src={aws} className='w-' alt="" srcset="" />
-                        <img src={sap} className='' alt="" srcset="" />
-                        <img src={sapo} className='w-' alt="" srcset="" />
-                        <img src={sapa} className='w' alt="" srcset="" />
-                        <img src={msfabric} className='' alt="" srcset="" />
-                        <img src={azure} className='' alt="" srcset="" />
+                        <img src={msfabric} className='w-64' alt="" srcset="" />
+                        <img src={azure} className='w-56        ' alt="" srcset="" />
                         <img src={tableau} className='' alt="" srcset="" />
+                        <img src={salesforce} className='' alt="" srcset="" />
+                        <img src={aws} className='w-56' alt="" srcset="" />
+                        <img src={sap} className='w-52' alt="" srcset="" />
+                        <img src={sapa} className='w-56' alt="" srcset="" />
+                        <img src={sapo} className='w-' alt="" srcset="" />
 
 
                     </div>

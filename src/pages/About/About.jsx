@@ -1,10 +1,11 @@
 import React from 'react'
 import banner from '../../images/banner1.jpg'
-import banner2 from '../../images/banner2.jpg'
-import card1 from '../../images/card1.jpg'
-import card2 from '../../images/card2.jpg'
-import card3 from '../../images/card3.jpg'
-import card4 from '../../images/card4.jpg'
+import banner2 from '../../images/bg6.jpg'
+import card1 from '../../images/bg1-c.jpg'
+import card2 from '../../images/bg2-c.jpg'
+import card3 from '../../images/bg3-c.jpg'
+import card4 from '../../images/bg4.jpg'
+
 import './About.css'
 
 export default function About() {
@@ -18,7 +19,7 @@ export default function About() {
             <div className="about relative z-50 w-full md:w-11/12 mx-auto space-x-3 items-center md:-mt-32  font-roboto bg-white px-24 py-7 flex flex-col md:flex-row ">
 
                 <div className=' md:w-1/4 py-4 md:py-24 text-center md:text-left capitalize font-semibold text-4xl md:text-5xl'>About</div>
-                <div className=' md:w-3/4 text-center md:text-left text-[#2a6df8] md:text-3xl text-2xl md:px-4 leading-relaxed md:leading-loose md:border-l-2 '>Metadatansol - Your Trusted Partner for Achieving Data-Driven Success Across Industries and Verticals
+                <div className=' md:w-3/4 text-center md:text-left text-[#0083e8] md:text-3xl text-2xl md:px-4 leading-relaxed md:leading-loose md:border-l-2 '>Metadatansol - Your Trusted Partner for Achieving Data-Driven Success Across Industries and Verticals
                 </div>
             </div>
 
@@ -32,7 +33,7 @@ export default function About() {
             </div>
 
             {/* Who are we? */}
-            <div className="about -mb-40 mt-6 relative z-50 w-11/12 mx-auto space-x-3 items-start md:items-center font-roboto bg-[#2a6df8] text-white px-8 md:px-14 py-7 flex flex-col md:flex-row ">
+            <div className="about -mb-40 mt-6 relative z-50 w-11/12 mx-auto space-x-3 items-start md:items-center font-roboto bg-[#0083e8] text-white px-8 md:px-14 py-7 flex flex-col md:flex-row ">
 
                 <div className='md:w-2/6 py-8 md:py-24 uppercase font-semibold text-4xl'>Who are we ?</div>
                 <div className='md:w-4/6 text-xl md:text-2xl md:px-4 px-0 leading-relaxed'>At Metadatan Solutions, we bring over a decade of unwavering dedication to the BI and analytics sector, and we've embarked on a mission to leverage our extensive experience to support your journey to success. Our core mission revolves around empowering your management with the essential BI tools, ensuring a seamless voyage toward data-driven decision-making.</div>
@@ -74,8 +75,8 @@ export default function About() {
 
                     </div>
 
-                    <div className="flex space-y-5 text-black justify-center flex-col items-center w-1/2">
-                        <div className='text-2xl font-semibold'>Business Intelligence</div>
+                    <div className="flex p-5 space-y-5 text-black justify-center flex-col sm:items-center w-1/2">
+                        <div className='text-xl sm:text-2xl font-semibold'>Business Intelligence</div>
 
                         <ul className='text-base'>
                             <li>Legacy Data and Report Migration</li>
@@ -101,8 +102,8 @@ export default function About() {
 
                     </div>
 
-                    <div className="flex space-y-5 text-black justify-center flex-col items-center w-1/2">
-                        <div className='text-2xl font-semibold'>Data Visualization Services</div>
+                    <div className="flex p-5 space-y-5 text-black justify-center flex-col sm:items-center w-1/2">
+                        <div className='text-xl sm:text-2xl font-semibold'>Data Visualization Services</div>
 
                         <ul className='text-base'>
                             <li>Report and Dashboard Development</li>
@@ -128,8 +129,8 @@ export default function About() {
 
                     </div>
 
-                    <div className="flex space-y-5 text-black justify-center flex-col items-center w-1/2">
-                        <div className='text-2xl font-semibold'>Data Science</div>
+                    <div className="flex p-5 space-y-5 text-black justify-center flex-col sm:items-center w-1/2">
+                        <div className='text-xl sm:text-2xl font-semibold'>Data Science</div>
 
                         <ul className='text-base'>
                             <li>Advanced Analytics</li>
@@ -155,7 +156,7 @@ export default function About() {
 
                     </div>
 
-                    <div className="flex space-y-5 text-black justify-center flex-col items-center w-1/2">
+                    <div className="flex p-5 space-y-5 text-black justify-center flex-col sm:items-center w-1/2">
                         <div className='text-xl font-semibold'>Custom Software Development</div>
 
                         <ul className='text-base'>
@@ -173,7 +174,7 @@ export default function About() {
             {/* More paragraphs */}
             <div className="para px-20 py-16 my-28 flex flex-col items-center space-y-5">
 
-                <div className='text-4xl md:text-5xl font-semibold text-[#2a6df8] font-roboto py-3'>Our Dedication to Your Triumph</div>
+                <div className='text-4xl md:text-5xl font-semibold text-[#0083e8] font-roboto py-3'>Our Dedication to Your Triumph</div>
                 <p className='text-base md:text-xl'>
                     At Metadatan Solutions, we stand backed by experienced teams with a broad industry background across a myriad of industries spanning diverse sectors, from Manufacturing and Retail to Pharmacy, Logistics, Banking/Finance, Technology, Cannabis and more.
                     Your success is our top priority, and we're wholly dedicated to providing analytical solutions that cater to your data excellence needs, from the planning stage right through to execution.
