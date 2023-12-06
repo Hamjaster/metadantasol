@@ -12,7 +12,7 @@ export const Help = () => {
 
         <div className=''>
           <div className='font-bold text-4xl md:text-5xl py-2'>
-            How Can we Assist ?
+            Who Can we Assist ?
           </div>
           <div className='text-sm sm:text-lg mt-3 text-gray-500'>
             Our expertise is tailored to assist businesses of all sizes in harnessing the power of their existing data. Whether you're just beginning to explore the possibilities of data or ready to implement effective structures for data processing and decision-making, we're here to guide you every step of the way.

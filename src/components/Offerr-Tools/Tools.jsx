@@ -23,16 +23,33 @@ export const Tools =
 
                     <div className='grid grid-cols-2 sm:grid-cols-3 w-11/12 sm:w-9/12 gap-10 p-10 mx-auto mt-12'>
 
-
-                        <img src={powerbi} className='w' alt="" srcset="" />
-                        <img src={msfabric} className='w-64' alt="" srcset="" />
-                        <img src={azure} className='w-56        ' alt="" srcset="" />
-                        <img src={tableau} className='' alt="" srcset="" />
-                        <img src={salesforce} className='' alt="" srcset="" />
-                        <img src={aws} className='w-56' alt="" srcset="" />
-                        <img src={sap} className='w-52' alt="" srcset="" />
-                        <img src={sapa} className='w-56' alt="" srcset="" />
-                        <img src={sapo} className='w-' alt="" srcset="" />
+                        <div className="w-full flex justify-center">
+                            <img src={powerbi} className='w-56 text-center' alt="" srcset="" />
+                        </div>
+                        <div className="w-full flex justify-center">
+                            <img src={msfabric} className='w-64' alt="" srcset="" />
+                        </div>
+                        <div className="w-full flex justify-center">
+                            <img src={azure} className='w-56        ' alt="" srcset="" />
+                        </div>
+                        <div className="w-full flex justify-center">
+                            <img src={tableau} className='w-64' alt="" srcset="" />
+                        </div>
+                        <div className="w-full flex justify-center">
+                            <img src={salesforce} className='w-64' alt="" srcset="" />
+                        </div>
+                        <div className="w-full flex justify-center">
+                            <img src={aws} className='w-56' alt="" srcset="" />
+                        </div>
+                        <div className="w-full flex justify-center">
+                            <img src={sap} className='w-52' alt="" srcset="" />
+                        </div>
+                        <div className="w-full flex justify-center">
+                            <img src={sapa} className='w-56' alt="" srcset="" />
+                        </div>
+                        <div className="w-full flex justify-center">
+                            <img src={sapo} className='w-64' alt="" srcset="" />
+                        </div>
 
 
                     </div>

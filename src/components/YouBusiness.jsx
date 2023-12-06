@@ -58,7 +58,7 @@ export default function YouBusiness() {
                     </div>
 
                     {/* Arrow */}
-                    <div style={{ marginTop: isSmall ? "" : "60px" }} className="lg:block hidden arrow text-white text-6xl">
+                    <div style={{ marginTop: isSmall ? "" : "40px" }} className="lg:block hidden arrow text-white text-6xl">
                         <GoArrowUpRight />
                     </div>
 
