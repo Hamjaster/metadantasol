@@ -1,10 +1,10 @@
 import React from 'react'
 import img from '../images/banner2.jpg'
 import FadeUp from '../components/FadeUp'
-import one from '../images/bg1-c.jpg'
-import two from '../images/bg2-c.jpg'
-import three from '../images/bg3-c.jpg'
-import four from '../images/bg4.jpg'
+import one from '../images/one.mp4'
+import two from '../images/two.mp4'
+import three from '../images/three.mp4'
+import four from '../images/four.mp4'
 import { useDisclosure } from '@chakra-ui/react'
 import ServiceModal from '../components/ServiceModal'
 import { useState } from 'react'
@@ -29,7 +29,7 @@ export default function Services() {
                 </div>
             </div>
 
-            <div className="text w-11/12 sm:w-2/3 mx-auto text-lg sm:text-xl my-20 leading-normal sm:leading-loose text-center italic ">
+            <div className="text w-11/12 sm:w-11/12 mx-auto text-lg sm:text-xl my-20 leading-normal sm:leading-loose text-center italic ">
                 At Metadatan Solutions, we bring over a decade of unwavering dedication to the BI and analytics sector, and we've embarked on a mission to leverage our extensive experience to support your journey to success. Our core mission revolves around empowering your management with the essential BI tools, ensuring a seamless voyage toward data-driven decision-making
             </div>
 
@@ -37,13 +37,17 @@ export default function Services() {
             <div className="flex flex-col bg-[#e2f1ff] py-24">
                 <FadeUp component={
                     <div
-                        className="service mx-5 sm:mx-12 md:mx-24 py-20 md:border-b-2 border-[#abcbea] flex flex-col md:flex-row justify-between space-y-8 md:space-y-0 md:space-x-10">
+                        className="service mx-5 sm:mx-12 lg:mx-24 py-20 md:border-b-2 border-[#abcbea] flex flex-col lg:flex-row justify-between space-y-8 lg:space-y-0 lg:space-x-10">
 
-                        <div style={{
+                        {/* <div style={{
                             backgroundImage: `url(${one})`,
                             backgroundSize: 'cover',
                             backgroundPosition: 'center'
-                        }} className='  h-[30rem] md:h-[28rem]  lg:h-[22rem]  w-full' src="" alt="" srcset="" />
+                        }} className='  h-[30rem] md:h-[28rem]  lg:h-[22rem]  w-full' src="" alt="" srcset="" /> */}
+                        <video autoPlay loop muted className='object-cover w-full h-[30rem] md:h-[28rem] lg:h-[22rem]'>
+                            <source className='w-full' src={one} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
 
                         <div className="content w-full flex flex-col items-start justify-evenly space-y-3">
 
@@ -62,13 +66,12 @@ export default function Services() {
 
                 <FadeUp component={
                     <div
-                        className="service mx-5 sm:mx-12 md:mx-24 py-20 md:border-b-2 border-[#abcbea] flex flex-col md:flex-row justify-between space-y-8 md:space-y-0 md:space-x-10">
+                        className="service mx-5 sm:mx-12 lg:mx-24 py-20 md:border-b-2 border-[#abcbea] flex flex-col lg:flex-row justify-between space-y-8 lg:space-y-0 lg:space-x-10">
 
-                        <div style={{
-                            backgroundImage: `url(${two})`,
-                            backgroundSize: 'cover',
-                            backgroundPosition: 'center'
-                        }} className=' h-[30rem] md:h-[28rem]  lg:h-[22rem]  w-full' src="" alt="" srcset="" />
+                        <video autoPlay loop muted className='h-[30rem] md:h-[28rem] lg:h-[22rem] object-cover w-full'>
+                            <source className='w-full' src={two} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
 
                         <div className="content w-full flex flex-col items-start justify-evenly space-y-3">
 
@@ -88,13 +91,12 @@ export default function Services() {
 
                 <FadeUp component={
                     <div
-                        className="service mx-5 sm:mx-12 md:mx-24 py-20 md:border-b-2 border-[#abcbea] flex flex-col md:flex-row justify-between space-y-8 md:space-y-0 md:space-x-10">
+                        className="service mx-5 sm:mx-12 lg:mx-24 py-20 md:border-b-2 border-[#abcbea] flex flex-col lg:flex-row justify-between space-y-8 lg:space-y-0 lg:space-x-10">
 
-                        <div style={{
-                            backgroundImage: `url(${three})`,
-                            backgroundSize: 'cover',
-                            backgroundPosition: 'center'
-                        }} className=' h-[30rem] md:h-[28rem]  lg:h-[22rem]  w-full' src="" alt="" srcset="" />
+                        <video autoPlay loop muted className='h-[30rem] md:h-[28rem] lg:h-[22rem] object-cover w-full'>
+                            <source className='w-full' src={three} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
 
                         <div className="content w-full flex flex-col items-start justify-evenly space-y-3">
 
@@ -113,13 +115,12 @@ export default function Services() {
 
                 <FadeUp component={
                     <div
-                        className="service mx-5 sm:mx-12 md:mx-24 py-20 flex flex-col md:flex-row justify-between space-y-8 md:space-y-0 md:space-x-10">
+                        className="service mx-5 sm:mx-12 lg:mx-24 py-20 flex flex-col lg:flex-row justify-between space-y-8 lg:space-y-0 lg:space-x-10">
 
-                        <div style={{
-                            backgroundImage: `url(${four})`,
-                            backgroundSize: 'cover',
-                            backgroundPosition: 'center'
-                        }} className=' h-[30rem] md:h-[28rem]  lg:h-[22rem]  w-full' src="" alt="" srcset="" />
+                        <video autoPlay loop muted className='h-[30rem] md:h-[28rem] lg:h-[22rem] object-cover w-full'>
+                            <source className='w-full' src={four} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
 
                         <div className="content w-full flex flex-col items-start justify-evenly space-y-3">
 
@@ -137,6 +138,7 @@ export default function Services() {
 
             </div>
             <Tools />
+            <YouBusiness />
             {/* Service Modal */}
             <ServiceModal service={service} onClose={onClose} isOpen={isOpen} />
         </div>

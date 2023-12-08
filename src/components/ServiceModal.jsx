@@ -15,7 +15,7 @@ export default function Service({ isOpen, onClose, service }) {
         switch (s) {
             case "data-engineering":
                 return (
-                    <section className="py-12 font-opensans">
+                    <section className="py-12 w-[80vw] font-opensans">
 
                         <div className="container mx-auto px-4 w-full">
                             <div className="text-center mx-auto mb-24">
@@ -55,7 +55,7 @@ export default function Service({ isOpen, onClose, service }) {
                 );
             case "data-analysis":
                 return (
-                    <section className="py-16 font-opensans">
+                    <section className="py-16 w-[80vw] font-opensans">
                         <div className="container mx-auto px-4">
                             <div className="text-center mb-24 mx-auto">
                                 <h2 className="text-5xl font-bold text-[#0083e8] mb-4">Data Analysis Services</h2>
@@ -90,7 +90,7 @@ export default function Service({ isOpen, onClose, service }) {
                 )
             case "data-science":
                 return (
-                    <section className="py-16 font-opensans">
+                    <section className="py-16 w-[80vw] font-opensans">
                         <div className="container mx-auto px-4">
                             <div className="text-center mb-12 mx-auto">
                                 <h2 className="text-5xl font-bold text-[#0083e8] mb-4">Data Science Services</h2>
@@ -132,7 +132,7 @@ export default function Service({ isOpen, onClose, service }) {
                 )
             case "custom-software":
                 return (
-                    <section className="py-16 font-opensans">
+                    <section className="py-16 w-[80vw] font-opensans">
                         <div className="container mx-auto px-4">
                             <div className="text-center mb-20 mx-auto">
                                 <h2 className="text-5xl font-bold text-[#0083e8] mb-4">Custom Software Solutions</h2>
@@ -173,9 +173,11 @@ export default function Service({ isOpen, onClose, service }) {
 
     return (
         <>
-            <Modal size={'full'} isOpen={isOpen} onClose={onClose}>
+            <Modal
+                isOpen={isOpen} onClose={onClose}>
                 <ModalOverlay />
-                <ModalContent>
+                <ModalContent minWidth="fit-content"
+                    height="fit-content">
 
                     <ModalCloseButton />
 

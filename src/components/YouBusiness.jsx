@@ -2,8 +2,11 @@ import React from 'react'
 import { useMediaQuery } from 'react-responsive';
 import { GoArrowUpRight } from "react-icons/go";
 import { useEffect } from 'react';
+import { useDisclosure } from '@chakra-ui/react';
+import ExploreModal from './ExploreModal';
 
 export default function YouBusiness() {
+    const { isOpen, onOpen, onClose } = useDisclosure()
     const isSmall = useMediaQuery({
         query: "(max-device-width: 1024px)",
     });
@@ -32,7 +35,7 @@ export default function YouBusiness() {
                             <p className="text-gray-700 mb-4">
                                 You have data but are unsure of its potential. This stage is all about uncovering the value and purpose of your business data."
                             </p>
-                            <button className="bg-[#0083e8] text-white  py-2 px-2 w-full hover:bg-[#026cbd]">
+                            <button onClick={() => onOpen()} className="bg-[#0083e8] text-white  py-2 px-2 w-full hover:bg-[#026cbd]">
                                 Explore the Possibilities
                             </button>
                         </div>
@@ -51,7 +54,7 @@ export default function YouBusiness() {
                             <p className="text-gray-700 mb-4">
                                 You're aware of your data's promise but need insights on harnessing it effectively. Here, the exploration of your data's power begins
                             </p>
-                            <button className="bg-[#0083e8] text-white  py-2 px-2 w-full hover:bg-[#026cbd]">
+                            <button onClick={() => onOpen()} className="bg-[#0083e8] text-white  py-2 px-2 w-full hover:bg-[#026cbd]">
                                 Let Us Guide You
                             </button>
                         </div>
@@ -71,8 +74,8 @@ export default function YouBusiness() {
                             <p className="text-gray-700 mb-4">
                                 Enthusiastic about the prospects of data, you're ready to delve deep for impactful insights. You're set to fully utilize your data's capabilities
                             </p>
-                            <button className="bg-[#0083e8] text-white py-2 px-2 w-full hover:bg-[#026cbd]">
-                                Let's Explore Your Data’
+                            <button onClick={() => onOpen()} className="bg-[#0083e8] text-white py-2 px-2 w-full hover:bg-[#026cbd]">
+                                Let's Explore Your Data
                             </button>
                         </div>
                     </div>
@@ -90,7 +93,7 @@ export default function YouBusiness() {
                             <p className="text-gray-700 mb-4">
                                 Actively using data for insights, you seek ways to further elevate its utility. Your focus is on optimizing and advancing your data strategies
                             </p>
-                            <button className="bg-[#0083e8] text-white text-sm py-2 px-1 w-full hover:bg-[#026cbd]">
+                            <button onClick={() => onOpen()} className="bg-[#0083e8] text-white text-sm py-2 px-1 w-full hover:bg-[#026cbd]">
                                 Let's Optimize Your Data Strategy
                             </button>
                         </div>
@@ -98,6 +101,7 @@ export default function YouBusiness() {
 
                 </div>
             </div>
+            <ExploreModal isOpen={isOpen} onClose={onClose} />
         </div>
         // </div>
     )

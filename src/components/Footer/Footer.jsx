@@ -1,5 +1,6 @@
 import React from 'react'
-import logo from '../../images/logo-bg.png'
+import logo from '../../images/logo-icon.png'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
     return (
@@ -9,7 +10,10 @@ export default function Footer() {
             <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div class="md:flex md:justify-between">
                     <div class="mb-6 md:mb-0">
-                        <img className='w-56' src={logo} alt="" srcset="" />
+                        <Link to={'/'} className="flex cursor-pointer items-center flex-row space-x-3">
+                            <img src={logo} className='w-10' alt="" srcset="" />
+                            <strong className='text-xl'>MetaDatAnsol</strong>
+                        </Link>
                     </div>
                     <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                         <div>

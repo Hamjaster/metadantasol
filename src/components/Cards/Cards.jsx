@@ -4,12 +4,17 @@ import one from '../../images/one.mp4'
 import two from '../../images/two.mp4'
 import three from '../../images/three.mp4'
 import four from '../../images/four.mp4'
+import ServiceModal from '../ServiceModal'
+import { useDisclosure } from '@chakra-ui/react'
+import { useState } from 'react'
 
 export const Cards = () => {
+  const { isOpen, onOpen, onClose } = useDisclosure()
+  const [service, setService] = useState()
   return (
 
     <div>
-      <div className="wrapper bg-white my-20 py-12">
+      <div className="wrapper bg-white mt-44 mb-10 py-3">
 
         <div className=" mx-auto w-full">
           <h1 className="title text-4xl sm:text-6xl font-bold w-full py-3 text-[#0083e8]">Our Solutions</h1>
@@ -41,15 +46,16 @@ export const Cards = () => {
                   <li> Enterprise Data Warehouse </li>
                   <li> Legacy Data and Report Migration </li>
                   <li> Reports, Dashboards, Metrics </li>
-                  <li> Mobile BI </li>
+                  {/* <li> Mobile BI </li> */}
                   <li> Integration with Existing Systems </li>
+
                 </ul>
 
 
 
               </div>
 
-              <div className="underline font py-2 font-bold  text-lg group-hover:text-white text-black">
+              <div onClick={() => { setService('data-engineering'); onOpen() }} className="hover:underline  font py-2 font-bold  text-lg group-hover:text-white text-black">
                 Read More +
               </div>
 
@@ -75,18 +81,19 @@ export const Cards = () => {
                 <ul>
                   <li> Report and Dashboard Development </li>
                   <li> Advanced Data Discovery </li>
-                  <li> Ad-hoc Reporting </li>
+                  {/* <li> Ad-hoc Reporting </li> */}
                   <li> Migration to New Reporting Tools </li>
                   <li> Cloud/On-Premise Deployment </li>
                   <li> Geospatial Visualization </li>
-                  <li> Predictive and Prescriptive Analytics </li>
+                  {/* <li> Predictive and Prescriptive Analytics </li> */}
+
                 </ul>
 
 
 
               </div>
 
-              <div className="underline font py-2 font-bold  text-lg group-hover:text-white text-black">
+              <div onClick={() => { setService('data-analysis'); onOpen() }} className="hover:underline  font py-2 font-bold  text-lg group-hover:text-white text-black">
                 Read More +
               </div>
 
@@ -112,16 +119,17 @@ export const Cards = () => {
                 <ul>
                   <li> Advanced Analytics </li>
                   <li>  Machine Learning and AI </li>
-                  <li>  Pilot Project Design </li>
+                  {/* <li>  Pilot Project Design </li> */}
                   <li>  Supply Chain Analytics </li>
                   <li>  Enhanced Customer Engagement </li>
                   <li>  Innovative Product Development </li>
+
                 </ul>
 
 
               </div>
 
-              <div className="underline font py-2 font-bold  text-lg group-hover:text-white text-black">
+              <div onClick={() => { setService('data-science'); onOpen() }} className="hover:underline  font py-2 font-bold  text-lg group-hover:text-white text-black">
                 Read More +
               </div>
 
@@ -150,14 +158,13 @@ export const Cards = () => {
                   <li> Personalized Data Analytics Tools </li>
                   <li> Custom CRM Systems </li>
                   <li> Seamless Integration </li>
-
                 </ul>
 
 
 
               </div>
 
-              <div className="underline font py-2 font-bold  text-lg group-hover:text-white text-black">
+              <div onClick={() => { setService('custom-software'); onOpen() }} className="hover:underline  font py-2 font-bold  text-lg group-hover:text-white text-black">
                 Read More +
               </div>
 
@@ -174,7 +181,7 @@ export const Cards = () => {
 
       </div>
 
-
+      <ServiceModal service={service} onClose={onClose} isOpen={isOpen} />
     </div>
   )
 }
