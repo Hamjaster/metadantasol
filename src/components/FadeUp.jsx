@@ -12,7 +12,7 @@ export default function FadeUp({ component, delay }) {
     }, [InView])
 
     return (
-        <motion.div className='overflow-hidden pb-3 h-full' ref={ref}
+        <motion.div className='h-full' ref={ref}
             initial='initial'
             animate={controls}
             variants={{
@@ -20,7 +20,7 @@ export default function FadeUp({ component, delay }) {
                 animate: {
                     y: 0, opacity: 1,
                     transition: {
-                        delay: delay ? delay : 0.5, duration: 0.6, type: 'spring'
+                        delay: delay ? delay : 0.4, duration: 1, type: 'spring'
                     }
                 }
             }

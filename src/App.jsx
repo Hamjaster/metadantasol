@@ -5,12 +5,14 @@ import Services from './pages/Services';
 import Navbar from './Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Contact from './components/Contact'
-
+import Scroll from './components/Scroll';
+import './App.css'
 function App() {
 
 
   return (
     <div className='font-opensans'>
+      <Scroll />
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />

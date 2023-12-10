@@ -24,6 +24,7 @@
     "react-tilt": "^1.0.2",
     "react-type-animation": "^3.2.0",
     "reactjs-popup": "^2.0.6",
+    "smooth-scrollbar": "^8.8.4",
     "swiper": "^11.0.4"
   },
   "devDependencies": {
