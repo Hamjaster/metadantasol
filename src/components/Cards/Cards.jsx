@@ -42,12 +42,11 @@ export const Cards = () => {
               </div>
               <div className="content font-normal text-center group-hover:text-white text-base mx-3">
                 <ul>
-                  <li>Assessment & Design</li>
-                  <li> Enterprise Data Warehouse </li>
-                  <li> Legacy Data and Report Migration </li>
-                  <li> Reports, Dashboards, Metrics </li>
-                  {/* <li> Mobile BI </li> */}
-                  <li> Integration with Existing Systems </li>
+                  <li>Data Strategy Assessment</li>
+                  <li> Tailored Design Solutions </li>
+                  <li> Seamless Data Migration </li>
+                  <li> Comprehensive Reporting </li>
+                  <li>System Integration</li>
 
                 </ul>
 
@@ -55,7 +54,7 @@ export const Cards = () => {
 
               </div>
 
-              <div onClick={() => { setService('data-engineering'); onOpen() }} className="hover:underline  font py-2 font-bold  text-lg group-hover:text-white text-black">
+              <div onClick={() => { setService('business-intelligence'); onOpen() }} className="hover:underline  font py-2 font-bold  text-lg group-hover:text-white text-black">
                 Read More +
               </div>
 

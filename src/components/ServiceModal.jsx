@@ -13,6 +13,7 @@ export default function Service({ isOpen, onClose, service }) {
 
     const returnServiceData = (s) => {
         switch (s) {
+
             case "data-engineering":
                 return (
                     <section className="py-12 w-[80vw] font-opensans">
@@ -49,21 +50,36 @@ export default function Service({ isOpen, onClose, service }) {
                                     </ul>
                                 </div>
                             </div>
+
+                            <div className="mt-8">
+                                <h2 className="text-4xl font-bold text-[#002644] mb-4">How We Can Help</h2>
+                                <p className="text-xl text-gray-700">
+                                    At Metadatan Solutions, we understand that organizations vary in their data maturity levels. Whether you're just starting your data journey or seeking to enhance your existing data infrastructure, our Data Engineers are equipped to assist.
+                                    Our experts will assess your organization's specific data needs, level of data maturity, and the challenges you face. We tailor Data Engineering solutions to align with your goals, providing data quality, accessibility, and scalability. We can help you transform your raw data into actionable insights, giving you a competitive edge in today's data-driven world.
+                                    Partner with us to harness the true potential of your data through effective Data Engineering. Your data journey begins here.
+
+                                </p>
+                            </div>
+
                         </div>
 
                     </section>
                 );
+
             case "data-analysis":
                 return (
-                    <section className="py-16 w-[80vw] font-opensans">
-                        <div className="container mx-auto px-4">
-                            <div className="text-center mb-24 mx-auto">
-                                <h2 className="text-5xl font-bold text-[#0083e8] mb-4">Data Analysis Services</h2>
+                    <section className="pt-16 pb-7 w-[80vw] font-opensans">
+
+                        <div className=" mx-auto px-4">
+
+                            <div className="text-center mb-12 mx-auto">
+                                <h2 className="text-4xl font-bold text-[#0083e8] mb-4">Data Analysis Services</h2>
                                 <p className="text-xl text-gray-600">
                                     In today's data-driven world, Data Analysis is your compass for making informed decisions and unlocking potential.
                                 </p>
                             </div>
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+                            <div className="grid grid-cols-1 gap-8">
                                 <div>
                                     <h3 className="text-3xl font-bold text-[#002644] mb-4">Uncovering Hidden Insights</h3>
                                     <p className="text-xl text-gray-700">
@@ -71,23 +87,27 @@ export default function Service({ isOpen, onClose, service }) {
                                     </p>
                                 </div>
                                 <div>
-                                    <h3 className="text-3xl font-bold text-[#002644] mb-4">Industry-Leading Tools & Customized Dashboards</h3>
+                                    <h3 className="text-3xl font-bold text-[#002644] mb-4">Industry-Leading Tools</h3>
                                     <p className="text-xl text-gray-700">
                                         We harness industry-leading data visualization tools like Power BI, Tableau, Looker, or SAP Analytics. These tools are selected based on your organization's unique needs, ensuring you have the best resources at your disposal.
 
                                     </p>
                                 </div>
                             </div>
-                            <div className="mt-16">
-                                <h2 className="text-4xl font-bold text-[#002644] mb-4">How We Can Transform Your Data</h2>
+
+                            <div className="mt-8">
+                                <h2 className="text-3xl font-bold text-[#002644] mb-4">How We Can Transform Your Data</h2>
                                 <p className="text-xl text-gray-700">
                                     Metadatan Solutions offers a team of experienced BI professionals who can elevate your organization into a data-driven powerhouse. We're here to redefine the way you perceive and utilize your data.
                                     Our recommended tools offer interactive dashboards, data reports, visual analytics, and self-service analytics that empower your decision-making abilities. With us as your partner, you'll experience a transformation in how you approach data, unlocking its full potential to drive your organization's success. Welcome to the world of effective data analysis, where your data becomes your greatest asset.
                                 </p>
                             </div>
+
                         </div>
+
                     </section>
                 )
+
             case "data-science":
                 return (
                     <section className="py-16 w-[80vw] font-opensans">
@@ -130,6 +150,7 @@ export default function Service({ isOpen, onClose, service }) {
                         </div>
                     </section>
                 )
+
             case "custom-software":
                 return (
                     <section className="py-16 w-[80vw] font-opensans">
@@ -142,6 +163,9 @@ export default function Service({ isOpen, onClose, service }) {
                             </div>
                             <div className="mb-8">
                                 <h2 className="text-4xl font-bold text-gray-800 mb-4">How We Can Assist You</h2>
+                                <p className='text-lg text-gray-600 my-4'>
+                                    At Metadatan Solutions, we also specialize in developing custom software solutions designed to meet your organization's unique complexities and challenges. Whether you require simple or bespoke applications or tailor-made software, our team is equipped to cater to your specific business needs.
+                                </p>
                                 <ul className="list-disc mx-8 text-lg text-gray-700">
                                     <li>
                                         <span className="font-semibold">Process Automation:</span> In an era of digital transformation, process automation is paramount. Our custom software solutions can streamline your operations, reducing manual intervention and enhancing overall efficiency.
@@ -160,9 +184,50 @@ export default function Service({ isOpen, onClose, service }) {
                             <div>
                                 <h2 className="text-4xl font-bold text-gray-800 mb-4">Partner with Us</h2>
                                 <p className="text-lg text-gray-700">
-                                    With Metadatan Solutions as your partner, expect custom software solutions that precisely address your business needs, ensuring seamless operations and readiness for industry challenges.
+                                    With Metadata Solutions as your partner, innovation isn’t just a promise; it's a commitment delivered through meticulous craftsmanship, attention to detail, and a relentless pursuit of excellence. Let us propel your business toward unparalleled success by redefining the possibilities of custom software solutions tailored exclusively for your needs.
                                 </p>
                             </div>
+                        </div>
+                    </section>
+                )
+
+            case "business-intelligence":
+                return (
+                    <section className="py-16 w-[80vw] font-opensans">
+                        <div className="container mx-auto px-4">
+                            <div className="text-center mb-12 mx-auto">
+                                <h2 className="text-4xl font-bold text-[#0083e8] mb-4">Complete Business Intelligence Solutions</h2>
+                                <p className="text-lg text-gray-600">
+                                    In today's data-focused world, having a strong Business Intelligence (BI) plan is crucial. At Metadatan Solutions, we offer a full suite of BI solutions that cover your entire data journey, from start to finish.
+                                </p>
+                            </div>
+                            <div className="mb-8">
+                                <h3 className="text-3xl font-bold text-[#002644] mb-4">Data Management and Analysis:</h3>
+                                <p className="text-lg text-gray-700">
+                                    We start by organizing your data for analysis. Our experts use advanced tools to find valuable insights in your data.
+                                </p>
+                            </div>
+                            <div className="mb-8">
+                                <h2 className="text-3xl font-bold text-[#002644] mb-4">Predicting the Future:</h2>
+                                <p className="text-lg text-gray-700">
+                                    We create apps tailored to your needs that make working with data easy.
+
+                                </p>
+                            </div>
+                            <div className="mb-8">
+                                <h2 className="text-3xl font-bold text-[#002644] mb-4">Custom Apps</h2>
+                                <p className="text-lg text-gray-700">
+                                    We also use data science and machine learning to help you foresee future trends and make smarter decisions.
+
+                                </p>
+                            </div>
+                            <div className="mb-8">
+                                <h2 className="text-3xl font-bold text-[#002644] mb-4">Actionable Data:</h2>
+                                <p className="text-lg text-gray-700">
+                                    Our solutions help you use data effectively, so you can make better decisions and grow your business.
+                                </p>
+                            </div>
+
                         </div>
                     </section>
                 )
