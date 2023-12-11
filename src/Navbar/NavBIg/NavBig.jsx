@@ -20,7 +20,7 @@ export const NavBig = () => {
         <strong className='text-xl'>MetaDatAnsol</strong>
       </Link>
 
-      <ul className='flex flex-row justify-end text-lg [&>*]:space-x-2 [&>*]:flex [&>*]:flex-row  [&>*]:items-center space-x-10'>
+      <ul className='flex flex-row justify-end text-lg [&>*]:space-x-2 [&>*]:flex [&>*]:flex-row [&>*]:items-center space-x-16'>
 
         <Link to={'/'} className='hover:text-[#0083e8] cursor-pointer'>
           <MdMiscellaneousServices className='' />
