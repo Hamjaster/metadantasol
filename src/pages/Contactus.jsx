@@ -3,6 +3,7 @@ import img from '../images/banner3.png'
 import FadeUp from '../components/FadeUp'
 
 function Contactus() {
+
     return (
         <div className=''>
             {/* <FadeUp

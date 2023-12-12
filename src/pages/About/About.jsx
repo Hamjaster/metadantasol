@@ -13,8 +13,10 @@ export default function About() {
 
     return (
         <div className='font-nunito'>
-            <div div className="banner" >
-                <img src={banner} alt="" srcset="" />
+            <div div className="banner bg-cover bg-center h-96"
+                style={{ backgroundImage: `url(${banner})` }}
+            >
+
             </div >
 
             {/* About */}

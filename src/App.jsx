@@ -8,6 +8,7 @@ import Contactus from './pages/Contactus'
 import Contact from './components/Contact'
 import Scroll from './components/Scroll';
 import './App.css'
+import { Toaster } from 'react-hot-toast';
 function App() {
 
   return (
@@ -20,7 +21,10 @@ function App() {
         <Route path='/services' element={<Services />} />
         <Route path='/contact' element={<Contactus />} />
       </Routes>
-
+      <Toaster
+        position="top-center"
+        reverseOrder={false}
+      />
       <Contact />
       <Footer />
     </div>

@@ -1,10 +1,63 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { IoCall } from "react-icons/io5";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 import FadeUp from './FadeUp';
+import emailjs from "emailjs-com";
+import toast from 'react-hot-toast';
+import { FaSpinner } from 'react-icons/fa';
 
 const ContactSection = () => {
+
+    const [loading, setLoading] = useState(false)
+
+    const sendEmail = (e) => {
+        // notify();
+        e.preventDefault();
+
+        setLoading(true)
+        if ((document.getElementById("name").value === "") | (document.getElementById("email").value === "") | (document.getElementById("phone").value === "")) {
+            // toast.warn("You missed a field", {
+            //     autoClose: 500,
+            //     hideProgressBar: false,
+            // });
+
+        } else {
+            setLoading(true)
+            emailjs.sendForm(
+                "service_vxyotcd",
+                "template_9va0ubq",
+                e.target,
+                "0kaS0Fh3vdQJZwSbc"
+            )
+                .then(
+                    (result) => {
+                        console.log(result);
+                        if (result.text === "OK") {
+                            toast.success("Successfully submited, We'll contact you soon ")
+                            document.getElementById("name").value = "";
+                            document.getElementById("email").value = "";
+                            document.getElementById("phone").value = "";
+                            document.getElementById("org").value = "";
+                            document.getElementById("message").value = "";
+                            setLoading(false)
+                        } else {
+                            toast(result.text)
+                            setLoading(false)
+                        }
+                    },
+                    (error) => {
+                        console.log(error);
+                        setLoading(false)
+                        toast.error("Error while sending Email")
+
+                    }
+                );
+
+            setLoading(false)
+        }
+    };
+
     return (
         <FadeUp
             component={
@@ -52,7 +105,7 @@ const ContactSection = () => {
                     {/* Right Part */}
                     <div className=" rounded-tr-2xl rounded-br-2xl text-gray-800 p-8 md:w-1/2">
                         <h2 className="text-2xl font-semibold mb-8">Contact Form</h2>
-                        <form>
+                        <form onSubmit={sendEmail}>
                             <div className="mb-4">
                                 <label htmlFor="name" className="block mb-2">
                                     Name<span className="text-red-500">*</span>:
@@ -107,8 +160,8 @@ const ContactSection = () => {
                                 </label>
                                 <input
                                     type="text"
-                                    id="organization"
-                                    name="organization"
+                                    id="org"
+                                    name="org"
                                     className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-[#0083e8]"
                                 />
                             </div>
@@ -116,7 +169,15 @@ const ContactSection = () => {
                                 type="submit"
                                 className="bg-[#0083e8] text-white w-full py-2 px-4 rounded-md transition duration-300 hover:bg-[#00599d]"
                             >
-                                Send Message
+                                {loading ?
+                                    <>
+                                        <FaSpinner className='animate-spin mx-auto' />
+                                    </>
+                                    :
+                                    <>
+                                        Send Message
+                                    </>
+                                }
                             </button>
                         </form>
                     </div>
