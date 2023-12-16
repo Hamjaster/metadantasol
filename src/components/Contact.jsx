@@ -5,7 +5,7 @@ import { MdEmail } from "react-icons/md";
 import FadeUp from './FadeUp';
 import emailjs from "emailjs-com";
 import toast from 'react-hot-toast';
-import { FaSpinner } from 'react-icons/fa';
+import { FaLinkedin, FaSpinner } from 'react-icons/fa';
 
 const ContactSection = () => {
 
@@ -65,7 +65,7 @@ const ContactSection = () => {
 
                     {/* Left Part */}
                     <div className="p-5 sm:p-7 md:p-12 lg:p-20 md:w-1/2 bg-[#0083e8] rounded-tr-2xl rounded-tl-2xl md:rounded-tl-2xl md:rounded-bl-2xl text-lg sm:text-xl">
-                        <h2 className=" text-3xl sm:text-5xl font-bold mb-8">Call US</h2>
+                        <h2 className=" text-3xl sm:text-5xl font-bold mb-8">Contact US</h2>
 
                         <p className="mb-4 flex flex-row items-center space-x-5">
                             <div className="text-2xl">
@@ -94,21 +94,29 @@ const ContactSection = () => {
                                 </span>
                             </a>
                         </p>
+                        <p className="mb-8 ">
+                            <div className="flex flex-row items-center space-x-3 sm:space-x-5">
+                                <p className=" text-3xl sm:text-3xl">
+                                    <MdEmail />
+                                </p>
+                                <p className='underline mb-2 cursor-pointer text-sm sm:text-base md:text-md lg:text-lg'>support@metadatansol.com</p>
+                            </div>
+                        </p>
                         <div className="flex flex-row items-center space-x-3 sm:space-x-5">
                             <p className=" text-3xl sm:text-3xl">
-                                <MdEmail />
+                                <FaLinkedin />
                             </p>
-                            <p className='underline mb-2 cursor-pointer text-sm sm:text-base md:text-md lg:text-lg'>support@metadatansol.com</p>
+                            <p className=' font-bold cursor-pointer text-sm sm:text-base md:text-md lg:text-lg'>MetaDatAnSol</p>
                         </div>
                     </div>
 
                     {/* Right Part */}
-                    <div className=" rounded-tr-2xl rounded-br-2xl text-gray-800 p-8 md:w-1/2">
+                    <div className=" rounded-tr-2xl text-lg rounded-br-2xl text-gray-800 p-8 md:w-1/2">
                         <h2 className="text-2xl font-semibold mb-8">Contact Form</h2>
                         <form onSubmit={sendEmail}>
                             <div className="mb-4">
                                 <label htmlFor="name" className="block mb-2">
-                                    Name<span className="text-red-500">*</span>:
+                                    <span className="text-red-500">*</span>Name:
                                 </label>
                                 <input
                                     type="text"
@@ -120,7 +128,7 @@ const ContactSection = () => {
                             </div>
                             <div className="mb-4">
                                 <label htmlFor="phone" className="block mb-2">
-                                    Phone<span className="text-red-500">*</span>:
+                                    <span className="text-red-500">*</span>Phone:
                                 </label>
                                 <input
                                     type="tel"
@@ -132,7 +140,7 @@ const ContactSection = () => {
                             </div>
                             <div className="mb-4">
                                 <label htmlFor="email" className="block mb-2">
-                                    Email<span className="text-red-500">*</span>:
+                                    <span className="text-red-500">*</span>Email:
                                 </label>
                                 <input
                                     type="email"
@@ -144,7 +152,7 @@ const ContactSection = () => {
                             </div>
                             <div className="mb-4">
                                 <label htmlFor="message" className="block mb-2">
-                                    Message<span className="text-red-500">*</span>:
+                                    <span className="text-red-500">*</span>Message:
                                 </label>
                                 <textarea
                                     id="message"

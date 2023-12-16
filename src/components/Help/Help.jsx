@@ -19,7 +19,7 @@ export const Help = () => {
           </div>
         </div>
 
-        <div className='flex my-12 text-base md:flex-row space-y-12 items-center md:space-y-0 flex-col'>
+        <div className='flex my-24 text-base lg:text-xl md:flex-row space-y-12 items-center md:space-y-0 flex-col'>
 
           <div className="w-full space-y-5 md:w-1/3 flex flex-col items-center">
             {/* <img src={one} className='w-64' alt="" srcset="" /> */}

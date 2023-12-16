@@ -19,7 +19,7 @@ export const Cards = () => {
         <div className=" mx-auto w-full">
           <h1 className="title text-4xl sm:text-6xl font-bold w-full py-3 text-[#0083e8]">Our Solutions</h1>
 
-          <p className=' mt-3 text-sm sm:text-lg text-gray-500 mx-7 sm:mx-24 text-center '>At Metadatan Solutions, we bring over a decade of unwavering dedication to the BI and analytics sector, and we've embarked on a mission to leverage our extensive experience to support your journey to success. Our core mission revolves around empowering your management with the essential BI tools, ensuring a seamless voyage toward data-driven decision-making.</p>
+          <p className=' mt-3 text-sm sm:text-xl lg:text-2xl text-gray-500 mx-7 sm:mx-24 text-center '>At MetaDatAnSol Solutions, we bring over a decade of unwavering dedication to the BI and analytics sector, and we've embarked on a mission to leverage our extensive experience to support your journey to success. Our core mission revolves around empowering your management with the essential BI tools, ensuring a seamless voyage toward data-driven decision-making.</p>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 w-10/12 mx-auto gap-6 my-16 ">
 
@@ -37,10 +37,10 @@ export const Cards = () => {
                   Your browser does not support the video tag.
                 </video>
               </div>
-              <div className="name pt-3 text-black group-hover:text-white uppercase w-3/4 font-extrabold text-xl text-center">
+              <div className="name pt-3 text-black group-hover:text-white uppercase w-3/4 font-extrabold text-xl  lg:text-2xl text-center">
                 <div>Business Intelligence Solutions</div>
               </div>
-              <div className="content font-normal text-center group-hover:text-white text-base mx-3">
+              <div className="content font-normal text-center group-hover:text-white text-base lg:text-xl  mx-3">
                 <ul>
                   <li>Data Strategy Assessment</li>
                   <li> Tailored Design Solutions </li>
@@ -73,10 +73,10 @@ export const Cards = () => {
                   Your browser does not support the video tag.
                 </video>
               </div>
-              <div className="name pt-3 text-black group-hover:text-white uppercase w-3/4 font-extrabold text-xl text-center">
+              <div className="name pt-3 text-black group-hover:text-white uppercase w-3/4 font-extrabold text-xl lg:text-2xl text-center">
                 <div>Data Visualization Services</div>
               </div>
-              <div className="content font-normal text-center group-hover:text-white text-base mx-3">
+              <div className="content font-normal text-center group-hover:text-white text-base lg:text-xl mx-3">
                 <ul>
                   <li> Report and Dashboard Development </li>
                   <li> Advanced Data Discovery </li>
@@ -111,10 +111,10 @@ export const Cards = () => {
                   Your browser does not support the video tag.
                 </video>
               </div>
-              <div className="name pt-3 text-black group-hover:text-white uppercase w-3/4 font-extrabold text-xl text-center">
+              <div className="name pt-3 text-black group-hover:text-white uppercase w-3/4 font-extrabold text-xl lg:text-2xl text-center">
                 <div>Data Science</div>
               </div>
-              <div className="content font-normal text-center group-hover:text-white text-base mx-3">
+              <div className="content font-normal text-center group-hover:text-white text-base lg:text-xl mx-3">
                 <ul>
                   <li> Advanced Analytics </li>
                   <li>  Machine Learning and AI </li>
@@ -147,10 +147,10 @@ export const Cards = () => {
                   Your browser does not support the video tag.
                 </video>
               </div>
-              <div className="name pt-3 text-black group-hover:text-white uppercase w-3/4 font-extrabold text-xl text-center">
+              <div className="name pt-3 text-black group-hover:text-white uppercase w-3/4 font-extrabold text-xl lg:text-2xl text-center">
                 <div>Custom Software Development</div>
               </div>
-              <div className="content font-normal text-center group-hover:text-white text-base mx-3">
+              <div className="content font-normal text-center group-hover:text-white text-base lg:text-xl mx-3">
                 <ul>
                   <li> Process Automation </li>
                   <li> Fraud Detection </li>

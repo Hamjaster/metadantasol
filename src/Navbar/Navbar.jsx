@@ -25,11 +25,7 @@ const Navbar = () => {
 
   return (
     <div className='navbar-main'>
-      {/* {isSmallScreen ? (
-        <div><NavSmall /></div>
-      ) : (
-        <div><NavBig /></div>
-      )} */}
+
       <div className="small-nav lg:hidden block">
         <NavSmall />
       </div>

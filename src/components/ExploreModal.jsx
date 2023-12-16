@@ -17,7 +17,7 @@ export default function ExploreModal({ isOpen, onClose }) {
             <Modal closeOnOverlayClick={false} isOpen={isOpen} onClose={onClose} size={{ sm: 'full', md: "lg" }} >
                 <ModalOverlay />
                 <ModalContent>
-                    <ModalHeader>Book An Audit With Us</ModalHeader>
+                    <ModalHeader>Book an Audit with us</ModalHeader>
                     <ModalCloseButton />
                     <ModalBody pb={6}>
                         <div className="">

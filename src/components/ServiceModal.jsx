@@ -30,7 +30,7 @@ export default function Service({ isOpen, onClose, service }) {
                                 <div>
                                     <h3 className="text-3xl font-bold text-[#002644] mb-4">What is Data Engineering?</h3>
                                     <p className="text-gray-700 text-xl">
-                                        Data Engineering is the process of collecting, cleaning, and transforming raw data into a structured format that is ready for analysis. Our expert team at Metadatan Solutions specializes in delivering top-tier Data Engineering services tailored to meet your organization's unique needs.
+                                        Data Engineering is the process of collecting, cleaning, and transforming raw data into a structured format that is ready for analysis. Our expert team at MetaDatAnSol Solutions specializes in delivering top-tier Data Engineering services tailored to meet your organization's unique needs.
                                     </p>
                                     <p className="text-gray-700 text-xl mt-4">
                                         Our Data Engineers play a pivotal role in ensuring data quality, scalability, and accessibility within your organization. Whether you're initiating your data journey or seeking to fortify your existing infrastructure, we're here to help you leverage the power of your data.
@@ -46,7 +46,7 @@ export default function Service({ isOpen, onClose, service }) {
                                         <li className="mb-2"> <span className='underline'> Scalability :</span> As organizations grow, so does their data. Data Engineering provides the scalability required to handle large volumes of information.</li>
                                         <li className="mb-2"> <span className='underline'> Efficiency :</span> It automates the data preparation process, saving time and resources, and allows for real-time data processing.</li>
                                         <li className="mb-2"> <span className='underline'> Data Integration</span> : It connects data from various sources, providing a comprehensive view for analysis.</li>
-                                        <li>Data Accessibility: It makes data available to all stakeholders, promoting data-driven decision-making.</li>
+                                        <li> <span className='underline'>Data Accessibility</span> : It makes data available to all stakeholders, promoting data-driven decision-making.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -54,7 +54,7 @@ export default function Service({ isOpen, onClose, service }) {
                             <div className="mt-8">
                                 <h2 className="text-4xl font-bold text-[#002644] mb-4">How We Can Help</h2>
                                 <p className="text-xl text-gray-700">
-                                    At Metadatan Solutions, we understand that organizations vary in their data maturity levels. Whether you're just starting your data journey or seeking to enhance your existing data infrastructure, our Data Engineers are equipped to assist.
+                                    At MetaDatAnSol Solutions, we understand that organizations vary in their data maturity levels. Whether you're just starting your data journey or seeking to enhance your existing data infrastructure, our Data Engineers are equipped to assist.
                                     Our experts will assess your organization's specific data needs, level of data maturity, and the challenges you face. We tailor Data Engineering solutions to align with your goals, providing data quality, accessibility, and scalability. We can help you transform your raw data into actionable insights, giving you a competitive edge in today's data-driven world.
                                     Partner with us to harness the true potential of your data through effective Data Engineering. Your data journey begins here.
 
@@ -98,7 +98,7 @@ export default function Service({ isOpen, onClose, service }) {
                             <div className="mt-8">
                                 <h2 className="text-3xl font-bold text-[#002644] mb-4">How We Can Transform Your Data</h2>
                                 <p className="text-xl text-gray-700">
-                                    Metadatan Solutions offers a team of experienced BI professionals who can elevate your organization into a data-driven powerhouse. We're here to redefine the way you perceive and utilize your data.
+                                    MetaDatAnSol Solutions offers a team of experienced BI professionals who can elevate your organization into a data-driven powerhouse. We're here to redefine the way you perceive and utilize your data.
                                     Our recommended tools offer interactive dashboards, data reports, visual analytics, and self-service analytics that empower your decision-making abilities. With us as your partner, you'll experience a transformation in how you approach data, unlocking its full potential to drive your organization's success. Welcome to the world of effective data analysis, where your data becomes your greatest asset.
                                 </p>
                             </div>
@@ -120,18 +120,18 @@ export default function Service({ isOpen, onClose, service }) {
                             </div>
                             <div className="mb-8">
                                 <h3 className="text-3xl font-bold text-[#002644] mb-4">Why Choose Data Science for Your Enterprise?</h3>
-                                <ul className="list-disc mx-7 text-lg text-gray-700">
+                                <ul className="text-lg text-gray-700">
                                     <li>
-                                        <span className="font-semibold">AI Platform Customization:</span> Our team of expert data scientists and engineers stands ready to assist you in AI development and the design of pilot projects. We tailor AI platforms to suit your unique needs, whether it's to boost sales or enhance marketing performance.
+                                        <span className="font-semibold my-1  underline">AI Platform Customization:</span> Our team of expert data scientists and engineers stands ready to assist you in AI development and the design of pilot projects. We tailor AI platforms to suit your unique needs, whether it's to boost sales or enhance marketing performance.
                                     </li>
                                     <li>
-                                        <span className="font-semibold">Supercharged Supply Chain:</span> For those seeking to empower supply chain analytics, AI is a formidable ally. It enables supply chain executives to adopt a data-driven approach, effectively resolving complex problems that were once deemed unsolvable.
+                                        <span className="font-semibold my-1  underline">Supercharged Supply Chain:</span> For those seeking to empower supply chain analytics, AI is a formidable ally. It enables supply chain executives to adopt a data-driven approach, effectively resolving complex problems that were once deemed unsolvable.
                                     </li>
                                     <li>
-                                        <span className="font-semibold">Enhanced Customer Engagement:</span> Metadatan Solutions offers expertise in leveraging AI/ML/Analytics tools to discern customer needs. These tools not only help attract new customers but also nurture loyalty and retention.
+                                        <span className="font-semibold  my-1 underline">Enhanced Customer Engagement:</span> Metadatan Solutions offers expertise in leveraging AI/ML/Analytics tools to discern customer needs. These tools not only help attract new customers but also nurture loyalty and retention.
                                     </li>
                                     <li>
-                                        <span className="font-semibold">Innovative Product Development:</span> Data Science tools yield in-depth insights that empower you to launch new products tailored to market demands, giving your business a competitive edge.
+                                        <span className="font-semibold  my-1 underline">Innovative Product Development:</span> Data Science tools yield in-depth insights that empower you to launch new products tailored to market demands, giving your business a competitive edge.
                                     </li>
                                 </ul>
                             </div>
@@ -198,7 +198,7 @@ export default function Service({ isOpen, onClose, service }) {
                             <div className="text-center mb-12 mx-auto">
                                 <h2 className="text-4xl font-bold text-[#0083e8] mb-4">Complete Business Intelligence Solutions</h2>
                                 <p className="text-lg text-gray-600">
-                                    In today's data-focused world, having a strong Business Intelligence (BI) plan is crucial. At Metadatan Solutions, we offer a full suite of BI solutions that cover your entire data journey, from start to finish.
+                                    In today's data-focused world, having a strong Business Intelligence (BI) plan is crucial. At MetaDatAnSol Solutions, we offer a full suite of BI solutions that cover your entire data journey, from start to finish.
                                 </p>
                             </div>
                             <div className="mb-8">

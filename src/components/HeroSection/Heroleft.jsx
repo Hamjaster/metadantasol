@@ -42,7 +42,7 @@ export const Heroleft = () => {
               repeat={Infinity}
             />
           </div>
-          <div className=' text-white text-sm sm:text-lg mt-3'>
+          <div className=' text-white text-sm sm:text-xl mt-3'>
             We are a pioneering IT solutions provider dedicated to guiding organizations through digital transformation. Our focus spans data-driven decision-making, from dynamic dashboards to AI and custom software, addressing diverse business challenges with expertise and innovation.
           </div>
         </div>

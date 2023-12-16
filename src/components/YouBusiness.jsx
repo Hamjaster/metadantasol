@@ -25,7 +25,7 @@ export default function YouBusiness() {
                     Data Maturity : Where Does Your Business Stand?
                 </h2>
 
-                <div className="flex lg:space-y-0 mx-1 flex-col lg:flex-row lg:space-x-2">
+                <div className="flex text-xl lg:space-y-0 mx-1 flex-col lg:flex-row lg:space-x-2">
 
 
                     <div className="Bcard flex flex-col lg:w-1/4 mb-4 lg:mb-0">
@@ -93,7 +93,7 @@ export default function YouBusiness() {
                             <p className="text-gray-700 mb-4">
                                 Actively using data for insights, you seek ways to further elevate its utility. Your focus is on optimizing and advancing your data strategies
                             </p>
-                            <button onClick={() => onOpen()} className="bg-[#0083e8] text-white text-sm py-2 px-1 w-full hover:bg-[#026cbd]">
+                            <button onClick={() => onOpen()} className="bg-[#0083e8] text-white text-base py-2 px-1 w-full hover:bg-[#026cbd]">
                                 Let's Optimize Your Data Strategy
                             </button>
                         </div>
