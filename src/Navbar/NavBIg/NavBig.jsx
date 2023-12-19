@@ -23,7 +23,7 @@ export const NavBig = () => {
       <ul className='flex flex-row justify-end text-lg [&>*]:space-x-2 [&>*]:flex [&>*]:flex-row [&>*]:items-center space-x-16'>
 
 
-        <Link to={'/services'} className='hover:text-[#0083e8] cursor-pointer'>
+        <Link to={'/solutions'} className='hover:text-[#0083e8] cursor-pointer'>
           <BsFillCartFill className="" />
           <span>
             Solutions
