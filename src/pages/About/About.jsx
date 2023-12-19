@@ -48,11 +48,11 @@ export default function About() {
                 </div>
             </div>
 
-            <div className='mx-8 sm:mx-[4rem] text-center my-6   sm:my-12 text-base sm:text-2xl'>
+            {/* <div className='mx-8 sm:mx-[4rem] text-center my-6   sm:my-12 text-base sm:text-2xl'>
                 At MetaDatAnSol Solutions, we're industry leaders, leveraging a decade of expertise to drive data-centric evolution. Our commitment spans industries, offering tailored solutions for analytics, data science, and transformative technologies. We empower businesses with precise insights, guiding them to excel in today's data-driven landscape.
 
 
-            </div>
+            </div> */}
 
             {/* Who are we? */}
             <FadeUp
@@ -61,7 +61,9 @@ export default function About() {
 
                         <div className='md:w-2/6 py-4 sm:py-8 md:py-24 uppercase font-semibold text-3xl sm:text-4xl'>Who are we ?</div>
                         <div className='md:w-4/6 text-lg sm:text-xl md:text-2xl md:px-4 px-0 leading-relaxed'>
-                            Welcome to MetaDatAnSol, your visionary partner in the journey towards data-driven success. At the forefront of next-generation IT solutions, MetaDatAnSol specializes in transforming organizations into data-centric powerhouse. Our dedication to leveraging over a decade of BI and analytics expertise sets us apart, ensuring that every client journey with us is a stride towards innovation and excellence.
+                            At MetaDatAnSol Solutions, we're industry leaders, leveraging a decade of expertise to drive data-centric evolution. Our commitment spans industries, offering tailored solutions for analytics, data science, and transformative technologies. We empower businesses with precise insights, guiding them to excel in today's data-driven landscape.
+
+
                         </div>
                     </div>
                 }
@@ -74,7 +76,7 @@ export default function About() {
                 backgroundSize: 'cover',
                 backgroundAttachment: 'fixed',
                 backgroundRepeat: 'no-repeat'
-            }} className="banner2 px-5 sm:px-16 md:px-20 mt-5 bg-scroll pt-44 sm:pt-56 pb-10 sm:pb-36 text-sm text-center sm:text-2xl text-white">
+            }} className="banner2 px-5 sm:px-16 md:px-20 mt-5 bg-scroll pt-44 sm:pt-56 pb-10 sm:pb-36 text-sm text-center sm:text-2xl xl:text-3xl text-white">
                 <FadeUp
                     component={
                         <>
@@ -89,8 +91,8 @@ export default function About() {
                 component={
                     <div className="what-we-do text-center py-14 px-8 sm:px-20 bg-slate-200 text-black text-xl">
                         <div>
-                            <div className='font-roboto text-3xl sm:text-4xl text-center font-bold uppercase py-3'>What we do ?</div>
-                            <p>In today's rapidly evolving digital landscape, having a forward-looking partner is crucial.Beyond these core services, we extend our offerings to encompass data science, ML, AI, basic flows, and applications for process automation. Additionally, we're well-versed in crafting custom software solutions tailored to address your complex business challenges.</p>
+                            <div className='font-roboto text-3xl sm:text-4xl  text-center font-bold uppercase py-3'>What we do ?</div>
+                            <p className='xl:text-2xl'>In today's rapidly evolving digital landscape, having a forward-looking partner is crucial.Beyond these core services, we extend our offerings to encompass data science, ML, AI, basic flows, and applications for process automation. Additionally, we're well-versed in crafting custom software solutions tailored to address your complex business challenges.</p>
                         </div>
                     </div>
                 }
@@ -164,7 +166,7 @@ export default function About() {
                 backgroundSize: 'cover',
                 backgroundAttachment: 'fixed',
                 backgroundRepeat: 'no-repeat'
-            }} className="banner2 px-8 sm:px-16 md:px-20 mt-5 bg-scroll pt-44 sm:pt-56 pb-12 sm:pb-36 text-2xl text-white">
+            }} className="banner2 px-8 sm:px-16 md:px-20 mt-5 bg-scroll pt-44 sm:pt-56 pb-12 sm:pb-36 text-2xl xl:text-3xl text-white">
                 <FadeUp
                     component={
                         <>
