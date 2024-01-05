@@ -34,12 +34,12 @@ export default function Services() {
             </div>
 
             {/* Services */}
-            <div className="flex flex-col bg-[#e2f1ff] py-24">
+            <div className="px-16 grid grid-cols-1 lg:grid-cols-2 gap-10 bg-[#e2f1ff] py-24">
                 <FadeUp component={
                     <div
-                        className="service mx-5 sm:mx-12 lg:mx-24 py-20 md:border-b-2 border-[#abcbea] flex flex-col lg:flex-row justify-between space-y-8 lg:space-y-0 lg:space-x-10">
+                        className="service mx-2 py-8  flex flex-col lg:flex-col justify-between space-y-8 ">
 
-                        <video autoPlay loop muted className='object-cover w-full h-[30rem] md:h-[28rem] lg:h-[22rem]'>
+                        <video autoPlay loop muted className='object-cover w-full h-[30rem] md:h-[28rem] lg:h-[30rem]'>
                             <source className='w-full' src={one} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
@@ -51,7 +51,7 @@ export default function Services() {
                             <div className=" w-full text-start text-sm md:text-lg text-gray-600">
                                 In today's digital landscape, data has become the lifeblood of organizations, driving decision-making, strategic planning, and operational excellence. Yet, the raw data generated within a company is often complex, scattered, and untamed, making it challenging to extract valuable insights. This is where Data Engineering steps in, serving as the unsung hero behind the scenes.
                             </div>
-                            <div onClick={() => { setService("data-engineering"); onOpen() }} className="button cursor-pointer px-12 py-2 transition-all border-[#0083e8] border-[1px] text-[#0083e8] hover:bg-[#0083e8] hover:text-white">Read More</div>
+                            <div onClick={() => { setService("data-engineering"); onOpen() }} className="button cursor-pointer px-8 py-2 transition-all text-black bg-white hover:bg-gray-100">Read More</div>
                         </div>
                     </div>
                 }
@@ -61,9 +61,9 @@ export default function Services() {
 
                 <FadeUp component={
                     <div
-                        className="service mx-5 sm:mx-12 lg:mx-24 py-20 md:border-b-2 border-[#abcbea] flex flex-col lg:flex-row justify-between space-y-8 lg:space-y-0 lg:space-x-10">
+                        className="service mx-2 py-8  flex flex-col lg:flex-col justify-between space-y-8">
 
-                        <video autoPlay loop muted className='h-[30rem] md:h-[28rem] lg:h-[22rem] object-cover w-full'>
+                        <video autoPlay loop muted className='h-[30rem] md:h-[28rem] lg:h-[30rem] object-cover w-full'>
                             <source className='w-full' src={two} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
@@ -75,7 +75,7 @@ export default function Services() {
                             <div className=" w-full text-start text-sm md:text-lg text-gray-600">
                                 Data Analysis is the transformative process of delving deep into your data to reveal concealed insights, trends, and patterns. It's the key to unlocking the wealth of information hidden within your organization's data reports. In today's data-driven world, Data Analysis is your compass for making informed decisions, setting strategic direction, and realizing untapped potential.
                             </div>
-                            <div onClick={() => { setService("data-analysis"); onOpen() }} className="button cursor-pointer px-12 py-2 transition-all border-[#0083e8] border-[1px] text-[#0083e8] hover:bg-[#0083e8] hover:text-white">Read More</div>
+                            <div onClick={() => { setService("data-analysis"); onOpen() }} className="button cursor-pointer px-8 py-2 transition-all text-black bg-white hover:bg-gray-100">Read More</div>
                         </div>
                     </div>
 
@@ -86,9 +86,9 @@ export default function Services() {
 
                 <FadeUp component={
                     <div
-                        className="service mx-5 sm:mx-12 lg:mx-24 py-20 md:border-b-2 border-[#abcbea] flex flex-col lg:flex-row justify-between space-y-8 lg:space-y-0 lg:space-x-10">
+                        className="service mx-2 py-8  flex flex-col lg:flex-col justify-between space-y-8 ">
 
-                        <video autoPlay loop muted className='h-[30rem] md:h-[28rem] lg:h-[22rem] object-cover w-full'>
+                        <video autoPlay loop muted className='h-[30rem] md:h-[28rem] lg:h-[30rem] object-cover w-full'>
                             <source className='w-full' src={three} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
@@ -100,7 +100,7 @@ export default function Services() {
                             <div className=" w-full text-start text-sm md:text-lg text-gray-600">
                                 Data Science is the scientific art of uncovering profound insights from diverse data sources. This multidisciplinary field marries various methods, algorithms, and systems to extract knowledge that fuels innovation and informed decision-making. A pivotal element in this process is Machine Learning (ML), which enhances optimization and operational efficiency.
                             </div>
-                            <div onClick={() => { setService("data-science"); onOpen() }} className="button cursor-pointer px-12 py-2 transition-all border-[#0083e8] border-[1px] text-[#0083e8] hover:bg-[#0083e8] hover:text-white">Read More</div>
+                            <div onClick={() => { setService("data-science"); onOpen() }} className="button cursor-pointer px-8 py-2 transition-all text-black bg-white hover:bg-gray-100">Read More</div>
                         </div>
                     </div>
                 }>
@@ -110,9 +110,9 @@ export default function Services() {
 
                 <FadeUp component={
                     <div
-                        className="service mx-5 sm:mx-12 lg:mx-24 py-20 flex flex-col lg:flex-row justify-between space-y-8 lg:space-y-0 lg:space-x-10">
+                        className="service mx-2 py-8 flex flex-col lg:flex-col justify-between space-y-8">
 
-                        <video autoPlay loop muted className='h-[30rem] md:h-[28rem] lg:h-[22rem] object-cover w-full'>
+                        <video autoPlay loop muted className='h-[30rem] md:h-[28rem] lg:h-[30rem] object-cover w-full'>
                             <source className='w-full' src={four} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
@@ -124,7 +124,7 @@ export default function Services() {
                             <div className=" w-full text-start text-sm md:text-lg text-gray-600">
                                 At MetaDatAnSol Solutions, we also specialize in developing custom software solutions designed to meet your organization's unique complexities and challenges. Whether you require simple or bespoke applications or tailor-made software, our team is equipped to cater to your specific business needs.
                             </div>
-                            <div onClick={() => { setService("custom-software"); onOpen() }} className="button cursor-pointer px-12 py-2 transition-all border-[#0083e8] border-[1px] text-[#0083e8] hover:bg-[#0083e8] hover:text-white">Read More</div>
+                            <div onClick={() => { setService("custom-software"); onOpen() }} className="button cursor-pointer px-8 py-2 transition-all text-black bg-white hover:bg-gray-100">Read More</div>
                         </div>
                     </div>
                 }>

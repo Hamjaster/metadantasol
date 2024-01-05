@@ -3,6 +3,7 @@ import logo from '../../images/logo-icon.png'
 import { Link } from 'react-router-dom'
 import { FaFacebook, FaLinkedin, FaTwitter, FaWhatsappSquare } from 'react-icons/fa'
 import { FaWhatsapp, FaX } from 'react-icons/fa6'
+import { SiGmail } from 'react-icons/si'
 
 export default function Footer() {
     return (
@@ -22,13 +23,13 @@ export default function Footer() {
                             <h2 class="mb-6 text-sm font-semibold  uppercase ">Quick Links</h2>
                             <ul class="font-medium space-y-2">
                                 <li class="">
-                                    <a class="hover:underline">Home</a>
+                                    <Link to={'/'} class="hover:underline">Home</Link>
                                 </li>
                                 <li>
-                                    <a class="hover:underline">About</a>
+                                    <Link to={'/about'} class="hover:underline">About</Link>
                                 </li>
                                 <li>
-                                    <a class="hover:underline">Services</a>
+                                    <Link to={'/solutions'} class="hover:underline">Services</Link>
                                 </li>
                             </ul>
                         </div>
@@ -53,21 +54,18 @@ export default function Footer() {
                     <span class="text-sm  sm:text-center ">© 2023 <a class="hover:underline">MetaDatAnSol</a>. All Rights Reserved.
                     </span>
                     <div class="flex mt-4 text-xl xl:text-2xl sm:justify-center sm:mt-0">
-                        <a href="#" class="  dark:hover:text-white">
-                            <FaFacebook />
-                            <span class="sr-only">Facebook page</span>
-                        </a>
+
                         <a href="#" class="  dark:hover:text-white ms-5">
                             <FaLinkedin />
                             <span class="sr-only">LinkedIN</span>
                         </a>
                         <a href="#" class="  dark:hover:text-white ms-5">
-                            <FaTwitter />
-                            <span class="sr-only">Twitter page</span>
+                            <SiGmail />
+                            <span class="sr-only">Email</span>
                         </a>
                         <a href="#" class="  dark:hover:text-white ms-5">
                             <FaWhatsapp />
-                            <span class="sr-only">Twitter page</span>
+                            <span class="sr-only">Whatsapp page</span>
                         </a>
 
                     </div>

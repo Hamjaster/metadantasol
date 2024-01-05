@@ -67,7 +67,7 @@ const ContactSection = () => {
                     <div className="p-5 sm:p-7 md:p-12 lg:p-20 md:w-1/2 bg-[#0083e8] rounded-tr-2xl rounded-tl-2xl md:rounded-tl-2xl md:rounded-bl-2xl text-lg sm:text-xl">
                         <h2 className=" text-3xl sm:text-5xl font-bold mb-8">Contact US</h2>
 
-                        <p className="mb-4 flex flex-row items-center space-x-5">
+                        <p className="mb-8 flex flex-row items-center space-x-5">
                             <div className="text-2xl">
                                 <IoCall />
                             </div>
