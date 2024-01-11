@@ -18,7 +18,7 @@ export default function Services() {
     return (
         <div>
             <div style={{
-                backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url(${img})`,
+                backgroundImage: `linear-gradient(to bottom, rgba(0,131,232,0.1), rgba(0,131,232,0.4)), url(${img})`,
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
                 backgroundAttachment: 'fixed'
@@ -34,12 +34,12 @@ export default function Services() {
             </div>
 
             {/* Services */}
-            <div className="px-16 grid grid-cols-1 lg:grid-cols-2 gap-10 bg-[#e2f1ff] py-24">
+            <div className="px-16 grid grid-cols-1 lg:grid-cols-2 gap-1 bg-[#e2f1ff] py-12">
                 <FadeUp component={
                     <div
                         className="service mx-2 py-8  flex flex-col lg:flex-col justify-between space-y-8 ">
 
-                        <video autoPlay loop muted className='object-cover w-full h-[30rem] md:h-[28rem] lg:h-[30rem]'>
+                        <video autoPlay loop muted className='object-cover w-full h-[20rem]'>
                             <source className='w-full' src={one} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
@@ -63,7 +63,7 @@ export default function Services() {
                     <div
                         className="service mx-2 py-8  flex flex-col lg:flex-col justify-between space-y-8">
 
-                        <video autoPlay loop muted className='h-[30rem] md:h-[28rem] lg:h-[30rem] object-cover w-full'>
+                        <video autoPlay loop muted className='h-[20rem] object-cover w-full'>
                             <source className='w-full' src={two} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
@@ -88,7 +88,7 @@ export default function Services() {
                     <div
                         className="service mx-2 py-8  flex flex-col lg:flex-col justify-between space-y-8 ">
 
-                        <video autoPlay loop muted className='h-[30rem] md:h-[28rem] lg:h-[30rem] object-cover w-full'>
+                        <video autoPlay loop muted className='h-[20rem] object-cover w-full'>
                             <source className='w-full' src={three} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>
@@ -112,7 +112,7 @@ export default function Services() {
                     <div
                         className="service mx-2 py-8 flex flex-col lg:flex-col justify-between space-y-8">
 
-                        <video autoPlay loop muted className='h-[30rem] md:h-[28rem] lg:h-[30rem] object-cover w-full'>
+                        <video autoPlay loop muted className='h-[20rem] object-cover w-full'>
                             <source className='w-full' src={four} type="video/mp4" />
                             Your browser does not support the video tag.
                         </video>

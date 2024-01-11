@@ -80,12 +80,12 @@ export default function About() {
 
             {/* Fixed BG */}
             <div style={{
-                backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 50, 0.5), rgba(0, 0, 100, 0.6)), url(${banner2})`,
+                backgroundImage: `linear-gradient(to bottom, rgba(0,131,232, 0.4), rgba(0,131,232, 0.9)), url(${banner2})`,
                 backgroundPosition: "center",
                 backgroundSize: 'cover',
                 backgroundAttachment: 'fixed',
                 backgroundRepeat: 'no-repeat'
-            }} className="banner2 px-5 sm:px-16 md:px-20 -mt-32 bg-scroll pt-44 sm:pt-56 pb-10 sm:pb-36 text-sm text-center sm:text-2xl xl:text-3xl text-white">
+            }} className="banner2 px-5 sm:px-16 md:px-20 -mt-32 bg-scroll pt-44 sm:pt-56 pb-10 sm:pb-36 text-sm text-center sm:text-2xl xl:text-2xl text-gray-100">
                 <FadeUp
                     component={
                         <>
@@ -101,7 +101,7 @@ export default function About() {
                     <div className="what-we-do text-center py-14 px-8 sm:px-20 bg-slate-200 text-black text-xl">
                         <div>
                             <div className='font-roboto text-3xl sm:text-5xl  text-center font-bold uppercase py-3'>What we do ?</div>
-                            <p className='xl:text-3xl'>In today's rapidly evolving digital landscape, having a forward-looking partner is crucial.Beyond these core services, we extend our offerings to encompass data science, ML, AI, basic flows, and applications for process automation. Additionally, we're well-versed in crafting custom software solutions tailored to address your complex business challenges.</p>
+                            <p className='xl:text-2xl'>In today's rapidly evolving digital landscape, having a forward-looking partner is crucial.Beyond these core services, we extend our offerings to encompass data science, ML, AI, basic flows, and applications for process automation. Additionally, we're well-versed in crafting custom software solutions tailored to address your complex business challenges.</p>
                         </div>
                     </div>
                 }
@@ -171,7 +171,7 @@ export default function About() {
 
             {/* Fixed BG */}
             <div style={{
-                backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 50, 0.2), rgba(0, 0, 100, 0.5)), url(${banner2})`,
+                backgroundImage: `linear-gradient(to bottom, rgba(0,131,232, 0.4), rgba(0,131,232, 0.8)), url(${banner2})`,
                 backgroundPosition: "center",
                 backgroundSize: 'cover',
                 backgroundAttachment: 'fixed',
@@ -204,7 +204,7 @@ export default function About() {
             <FadeUp
                 component={
                     <div style={{
-                        backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 50, 0.5), rgba(0, 0, 100, 0.7)), url(${banner2})`,
+                        backgroundImage: `linear-gradient(to bottom, rgba(0,131,232, 0.2), rgba(0,131,232, 0.9)), url(${banner2})`,
                         backgroundPosition: "center",
                         backgroundSize: 'cover',
                         backgroundAttachment: 'fixed',
