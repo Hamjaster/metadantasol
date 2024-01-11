@@ -35,13 +35,13 @@ export const NavBig = () => {
             About
           </span>
         </Link>
-        <Link to={'/'} className='hover:text-[#0083e8] cursor-pointer'>
+        <div className='hover:text-[#0083e8] cursor-pointer'>
           {/* <FaIndustry className="" /> */}
           <MdInsights />
           <span>
             Insights
           </span>
-        </Link>
+        </div>
         <Link to={'/'} className='hover:text-[#0083e8] cursor-pointer'>
           {/* <FaIndustry className="" /> */}
           <MdContactPhone />
