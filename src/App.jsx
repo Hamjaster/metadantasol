@@ -10,6 +10,7 @@ import Scroll from './components/Scroll';
 import './App.css'
 import { Toaster } from 'react-hot-toast';
 import Privacy from './components/Privacy';
+import Comingsoon from './Comingsoon';
 
 function App() {
   const location = useLocation()
@@ -24,18 +25,23 @@ function App() {
         <Route path='/solutions' element={<Services />} />
         <Route path='/contact' element={<Contactus />} />
         <Route path='/privacy' element={<Privacy />} />
+        <Route path='/insights' element={<Comingsoon />} />
+        <Route path='/career' element={<Comingsoon />} />
       </Routes>
       <Toaster
         position="top-center"
         reverseOrder={false}
       />
 
-      {location.pathname === "/privacy" ?
+      {location.pathname === "/privacy" || location.pathname === "/insights" || location.pathname === "/career" ?
         <></>
         : <Contact />
       }
+      {location.pathname === "/insights" || location.pathname === "/career" ?
+        <></>
+        : <Footer />
+      }
 
-      <Footer />
     </div>
   )
 }

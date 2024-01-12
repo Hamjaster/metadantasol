@@ -4,7 +4,7 @@ import { GoArrowUpRight } from "react-icons/go";
 import { useEffect } from 'react';
 import { useDisclosure } from '@chakra-ui/react';
 import ExploreModal from './ExploreModal';
-
+import img from '../images/banner4.jpg'
 export default function YouBusiness() {
     const { isOpen, onOpen, onClose } = useDisclosure()
     const isSmall = useMediaQuery({
@@ -18,10 +18,15 @@ export default function YouBusiness() {
 
     return (
         // <div className='bg-[[[#0083e8]]] text-[#0083e8]'>
-        <div className="my-24 bg-gradient-to-t from-[#2da4ff] to-[#006dc1] bg-radial py-36">
+        <div style={{
+            backgroundImage: `linear-gradient(to bottom, rgba(0,131,282,0.8), rgba(0,131,232,0.2)), url(${img})`,
+            backgroundPosition: 'center',
+            backgroundSize: 'cover',
+            backgroundAttachment: 'fixed'
+        }} className="my-24 bg-gradient-to-t from-[#2da4ff] to-[#006dc1] bg-radial py-36">
             <div className="w-[95%] mx-auto">
 
-                <h2 className="text-3xl md:text-4xl w-full mx-auto font-semibold text-center text-white mb-24 md:mb-44">
+                <h2 className="text-3xl md:text-4xl w-full mx-auto font-semibold text-center text-white mb-24  md:mb-44">
                     Data Maturity : Where Does Your Business Stand?
                 </h2>
 

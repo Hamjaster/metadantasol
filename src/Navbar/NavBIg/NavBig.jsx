@@ -35,14 +35,14 @@ export const NavBig = () => {
             About
           </span>
         </Link>
-        <div className='hover:text-[#0083e8] cursor-pointer'>
+        <Link to={'/insights'} className='hover:text-[#0083e8] cursor-pointer'>
           {/* <FaIndustry className="" /> */}
           <MdInsights />
           <span>
             Insights
           </span>
-        </div>
-        <Link to={'/'} className='hover:text-[#0083e8] cursor-pointer'>
+        </Link>
+        <Link to={'/career'} className='hover:text-[#0083e8] cursor-pointer'>
           {/* <FaIndustry className="" /> */}
           <MdContactPhone />
           <span>
