@@ -1,5 +1,6 @@
 import React from 'react'
-import img from '../images/testimonials.webp'
+import img from '../images/banner7.jpg'
+import img2 from '../images/banner2.jpg'
 import FadeUp from '../components/FadeUp'
 
 function Contactus() {
@@ -43,12 +44,12 @@ function Contactus() {
 
             {/* Fixed BG */}
             <div style={{
-                backgroundImage: `linear-gradient(to bottom, rgba(0,131,232, 0.4), rgba(0,131,232, 0.9)), url(${img})`,
+                backgroundImage: `linear-gradient(to bottom, rgb(11 126 215 / 70%), rgb(1 73 128 / 96%)), url(${img2})`,
                 backgroundPosition: "center",
                 backgroundSize: 'cover',
                 backgroundAttachment: 'fixed',
                 backgroundRepeat: 'no-repeat'
-            }} className="banner2 px-5 sm:px-16 md:px-20 -mt-32 bg-scroll pt-44 sm:pt-56 pb-10 sm:pb-36 text-sm text-center sm:text-2xl xl:text-2xl text-gray-100">
+            }} className="banner2 px-5 sm:px-16 md:px-20 -mt-32 bg-scroll pt-44 sm:pt-56 pb-10 sm:pb-36 text-sm text-center sm:text-2xl xl:text-2xl leading-loose text-gray-100">
 
                 <>
                     At MetaDatAnSol Solutions, our mission is to empower businesses of all sizes to harness the full potential of their data. We specialize in a wide range of Business Intelligence and custom software solutions, enabling you to make informed decisions and implement data-driven strategies swiftly.
