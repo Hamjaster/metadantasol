@@ -51,7 +51,7 @@ export default function About() {
                 </div>
                 <div className="whoweare flex flex-row items-center">
                     <div className='md:w-1/4 py-4 sm:py-8 md:py-24 uppercase font-semibold text-3xl sm:text-4xl'>Who we are ?</div>
-                    <div className='md:w-3/4 text-lg sm:text-xl md:text-2xl  leading-relaxed'>
+                    <div className='md:w-3/4 text-lg text-[#0083e8] sm:text-xl md:text-2xl  leading-relaxed'>
                         At MetaDatAnSol Solutions, we're industry leaders, leveraging a decade of expertise to drive data-centric evolution. Our commitment spans industries, offering tailored solutions for analytics, data science, and transformative technologies. We empower businesses with precise insights, guiding them to excel in today's data-driven landscape.
                     </div>
                 </div>
@@ -65,22 +65,23 @@ export default function About() {
 
             {/* Who are we? */}
             {/* <FadeUp
-                component={
-                    <div className="about -mb-40 mt-6 relative z-50 w-11/12 mx-auto space-x-3 items-start md:items-center font-roboto bg-[#0083e8] text-white px-4 sm:px-8 md:px-14 py-7 flex flex-col md:flex-row ">
+                    component={
+                        <div className="about -mb-40 mt-6 relative z-50 w-11/12 mx-auto space-x-3 items-start md:items-center font-roboto bg-[#0083e8] text-white px-4 sm:px-8 md:px-14 py-7 flex flex-col md:flex-row ">
 
-                        <div className='md:w-2/6 py-4 sm:py-8 md:py-24 uppercase font-semibold text-3xl sm:text-4xl'>Who we are ?</div>
-                        <div className='md:w-4/6 text-lg sm:text-xl md:text-2xl md:px-4 px-0 leading-relaxed'>
-                            At MetaDatAnSol Solutions, we're industry leaders, leveraging a decade of expertise to drive data-centric evolution. Our commitment spans industries, offering tailored solutions for analytics, data science, and transformative technologies. We empower businesses with precise insights, guiding them to excel in today's data-driven landscape.
+                            <div className='md:w-2/6 py-4 sm:py-8 md:py-24 uppercase font-semibold text-3xl sm:text-4xl'>Who we are ?</div>
+                            <div className='md:w-4/6 text-lg sm:text-xl md:text-2xl md:px-4 px-0 leading-relaxed'>
+                                At MetaDatAnSol Solutions, we're industry leaders, leveraging a decade of expertise to drive data-centric evolution. Our commitment spans industries, offering tailored solutions for analytics, data science, and transformative technologies. We empower businesses with precise insights, guiding them to excel in today's data-driven landscape.
 
 
+                            </div>
                         </div>
-                    </div>
-                }
-            /> */}
+                    }
+                /> */}
 
             {/* Fixed BG */}
+            {/* <div style={{ color: 'rgba(0,131,232, 0.4)' }} className='bg-[rgba(0,131,232, 0.4)]'></div> */}
             <div style={{
-                backgroundImage: `linear-gradient(to bottom, rgba(0,131,232, 0.4), rgba(0,131,232, 0.9)), url(${banner2})`,
+                backgroundImage: `linear-gradient(to bottom, rgb(11 126 215 / 70%), rgb(1 73 128 / 96%)), url(${banner2})`,
                 backgroundPosition: "center",
                 backgroundSize: 'cover',
                 backgroundAttachment: 'fixed',
@@ -168,10 +169,9 @@ export default function About() {
                 }
             />
 
-
             {/* Fixed BG */}
             <div style={{
-                backgroundImage: `linear-gradient(to bottom, rgba(0,131,232, 0.4), rgba(0,131,232, 0.8)), url(${banner2})`,
+                backgroundImage: `linear-gradient(to bottom, rgb(11 126 215 / 70%), rgb(1 73 128 / 96%)), url(${banner2})`,
                 backgroundPosition: "center",
                 backgroundSize: 'cover',
                 backgroundAttachment: 'fixed',
@@ -204,7 +204,7 @@ export default function About() {
             <FadeUp
                 component={
                     <div style={{
-                        backgroundImage: `linear-gradient(to bottom, rgba(0,131,232, 0.2), rgba(0,131,232, 0.9)), url(${banner2})`,
+                        backgroundImage: `linear-gradient(to bottom, rgb(11 126 215 / 70%), rgb(1 73 128 / 96%)), url(${banner2})`,
                         backgroundPosition: "center",
                         backgroundSize: 'cover',
                         backgroundAttachment: 'fixed',
