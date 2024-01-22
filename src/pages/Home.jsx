@@ -15,7 +15,7 @@ import Contact from '../components/Contact'
 
 export const Home = () => {
   return (
-    <div div className='font-opensans'>
+    <div div className=''>
       <Hero />
       <Cards />
       <Help />

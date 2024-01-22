@@ -18,29 +18,17 @@ export default function Services() {
 
     return (
         <div>
-            {/* <div
-             style={{
-                backgroundImage: `linear-gradient(to bottom, rgba(0,131,232,0.1), rgba(0,131,232,0.4)), url(${img})`,
-                backgroundPosition: 'center',
-                backgroundSize: 'cover',
-                backgroundAttachment: 'fixed'
-            }}
-             className="banner flex justify-center items-center text-white text-4xl sm:text-5xl font-bold h-96 w-full uppercase">
 
-                <div className="text ">
-                    What we do ?
-                </div>
-            </div> */}
             <div div className="banner bg-cover bg-center h-96"
                 style={{ backgroundImage: `url(${img})` }}
             >
 
             </div >
             {/* What we od */}
-            <div className="about shadow-2xl relative z-50 w-full md:w-11/12 mx-auto space-x-3 items-center md:-mt-32  font-roboto bg-white px-12 sm:px-24 py-7 flex flex-col md:flex-col ">
+            <div className="about shadow-2xl relative z-50 w-full md:w-11/12 mx-auto space-x-3 items-center md:-mt-32   bg-white px-12 sm:px-24 py-7 flex flex-col md:flex-col ">
                 <div className="about flex flex-col md:flex-row items-center">
 
-                    <div className=' md:w-1/4 py-4 md:py-24 text-center md:text-left capitalize font-semibold text-4xl md:text-5xl'>What we do ?</div>
+                    <div className=' md:w-1/4 py-4 md:py-24 text-center md:text-left capitalize font-bold text-4xl md:text-4xl'>What we do ?</div>
                     <div className=' md:w-3/4 text-center md:text-left text-[#0083e8] md:text-3xl text-2xl md:px-4 leading-relaxed md:leading-loose md:border-l-2 '>We turn data into decisions, offering tailored solutions in BI, Data Visualization, Data Science, and Custom Software Development to suit your unique needs.
                     </div>
 
