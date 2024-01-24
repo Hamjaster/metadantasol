@@ -11,6 +11,8 @@ import './App.css'
 import { Toaster } from 'react-hot-toast';
 import Privacy from './components/Privacy';
 import Comingsoon from './Comingsoon';
+import PrivacyPolicy from './pages/Policy';
+import { Disclaimer } from './pages/Disclaimer';
 
 function App() {
   const location = useLocation()
@@ -24,16 +26,18 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/solutions' element={<Services />} />
         <Route path='/contact' element={<Contactus />} />
-        <Route path='/privacy' element={<Privacy />} />
+        {/* <Route path='/privacy' element={<Privacy />} /> */}
         <Route path='/insights' element={<Comingsoon />} />
         <Route path='/career' element={<Comingsoon />} />
+        <Route path='/privacy-policy' element={<PrivacyPolicy />} />
+        <Route path='/disclaimer' element={<Disclaimer />} />
       </Routes>
       <Toaster
         position="top-center"
         reverseOrder={false}
       />
 
-      {location.pathname === "/privacy" || location.pathname === "/insights" || location.pathname === "/career" ?
+      {location.pathname === "/privacy-policy" || location.pathname === "/disclaimer" || location.pathname === "/insights" || location.pathname === "/career" ?
         <></>
         : <Contact />
       }

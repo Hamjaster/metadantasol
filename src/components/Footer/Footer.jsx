@@ -44,12 +44,14 @@ export default function Footer() {
                             <h2 class="mb-6 text-sm font-semibold  uppercase ">Legal</h2>
                             <ul class=" font-medium">
                                 <li class="mb-4">
-                                    <Link to={'/privacy'}>
+                                    <Link to={'/privacy-policy'}>
                                         <a href="#" class="hover:underline">Privacy Policy</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                                    <Link to={'/disclaimer'}>
+                                        <a href="#" class="hover:underline">Disclaimer</a>
+                                    </Link>
                                 </li>
                             </ul>
                         </div>
