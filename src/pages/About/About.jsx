@@ -145,8 +145,8 @@ export default function About() {
                     <div className="about -mb-40 mt-20 relative z-50 w-11/12 mx-auto space-x-3 items-start md:items-center  bg-white px-4 sm:px-8 md:px-14 py-4 sm:py-7 flex flex-col md:flex-row ">
 
                         <div className='md:w-2/6 py-4 sm:py-8 md:py-16 uppercase font-bold text-center text-2xl sm:text-3xl  leading-normal'>Experience Meets Commitment</div>
-                        <div className='md:w-4/6 md:border-l-2 text-[#0083e8] text-lg md:text-2xl md:px-4 px-0 leading-relaxed'>We stand backed by experienced teams with a broad industry background across a myriad of industries spanning diverse sectors, from Manufacturing and Retail to Pharmacy, Logistics, Banking/Finance, Technology, Cannabis and more.
-                            Your success is our top priority, and we're wholly dedicated to providing analytical solutions that cater to your data excellence needs, from the planning stage right through to execution.
+                        <div className='md:w-4/6 md:border-l-2 text-[#0083e8] text-lg md:text-2xl md:px-4 px-0 leading-relaxed'>  At MetaDatAnSol Solutions, we stand backed by experienced teams with a broad industry background across a myriad of industries spanning diverse sectors, from Manufacturing and Retail to Pharmacy, Logistics, Banking/Finance, Technology, Cannabis and more.
+
                             .</div>
                     </div>
                 }
@@ -196,8 +196,9 @@ export default function About() {
 
                         <div className='text-2xl sm:text-4xl md:text-5xl font-medium text-white text-center  py-1 sm:py-3'>Our Dedication to Your Triumph</div>
                         <p className='text-sm sm:text-base md:text-2xl text-center font-light'>
-                            At MetaDatAnSol Solutions, we stand backed by experienced teams with a broad industry background across a myriad of industries spanning diverse sectors, from Manufacturing and Retail to Pharmacy, Logistics, Banking/Finance, Technology, Cannabis and more.
+                            <br />
                             Your success is our top priority, and we're wholly dedicated to providing analytical solutions that cater to your data excellence needs, from the planning stage right through to execution.
+                            <br />
                             <br />
                             Our commitment extends beyond mere project completion. We are dedicated to building lasting, strategic partnerships, characterized by an unwavering focus on continuous improvement. Through our technology-driven approach, we empower you to conquer even the most complex business challenges, propelling your organization towards unprecedented growth. Your success remains our unwavering pledge.
                         </p>

@@ -53,7 +53,7 @@ export default function Services() {
             </div> */}
 
             <div className="text w-11/12 sm:w-11/12 mx-auto text-lg sm:text-2xl my-20 leading-normal sm:leading-loose text-center italic ">
-                Our services in Business Intelligence, Data Visualization, Data Science, and Custom Software Development are designed to align with your organization's data maturiy. We begin with a thourough assessment to understand your business and address specific requests, ensuring a personalized and effective solution.
+                Our services in Business Intelligence, Data Visualization, Data Science, and Custom Software Development are designed to align with your organization's data maturiy. We begin with a thorough assessment to understand your business and address specific requests, ensuring a personalized and effective solution.
             </div>
 
             {/* Services */}
