@@ -140,7 +140,7 @@ export default function About() {
             </div>
 
             {/* Experience meets commitment */}
-            <FadeUp
+            {/* <FadeUp
                 component={
                     <div className="about -mb-40 mt-20 relative z-50 w-11/12 mx-auto space-x-3 items-start md:items-center  bg-white px-4 sm:px-8 md:px-14 py-4 sm:py-7 flex flex-col md:flex-row ">
 
@@ -150,7 +150,7 @@ export default function About() {
                             .</div>
                     </div>
                 }
-            />
+            /> */}
 
             {/* Fixed BG */}
             <div style={{
