@@ -65,7 +65,7 @@ export default function Footer() {
 
                         <a href="#" class="  dark:hover:text-white ms-5">
                             <FaLinkedin />
-                            <span class="sr-only">LinkedIN</span>
+                            <span class="sr-only">LinkedIn</span>
                         </a>
                         <a href="#" class="  dark:hover:text-white ms-5">
                             <SiGmail />

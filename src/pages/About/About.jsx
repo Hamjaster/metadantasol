@@ -78,14 +78,13 @@ export default function About() {
                     }
                 />
             </div>
-
             {/* What we do */}
             <FadeUp
                 component={
                     <div className="what-we-do text-center py-14 px-8 sm:px-20 bg-slate-200 text-black text-xl">
                         <div>
-                            <div className=' text-3xl sm:text-5xl  text-center font-bold py-3'>What we do ?</div>
-                            <p className='xl:text-2xl'>In today's rapidly evolving digital landscape, having a forward-looking partner is crucial. Beyond these core services, we extend our offerings to encompass data science, ML, AI, basic flows, and applications for process automation. Additionally, we're well-versed in crafting custom software solutions tailored to address your complex business challenges.</p>
+                            <div className=' text-3xl sm:text-5xl  text-center font-bold py-3'>WHAT WE DO ?</div>
+                            <p className='xl:text-2xl'>In today's rapidly evolving digital landscape, having a forward-looking partner is crucial. Beyond these core services, we extend our offerings to encompass data science, ML, AI, basic flows, and applications for process automation. Additionally, we're well-versed in crafting Custom Software Solutions tailored to address your complex business challenges.</p>
                         </div>
                     </div>
                 }
