@@ -122,21 +122,38 @@ const ContactSection = () => {
                                     type="text"
                                     id="name"
                                     name="name"
-                                    className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-[#0083e8]"
+                                    class="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-[#0083e8]"
+                                    placeholder="Enter your name"
                                     required
+                                    pattern="a-z"
+
                                 />
+
                             </div>
-                            <div className="mb-4">
-                                <label htmlFor="phone" className="block mb-2">
-                                    <span className="text-red-500">*</span>Phone:
+                            <div class="flex items-center mb-4">
+
+                                <label for="phone" class="block mb-2">
+                                    <span class="text-red-500 ">*</span>Phone:
                                 </label>
+                                <div class="mr-2 inline-flex rounded-md border ml-2 border-gray-300 bg-white px-3 py-2 text-sm leading-5 font-medium text-gray-700 shadow-md cursor-pointer">
+                                    <select id="country-code" name="country-code" class="focus:outline-none">
+                                        <option value="+91">+91 (India)</option>
+                                        <option value="+1">+1 (US)</option>
+                                    </select>
+                                </div>
                                 <input
-                                    type="tel"
-                                    id="phone"
-                                    name="phone"
-                                    className="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-[#0083e8]"
+                                    type="text"
+                                    id="name"
+                                    name="name"
+                                    class="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-[#0083e8]"
+                                    placeholder="Enter your name (lower case letters only)"
                                     required
+                                    pattern="(/^[A-Za-z]+$/) "
+                                    onkeydown="return event.key.match(/[a-z]/)"
+                                    onpaste="return event.clipboardData.getData('text').match(/[a-z]/)"
                                 />
+
+
                             </div>
                             <div className="mb-4">
                                 <label htmlFor="email" className="block mb-2">

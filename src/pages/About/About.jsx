@@ -45,14 +45,14 @@ export default function About() {
 
                 <div className="about flex flex-col md:flex-row items-center">
 
-                    <div className='w-full md:w-1/4 py-4 md:py-24 text-center md:text-left capitalize font-bold text-4xl md:text-5xl'>About</div>
+                    <div className='w-full md:w-1/4 py-4 text-3xl text-[#0083e8] md:py-24 text-center md:text-left capitalize font-bold md:text-5xl'>About</div>
                     <div className='w-full font-medium  md:w-3/4 text-center md:text-left text-[#0083e8] md:text-3xl text-2xl md:px-4 leading-relaxed md:leading-loose md:border-l-2 '>MetaDatAnSol - Your Trusted Partner for Achieving Data-Driven Success Across Industries and Verticals
                     </div>
 
                 </div>
 
                 <div className="whoweare flex flex-col md:flex-row items-center">
-                    <div className='md:w-1/4 py-4 sm:py-8 md:py-24 uppercase font-bold text-2xl sm:text-3xl text-left'>Who we are ?</div>
+                    <div className='md:w-1/4 py-4 sm:py-8 md:py-24 text-3xl text-[#0083e8] font-bold uppercase  sm:text-3xl text-left'>Who we are ?</div>
                     <div className='md:w-3/4 text-center text-lg text-[#0083e8] sm:text-xl md:text-xl  leading-relaxed'>
                         At MetaDatAnSol Solutions, we're seasoned experts with over a decade of experience, dedicated to fostering a data-centric evolution. Our commitment spans various industries, providing customized solutions for analytics, data science, and cutting-edge technologies. We empower businesses with precise insights, guiding them to excel in today's data-driven landscape.
                     </div>
@@ -83,7 +83,7 @@ export default function About() {
                 component={
                     <div className="what-we-do text-center py-14 px-8 sm:px-20 bg-slate-200 text-black text-xl">
                         <div>
-                            <div className=' text-3xl sm:text-5xl  text-center font-bold py-3'>WHAT WE DO ?</div>
+                            <div className=' sm:text-5xl  text-center font-bold py-3 text-3xl text-[#0083e8]'>WHAT WE DO ?</div>
                             <p className='xl:text-2xl'>In today's rapidly evolving digital landscape, having a forward-looking partner is crucial. Beyond these core services, we extend our offerings to encompass data science, ML, AI, basic flows, and applications for process automation. Additionally, we're well-versed in crafting Custom Software Solutions tailored to address your complex business challenges.</p>
                         </div>
                     </div>
@@ -175,7 +175,7 @@ export default function About() {
                 component={
                     <div className="about -mt-20 -mb-20 relative z-50 w-11/12 mx-auto space-x-3 items-start md:items-center  bg-white px-4 sm:px-8 md:px-14 py-4 sm:py-7 flex flex-col md:flex-row ">
 
-                        <div className='md:w-2/6 py-4 sm:py-8 md:py-16 uppercase font-bold text-center text-2xl sm:text-3xl leading-normal'>A Tailored Client-Centric Strategy</div>
+                        <div className='md:w-2/6 py-4 text-3xl text-[#0083e8] sm:py-8 md:py-16 uppercase font-bold text-center  sm:text-3xl leading-normal'>A Tailored Client-Centric Strategy</div>
                         <div className='md:w-4/6 md:border-l-2 text-[#0083e8] text-lg md:text-2xl md:px-4 px-0 leading-relaxed'>At MetaDatAnSol Solutions, we lead clients towards data-centric excellence, navigating transformation journeys hand in hand. Our commitment lies in delivering insightful solutions and fostering technological advancement to elevate businesses. Upholding rigorous technical standards, we ensure timely project completion across data engineering, analytics, science, custom solutions, and multi-year digital transformations
                             .</div>
                     </div>
