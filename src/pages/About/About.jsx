@@ -41,19 +41,19 @@ export default function About() {
             </div >
 
             {/* About */}
-            <div className="about shadow-2xl relative z-50 w-full md:w-11/12 mx-auto space-x-3 items-center md:-mt-32   bg-white px-12 sm:px-24 py-7 space-y-10 md:space-y-0  flex flex-col md:flex-col ">
+            <div className="about shadow-2xl relative z-50 w-full md:w-11/12 mx-auto  items-center md:-mt-32   bg-white px-12 sm:px-24 py-7 space-y-10 md:space-y-0  flex flex-col md:flex-col ">
 
                 <div className="about flex flex-col md:flex-row items-center">
 
-                    <div className='w-full md:w-1/4 py-4 text-3xl text-[#0083e8] md:py-24 text-center md:text-left capitalize font-bold md:text-5xl'>About</div>
-                    <div className='w-full font-medium  md:w-3/4 text-center md:text-left text-[#0083e8] md:text-3xl text-2xl md:px-4 leading-relaxed md:leading-loose md:border-l-2 '>MetaDatAnSol - Your Trusted Partner for Achieving Data-Driven Success Across Industries and Verticals
+                    <div className='w-full md:w-1/4 py-4 text-3xl text-[#0083e8] md:py-24 text-center md:text-left capitalize font-bold md:text-4xl italic'>About</div>
+                    <div className='w-full   md:w-3/4 text-center md:text-left text-[#0083e8] md:text-3xl text-2xl md:px-4 leading-relaxed md:leading-loose md:border-l-2 italic font-bold'>MetaDatAnSol - Your Trusted Partner for Achieving Data-Driven Success Across Industries and Verticals
                     </div>
 
                 </div>
 
                 <div className="whoweare flex flex-col md:flex-row items-center">
-                <div className='w-full md:w-1/4 py-4 text-2xl text-[#0083e8] md:py-24 text-center md:text-left capitalize font-bold md:text-5xl'>Who We are ?</div>
-                    <div className='md:w-3/4 text-center text-lg text-[#0083e8] sm:text-xl md:text-xl font-bold italic leading-relaxed'>
+                <div className='w-full md:w-1/4  text-lg text-[#0083e8] sm:md:py-24 text-center md:text-left capitalize  md:text-4xl italic font-bold'>Who We are ?</div>
+                    <div className='md:w-3/4 text-center text-lg text-[#0083e8] sm:text-sm md:text-xl font-bold italic leading-relaxed'>
                         At MetaDatAnSol Solutions, we're seasoned experts with over a decade of experience, dedicated to fostering a data-centric evolution. Our commitment spans various industries, providing customized solutions for analytics, data science, and cutting-edge technologies. We empower businesses with precise insights, guiding them to excel in today's data-driven landscape.
                     </div>
                 </div>

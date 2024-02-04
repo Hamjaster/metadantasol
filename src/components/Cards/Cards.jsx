@@ -28,45 +28,50 @@ export const Cards = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 w-10/12 mx-auto gap-6 my-16 ">
 
-
             <div className="group pb-7 w-full mx-auto rounded-sm bg-[#a3d7ff] text-[#57647c] flex flex-col space-y-4 items-center border-none hover:bg-[#1a87db] hover:text-[#1a87db] cursor-pointer transition-all duration-500">
-
-              <div className="img relative overflow-hidden w-full h-72  ">
+                <Link to={'/solutions'}>
+              <div className=''>
+              <div className="img relative overflow-hidden w-full h-72 mb-6 ">
                 {/* <video
                   className="absolute top-0 left-0 z-0 w-full h-full object-cover"
                   autoPlay
                   loop
                   muted
-                >
+                  >
                   <source src={one} type="video/mp4" />
                   Your browser does not support the video tag.
                 </video> */}
                  <img src={Bussiness}/>
               </div>
-              <div className="name pt-3 text-black group-hover:text-white uppercase w-3/4 font-extrabold text-xl  lg:text-2xl text-center">
-                <div className=''>Business Intelligence Solutions</div>
-              </div>
-              <Link to={'/solutions'}>
-              <div className="content font-normal text-center  group-hover:text-white text-base lg:text-xl  mx-3">
+              
+              
+              <Link to={'/solutions'} className="name pt-3 mt-3  text-black group-hover:text-white uppercase w-3/4 font-extrabold text-xl  lg:text-2xl text-center">
+                <Link  to={'/solutions'} className=' flex align-middle justify-center '>Business Intelligence Solutions</Link>
+              </Link>
+                
+                
+              <div className="content font-normal text-center mt-4  group-hover:text-white text-base lg:text-xl  mx-3">
                 <ul >
                   <li className='description'>Data Strategy Assessment</li>
                   <li className='description'> Tailored Design Solutions </li>
                   <li className='description'> Seamless Data Migration </li>
                   <li className='description'> Comprehensive Reporting </li>
                   <li className='description'>System Integration</li>
-
                 </ul>
                  </div>
-              </Link>
-              <div onClick={() => { setService('business-intelligence'); onOpen() }} className="hover:underline  font py-2 font-bold  text-xl group-hover:text-white text-black">
+                 </div>
+            </Link> 
+              <button type='button' onClick={() => { setService('business-intelligence'); onOpen() }} className="hover:underline  font py-2 font-bold  text-xl z-10 group-hover:text-white text-black">
                 Read More +
-              </div>
-
+              </button>
             </div>
+              
 
             <div className="group pb-7 w-full mx-auto rounded-sm bg-[#a3d7ff] text-[#57647c] flex flex-col space-y-4 items-center border-none hover:bg-[#1a87db] hover:text-[#1a87db] cursor-pointer transition-all duration-500">
 
-              <div className="img relative overflow-hidden w-full h-72  ">
+               <Link to={'/solutions'}>
+             <div>
+             <div className="img relative overflow-hidden w-full h-72 mb-6 ">
                 {/* <video
                   className="absolute top-0 left-0 z-0 w-full h-full object-cover"
                   autoPlay
@@ -78,11 +83,12 @@ export const Cards = () => {
                 </video> */}
                 <img src={Datavis}/>
               </div>
-              <div className="name pt-3 text-black group-hover:text-white uppercase w-3/4 font-extrabold text-xl lg:text-2xl text-center">
-                <div>Data Visualization Services</div>
-              </div>
-              <Link to={'/solutions'}>
-              <div className="content font-normal text-center group-hover:text-white text-base lg:text-xl mx-3">
+             
+               
+              <Link to={'/solutions'} className="name pt-3 mt-3  text-black group-hover:text-white uppercase w-3/4 font-extrabold text-xl  lg:text-2xl text-center">
+                <Link  to={'/solutions'} className=' flex align-middle justify-center '>Data Visualization Services </Link>
+              </Link>
+              <div className="content font-normal text-center mt-4 group-hover:text-white text-base lg:text-xl mx-3">
                 <ul>
                   <li className='description'> Report and Dashboard Development </li>
                   <li className='description'> Advanced Data Discovery </li>
@@ -94,6 +100,7 @@ export const Cards = () => {
 
                 </ul>
                 </div>
+                </div>
               </Link>
               <div onClick={() => { setService('data-analysis'); onOpen() }} className="hover:underline  font py-2 font-bold  text-xl group-hover:text-white text-black">
                 Read More +
@@ -102,8 +109,9 @@ export const Cards = () => {
             </div>
 
             <div className="group pb-7 w-full mx-auto rounded-sm bg-[#a3d7ff] text-[#57647c] flex flex-col space-y-4 items-center border-none hover:bg-[#1a87db] hover:text-[#1a87db] cursor-pointer transition-all duration-500">
-
-              <div className="img relative overflow-hidden w-full h-72  ">
+              <Link to ={'/solutions'}>
+                <div>
+              <div className="img relative overflow-hidden w-full h-72 mb-6  ">
                 {/* <video
                   className="absolute top-0 left-0 z-0 w-full h-full object-cover"
                   autoPlay
@@ -115,11 +123,12 @@ export const Cards = () => {
                 </video> */}
                 <img src={Data} />
               </div>
-              <div className="name pt-3 text-black group-hover:text-white uppercase w-3/4 font-extrabold text-xl lg:text-2xl text-center">
-                <div>Data Science</div>
-              </div>
-              <Link to={'/solutions'}>
-              <div className="content font-normal text-center group-hover:text-white text-base lg:text-xl mx-3">
+              
+              <Link to={'/solutions'} className="name pt-3 mt-3  text-black group-hover:text-white uppercase w-3/4 font-extrabold text-xl  lg:text-2xl text-center">
+                <Link  to={'/solutions'} className=' flex align-middle justify-center '>Data science </Link>
+              </Link>
+            
+              <div className="content font-normal text-center group-hover:text-white text-base lg:text-xl mt-6 mx-3">
                 <ul>
                   <li className='description'> Advanced Analytics </li>
                   <li className='description'>  Machine Learning and AI </li>
@@ -130,7 +139,9 @@ export const Cards = () => {
 
                 </ul>
                 </div>
+                </div>
                 </Link>
+
               <div onClick={() => { setService('data-science'); onOpen() }} className="hover:underline  font py-2 font-bold  text-xl group-hover:text-white text-black">
                 Read More +
               </div>
@@ -139,8 +150,9 @@ export const Cards = () => {
 
            
               <div className="group pb-7 w-full mx-auto rounded-sm bg-[#a3d7ff] text-[#57647c] flex flex-col space-y-4 items-center border-none hover:bg-[#1a87db] hover:text-[#1a87db] cursor-pointer transition-all duration-500">
-
-                <div className="img relative overflow-hidden w-full h-72  ">
+                  <Link to ={'/solutions'}>
+                    <div>
+                <div className="img relative overflow-hidden w-full h-72 mb-6 ">
                   {/* <video
                     className="absolute top-0 left-0 z-0 w-full h-full object-cover"
                     autoPlay
@@ -153,12 +165,11 @@ export const Cards = () => {
                   <img src={Customservice}/>
                 </div>
                 
-                <div className="name pt-3 text-black group-hover:text-white uppercase w-3/4 font-extrabold text-xl lg:text-2xl text-center">
-                  
-                  <div>Custom Software Development</div>
-                </div>
-                <Link to={'/solutions'}>
-                <div className="content font-normal text-center group-hover:text-white text-base lg:text-xl mx-3">
+                <Link to={'/solutions'} className="name pt-3 mt-3  text-black group-hover:text-white uppercase w-3/4 font-extrabold text-xl  lg:text-2xl text-center">
+                <Link  to={'/solutions'} className=' flex align-middle justify-center '>Custom Software Development </Link>
+              </Link>
+             
+                <div className="content font-normal text-center group-hover:text-white mt-6 text-base lg:text-xl mx-3">
                   <ul>
                     <li className='description'> Process Automation </li>
                     <li className='description'> Fraud Detection </li>
@@ -167,7 +178,10 @@ export const Cards = () => {
                     <li className='description'> Seamless Integration </li>
                   </ul>
                  </div>
-                 </Link>
+                 
+
+                    </div>
+                  </Link>
                 <div onClick={() => { setService('custom-software'); onOpen() }} className="hover:underline  font py-2 font-bold  text-xl group-hover:text-white text-black">
                   Read More +
                 </div>
