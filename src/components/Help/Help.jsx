@@ -27,7 +27,7 @@ export const Help = () => {
 
             </div>
             <strong className='text-3xl  py-1'>Startups</strong>
-            <p className='text-center font-thin text-gray-700 description h-[250px] w-10/12'>Our services are designed to empower startups in unlocking the full potential of data. We guide you on how to effectively gather, transform, and process data, enabling you to make well-informed decisions that steer your startup towards success.</p>
+            <p className='text-center font-thin text-gray-500 description h-[250px] w-10/12'>Our services are designed to empower startups in unlocking the full potential of data. We guide you on how to effectively gather, transform, and process data, enabling you to make well-informed decisions that steer your startup towards success.</p>
           </div>
           <div className="w-full space-y-5 md:w-1/3 flex flex-col items-center">
             {/* <img src={two} className='w-64' alt="" srcset="" /> */}
@@ -35,7 +35,7 @@ export const Help = () => {
 
             </div>
             <strong className='text-3xl py-1'>SMB's</strong>
-            <p className='text-center leading-snug font-thin text-gray-700 description h-[250px]  w-10/12'>Small and medium-sized businesses are brimming with potential, often limited only by the time needed for expansion. Our role is to help you overcome this barrier. Leveraging the power of AI, data science, analytics, and machine learning, we offer solutions that accelerate your business growth and expansion.</p>
+            <p className='text-center leading-snug font-thin text-gray-500 description h-[250px]  w-10/12'>Small and medium-sized businesses are brimming with potential, often limited only by the time needed for expansion. Our role is to help you overcome this barrier. Leveraging the power of AI, data science, analytics, and machine learning, we offer solutions that accelerate your business growth and expansion.</p>
           </div>
           <div className="w-full space-y-5 md:w-1/3 flex flex-col items-center">
             {/* <img src={three} className='w-80' alt="" srcset="" /> */}
@@ -43,7 +43,7 @@ export const Help = () => {
 
             </div>
             <strong className='text-3xl py-1'>Large Enterprises</strong>
-            <p className='text-center leading-snug font-thin text-gray-700 description h-[250px]  w-10/12'>For expansive organizations, complexity grows in tandem with size. Our dedicated focus involves optimizing your data strategy comprehensively. From enhancing business intelligence to deploying thorough data analytics, we refine processes to align with your enterprise's evolving demands, fostering continual growth and improvement</p>
+            <p className='text-center leading-snug font-thin text-gray-500 description h-[250px]  w-10/12'>For expansive organizations, complexity grows in tandem with size. Our dedicated focus involves optimizing your data strategy comprehensively. From enhancing business intelligence to deploying thorough data analytics, we refine processes to align with your enterprise's evolving demands, fostering continual growth and improvement</p>
           </div>
 
         </div>
