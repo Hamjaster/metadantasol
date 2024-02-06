@@ -21,7 +21,7 @@ export const NavBig = () => {
 
   return (
     <nav className='flex min-[1600px]:w-2/3 min-[1600px]:mx-auto flex-row justify-between mx-5 py-3 items-center'>
-      <Link to={'/'} className="flex cursor-pointer items-center flex-row space-x-3">
+      <Link to={'/'} className="flex cursor-pointer items-center flex-row mr-6 space-x-3">
         <img src={logo} className='w-10' alt="" srcset="" />
         <strong onClick={() => handleLinkClick('metadantasol')} className={ `text-xl ${activeLink === 'metadantasol' ? '' : ''}`}>MetaDatAnSol</strong>
       </Link>

@@ -65,7 +65,7 @@ const ContactSection = () => {
 
                     {/* Left Part */}
                     <div className="p-5 sm:p-7 md:p-12 lg:p-20 md:w-1/2 bg-[#0083e8] rounded-tr-2xl rounded-tl-2xl md:rounded-tl-2xl md:rounded-bl-2xl text-lg sm:text-xl">
-                        <h2 className=" text-3xl sm:text-5xl font-bold mb-8">Contact US</h2>
+                        <h2 className=" text-3xl sm:text-5xl font-bold heading mb-8">Contact US</h2>
 
                         <p className="mb-8 flex flex-row items-center space-x-5">
                             <div className="text-2xl">
@@ -112,7 +112,7 @@ const ContactSection = () => {
 
                     {/* Right Part */}
                     <div className=" rounded-tr-2xl text-lg rounded-br-2xl text-gray-800 p-8 md:w-1/2">
-                        <h2 className="text-2xl font-semibold mb-8">Contact Form</h2>
+                        <h2 className="text-2xl font-semibold mb-8 heading">Contact Form</h2>
                         <form onSubmit={sendEmail}>
                             <div className="mb-4">
                                 <label htmlFor="name" className="block mb-2">
@@ -125,7 +125,7 @@ const ContactSection = () => {
                                     class="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-[#0083e8]"
                                     placeholder="Enter your name"
                                     required
-                                    pattern="a-z"
+                                   
 
                                 />
 
@@ -359,12 +359,12 @@ const ContactSection = () => {
                                 </div>
                                 <input
                                     type="text"
-                                    id="name"
+                                    id="phone"
                                     name="name"
                                     class="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-[#0083e8]"
                                     placeholder="Enter your phone number "
                                     required
-                                    pattern="(/^[A-Za-z]+$/) "
+
                                     onkeydown="return event.key.match(/[a-z]/)"
                                     onpaste="return event.clipboardData.getData('text').match(/[a-z]/)"
                                 />

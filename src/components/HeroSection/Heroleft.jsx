@@ -14,7 +14,7 @@ export const Heroleft = () => {
 
 
       <div className='Text sm:mt-2 md:mt-36 overflow-hidden'>
-        <div className='text-3xl sm:text-4xl md:text-5xl py-4 text-white font-bold'>
+        <div className='text-3xl sm:text-4xl md:text-5xl py-4 heading text-white font-bold'>
           Empowering Data-Driven Success
         </div>
         <div className=" text-gray-400 text-xl sm:text-2xl md:text-3xl ">
@@ -40,7 +40,7 @@ export const Heroleft = () => {
             repeat={Infinity}
           />
         </div>
-        <div className=' text-white text-sm sm:text-xl mt-3'>
+        <div className=' description text-white text-sm sm:text-xl mt-3'>
           We are a pioneering IT solutions provider dedicated to guiding organizations through digital transformation. Our focus spans data-driven decision-making, from dynamic dashboards to AI and custom software, addressing diverse business challenges with expertise and innovation.
         </div>
       </div>

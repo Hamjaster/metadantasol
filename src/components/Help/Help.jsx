@@ -11,7 +11,7 @@ export const Help = () => {
       <center>
 
         <div className=''>
-          <div className='font-bold text-3xl text-[#0083e8] md:text-5xl py-2'>
+          <div className='font-bold text-3xl text-[#0083e8] heading  md:text-5xl py-2'>
             Who Can we Assist ?
           </div>
           <div className='text-sm sm:text-lg mt-3 description text-gray-500'>
@@ -26,7 +26,7 @@ export const Help = () => {
             <div style={{ backgroundImage: `url(${one})` }} className="bg-center bg-cover rounded-lg shadow-xl hover:shadow-2xl transition-all h-44 w-64">
 
             </div>
-            <strong className='text-3xl  py-1'>Startups</strong>
+            <strong className='text-3xl  py-1 heading'>Startups</strong>
             <p className='text-center font-thin text-gray-500 description h-[250px] w-10/12'>Our services are designed to empower startups in unlocking the full potential of data. We guide you on how to effectively gather, transform, and process data, enabling you to make well-informed decisions that steer your startup towards success.</p>
           </div>
           <div className="w-full space-y-5 md:w-1/3 flex flex-col items-center">
@@ -34,7 +34,7 @@ export const Help = () => {
             <div style={{ backgroundImage: `url(${two})` }} className="bg-center bg-cover rounded-lg shadow-xl hover:shadow-2xl transition-all h-44 w-64">
 
             </div>
-            <strong className='text-3xl py-1'>SMB's</strong>
+            <strong className='text-3xl py-1 heading'>SMB's</strong>
             <p className='text-center leading-snug font-thin text-gray-500 description h-[250px]  w-10/12'>Small and medium-sized businesses are brimming with potential, often limited only by the time needed for expansion. Our role is to help you overcome this barrier. Leveraging the power of AI, data science, analytics, and machine learning, we offer solutions that accelerate your business growth and expansion.</p>
           </div>
           <div className="w-full space-y-5 md:w-1/3 flex flex-col items-center">
@@ -42,7 +42,7 @@ export const Help = () => {
             <div style={{ backgroundImage: `url(${three})` }} className="bg-center bg-cover rounded-lg shadow-xl hover:shadow-2xl transition-all h-44 w-64">
 
             </div>
-            <strong className='text-3xl py-1'>Large Enterprises</strong>
+            <strong className='text-3xl py-1 heading'>Large Enterprises</strong>
             <p className='text-center leading-snug font-thin text-gray-500 description h-[250px]  w-10/12'>For expansive organizations, complexity grows in tandem with size. Our dedicated focus involves optimizing your data strategy comprehensively. From enhancing business intelligence to deploying thorough data analytics, we refine processes to align with your enterprise's evolving demands, fostering continual growth and improvement</p>
           </div>
 
