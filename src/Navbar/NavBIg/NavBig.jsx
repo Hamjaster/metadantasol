@@ -20,8 +20,9 @@ export const NavBig = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   return (
-    <nav className='flex min-[1600px]:w-2/3 min-[1600px]:mx-auto flex-row justify-between mx-5 py-3 items-center'>
-      <Link to={'/'} className="flex cursor-pointer items-center flex-row mr-6 space-x-3">
+    <nav className='flex min-[1600px]:w-2/3 min-[1600px]:mx-auto flex-row justify-between  mx-5 py-3 
+    items-center'>
+      <Link to={'/'} className="flex cursor-pointer items-center  flex-row ] ">
         <img src={logo} className='w-10' alt="" srcset="" />
         <strong onClick={() => handleLinkClick('metadantasol')} className={ `text-xl ${activeLink === 'metadantasol' ? '' : ''}`}>MetaDatAnSol</strong>
       </Link>
@@ -62,8 +63,8 @@ export const NavBig = () => {
       </ul>
 
       <ul className='flex flex-row space-x-5'>
-        {/* <div className=' cursor-pointer hover:bg-[#1057d2] px-5 py-2 text-white bg-[#136aff] text-center rounded-3xl'>Get in touch </div> */}
         <Link to={'/contact'} className=' cursor-pointer px-5 hover:bg-[#005ea6] py-2 border-2 text-white  bg-[#0083e8] text-center rounded-3xl'>Get in touch </Link>
+        {/* <div className=' cursor-pointer hover:bg-[#1057d2] px-5 py-2 text-white bg-[#136aff] text-center rounded-3xl'>Get in touch </div> */}
         {/* <div onClick={onOpen} className=' cursor-pointer px-5 hover:bg-[#0083e8] hover:text-white py-2 border-2 text-[#0083e8]  border-[#0083e8] text-center rounded-3xl'>Build your team </div> */}
       </ul>
 

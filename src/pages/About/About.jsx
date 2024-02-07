@@ -43,10 +43,10 @@ export default function About() {
             {/* About */}
             <div className="about shadow-2xl relative z-50 w-full md:w-11/12 mx-auto  items-center md:-mt-32   bg-white px-12 sm:px-24 py-7 space-y-10 md:space-y-0  flex flex-col md:flex-col ">
 
-                <div className="about flex flex-col md:flex-row items-center">
+                <div className="about flex flex-col md:flex-row items-center justify-center">
 
-                    <div className='w-full md:w-1/4 py-4 text-3xl text-[#0083e8] md:py-24 text-center md:text-left capitalize font-bold md:text-4xl heading  '>About</div>
-                    <div className='w-full   md:w-3/4 text-center md:text-left text-[#0083e8] md:text-3xl text-2xl md:px-4 leading-relaxed md:leading-loose md:border-l-2  description font-bold'>MetaDatAnSol - Your Trusted Partner for Achieving Data-Driven Success Across Industries and Verticals
+                    
+                    <div className='w-full   md:w-3/4 text-center md:text-left text-[#0083e8] md:text-3xl text-2xl md:px-4 leading-relaxed md:leading-loose flex align-middle justify-center  description font-bold'>MetaDatAnSol - Your Trusted Partner for Achieving Data-Driven Success Across Industries and Verticals
                     </div>
 
                 </div>
