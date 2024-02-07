@@ -13,10 +13,10 @@ export default function Footer() {
             <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div class="md:flex md:justify-between">
                     <div class="mb-6 md:mb-0">
-                        <Link to={'/'} className="flex cursor-pointer items-center flex-row space-x-3">
+                        <a href={'/'} className="flex cursor-pointer items-center flex-row space-x-3">
                             <img src={logo} className='w-10' alt="" srcset="" />
                             <strong className='text-xl'>MetaDatAnSol</strong>
-                        </Link>
+                        </a>
                     </div>
                     <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                         <div>
@@ -65,7 +65,7 @@ export default function Footer() {
 
                         <a href="#" class="  dark:hover:text-white ms-5">
                             <FaLinkedin />
-                            <span class="sr-only">LinkedIN</span>
+                            <span class="sr-only">LinkedIn</span>
                         </a>
                         <a href="#" class="  dark:hover:text-white ms-5">
                             <SiGmail />

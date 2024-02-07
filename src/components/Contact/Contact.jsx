@@ -31,6 +31,7 @@ export const ContactFormWithImage = () => {
                                 type="text"
                                 id="name"
                                 name="name"
+                                required="true"
                                 className="w-full p-2 rounded-md outline-none border-2 border-[#0083e8]"
                                 placeholder="Your Name"
                             />
@@ -51,15 +52,19 @@ export const ContactFormWithImage = () => {
 
                         <div className="mb-4">
                             <label htmlFor="phone" className="text-[#0083e8] block mb-2">
-                                Phone Number
+                                Phone
                             </label>
                             <input
-                                type="tel"
+                                type="text"
                                 id="phone"
                                 name="phone"
-                                className="w-full p-2 rounded-md outline-none border-2 border-[#0083e8]"
+                                class="w-full p-2 rounded-md outline-none border-2 border-[#0083e8]"
                                 placeholder="Your Phone Number"
+                                onkeypress="return /^[0-9]+$/.test(event.key)"
                             />
+
+
+
                         </div>
 
                         <button

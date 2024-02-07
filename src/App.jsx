@@ -13,9 +13,13 @@ import Privacy from './components/Privacy';
 import Comingsoon from './Comingsoon';
 import PrivacyPolicy from './pages/Policy';
 import { Disclaimer } from './pages/Disclaimer';
+import { useEffect } from 'react';
 
 function App() {
   const location = useLocation()
+  useEffect(()=>{
+      console.clear()
+  },[])
 
   return (
     <div className='font-opensans'>

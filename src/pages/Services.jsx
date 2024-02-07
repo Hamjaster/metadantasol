@@ -28,8 +28,8 @@ export default function Services() {
             <div className="about shadow-2xl relative z-50 w-full md:w-11/12 mx-auto space-x-3 items-center md:-mt-32   bg-white px-12 sm:px-24 py-7 flex flex-col md:flex-col ">
                 <div className="about flex flex-col md:flex-row items-center">
 
-                    <div className=' md:w-1/4 py-4 md:py-24 text-center md:text-left capitalize font-bold text-4xl md:text-4xl'>What we do ?</div>
-                    <div className=' md:w-3/4 text-center md:text-left text-[#0083e8] md:text-3xl text-2xl md:px-4 leading-relaxed md:leading-loose md:border-l-2 '>We turn data into decisions, offering tailored solutions in BI, Data Visualization, Data Science, and Custom Software Development to suit your unique needs.
+                    <div className=' md:w-1/4 py-4 md:py-24 text-center md:text-left  text-[#0083e8] capitalize font-bold text-4xl md:text-4xl heading '>What we do ?</div>
+                    <div className=' md:w-3/4 text-center md:text-left text-[#0083e8] md:text-3xl text-sm md:px-4 leading-relaxed md:leading-loose description md:border-l-2  '>We turn data into decisions, offering tailored solutions in BI, Data Visualization, Data Science, and Custom Software Development to suit your unique needs.
                     </div>
 
                 </div>
@@ -52,8 +52,8 @@ export default function Services() {
                 />
             </div> */}
 
-            <div className="text w-11/12 sm:w-11/12 mx-auto text-lg sm:text-2xl my-20 leading-normal sm:leading-loose text-center italic ">
-                Our services in Business Intelligence, Data Visualization, Data Science, and Custom Software Development are designed to align with your organization's data maturiy. We begin with a thorough assessment to understand your business and address specific requests, ensuring a personalized and effective solution.
+            <div className="text w-11/12 sm:w-11/12 mx-auto text-lg sm:text-2xl my-20 leading-normal sm:leading-loose text-center description font-bold text-gray-500 description  ">
+                Our services in Business Intelligence, Data Visualization, Data Science, and Custom Software Development are designed to align with your organization's data maturity. We begin with a thorough assessment to understand your business and address specific requests, ensuring a personalized and effective solution.
             </div>
 
             {/* Services */}
@@ -76,8 +76,8 @@ export default function Services() {
                         <div className="content w-full flex flex-col items-start justify-evenly space-y-3">
 
                             {/* <div className='w-full text-[#0083e8] text-start text-2xl font-extrabold'>01.</div> */}
-                            <div className=" w-full text-start text-2xl md:text-3xl font-bold">Data Engineering : Unlocking the Power of Data Engineering</div>
-                            <div className=" w-full text-start text-sm md:text-lg text-gray-200">
+                            <div className=" heading w-full text-start text-2xl md:text-3xl font-bold">Data Engineering : Unlocking the Power of Data Engineering</div>
+                            <div className=" w-full text-start text-sm md:text-lg description text-gray-200">
                                 In today's digital landscape, data has become the lifeblood of organizations, driving decision-making, strategic planning, and operational excellence. Yet, the raw data generated within a company is often complex, scattered, and untamed, making it challenging to extract valuable insights. This is where Data Engineering steps in, serving as the unsung hero behind the scenes.
                             </div>
                             <div onClick={() => { setService("data-engineering"); onOpen() }} className="button cursor-pointer px-8 py-2 transition-all text-black bg-white hover:bg-gray-100">Read More</div>
@@ -100,8 +100,8 @@ export default function Services() {
                         <div className="content w-full flex flex-col items-start justify-evenly space-y-3">
 
                             {/* <div className='w-full text-[#0083e8] text-start text-2xl font-extrabold'>02.</div> */}
-                            <div className=" w-full text-start text-2xl md:text-3xl font-bold">Data Analysis: Unraveling the Power of Data</div>
-                            <div className=" w-full text-start text-sm md:text-lg text-gray-200">
+                            <div className=" w-full text-start text-2xl md:text-3xl font-bold heading ">Data Analysis: Unraveling the Power of Data</div>
+                            <div className=" w-full text-start description text-sm md:text-lg text-gray-200">
                                 Data Analysis is the transformative process of delving deep into your data to reveal concealed insights, trends, and patterns. It's the key to unlocking the wealth of information hidden within your organization's data reports. In today's data-driven world, Data Analysis is your compass for making informed decisions, setting strategic direction, and realizing untapped potential.
                             </div>
                             <div onClick={() => { setService("data-analysis"); onOpen() }} className="button cursor-pointer px-8 py-2 transition-all text-black bg-white hover:bg-gray-100">Read More</div>
@@ -125,8 +125,8 @@ export default function Services() {
                         <div className="content w-full flex flex-col items-start justify-evenly space-y-3">
 
                             {/* <div className='w-full text-[#0083e8] text-start text-2xl font-extrabold'>03.</div> */}
-                            <div className=" w-full text-start text-2xl md:text-3xl font-bold">Data Science: Unleashing the Power of Insights</div>
-                            <div className=" w-full text-start text-sm md:text-lg text-gray-200">
+                            <div className=" w-full text-start text-2xl md:text-3xl heading  font-bold">Data Science: Unleashing the Power of Insights</div>
+                            <div className=" w-full text-start text-sm description md:text-lg text-gray-200">
                                 Data Science is the scientific art of uncovering profound insights from diverse data sources. This multidisciplinary field marries various methods, algorithms, and systems to extract knowledge that fuels innovation and informed decision-making. A pivotal element in this process is Machine Learning (ML), which enhances optimization and operational efficiency.
                             </div>
                             <div onClick={() => { setService("data-science"); onOpen() }} className="button cursor-pointer px-8 py-2 transition-all text-black bg-white hover:bg-gray-100">Read More</div>
@@ -149,8 +149,8 @@ export default function Services() {
                         <div className="content w-full flex flex-col items-start justify-evenly space-y-3">
 
                             {/* <div className='w-full text-[#0083e8] text-start text-2xl font-extrabold'>04.</div> */}
-                            <div className=" w-full text-start text-2xl md:text-3xl font-bold">Custom Software solutions: Bespoke Solutions for Business Excellence</div>
-                            <div className=" w-full text-start text-sm md:text-lg text-gray-200">
+                            <div className=" w-full text-start text-2xl md:text-3xl heading font-bold">Custom Software solutions: Bespoke Solutions for Business Excellence</div>
+                            <div className=" w-full description text-start text-sm md:text-lg text-gray-200">
                                 At MetaDatAnSol Solutions, we also specialize in developing custom software solutions designed to meet your organization's unique complexities and challenges. Whether you require simple or bespoke applications or tailor-made software, our team is equipped to cater to your specific business needs.
                             </div>
                             <div onClick={() => { setService("custom-software"); onOpen() }} className="button cursor-pointer px-8 py-2 transition-all text-black bg-white hover:bg-gray-100">Read More</div>
