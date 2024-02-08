@@ -29,7 +29,7 @@ export default function Services() {
                 <div className="about flex flex-col md:flex-row items-center">
 
                     <div className=' md:w-1/4 py-4 md:py-24 text-center md:text-left  text-[#0083e8] capitalize font-bold text-4xl md:text-4xl heading '>What we do ?</div>
-                    <div className=' md:w-3/4 text-center md:text-left text-[#0083e8] md:text-3xl text-sm md:px-4 leading-relaxed md:leading-loose description md:border-l-2  '>We turn data into decisions, offering tailored solutions in BI, Data Visualization, Data Science, and Custom Software Development to suit your unique needs.
+                    <div className=' md:w-3/4 text-center md:text-left text-[#0083e8] md:text-2xl text-sm md:px-4 leading-relaxed md:leading-loose description md:border-l-2  '>We turn data into decisions, offering tailored solutions in BI, Data Visualization, Data Science, and Custom Software Development to suit your unique needs.
                     </div>
 
                 </div>

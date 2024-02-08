@@ -132,13 +132,14 @@ const ContactSection = () => {
                             </div>
                             <div class=" items-center mb-4">
 
-                                <label for="phone" class="block mb-2">
-                                    <span class="text-red-500 ">*</span>Phone:
+                                <label htmlFor="name" className="block mb-2 text-[15px]">
+                                    <span className="text-red-500  ">*</span>Select country code:
                                 </label>
                                 <div class="mr-2  inline-flex rounded-md border ml-2 border-gray-300 bg-white px-3 py-2 text-sm leading-5 font-medium text-gray-700 shadow-md cursor-pointer">
-                                    <select name="countryCode" id="">
 
-                                            <option data-countryCode="nan" value="nan" selected>Select Country Code </option>
+                                    <select name="countryCode" required id="">
+
+                                            <option data-countryCode="nan" value="nan">Select Country Code </option>
                                             <option data-countryCode="DZ" value="213">Algeria (+213)</option>
                                             <option data-countryCode="AD" value="376">Andorra (+376)</option>
                                             <option data-countryCode="AO" value="244">Angola (+244)</option>
@@ -356,8 +357,11 @@ const ContactSection = () => {
                                         
                                     </select>
                                 </div>
+                                <label for="phone" class="block mb-2">
+                                    <span class="text-red-500 ">*</span>Phone:
+                                </label>
                                 <input
-                                    type="text"
+                                    type="number"
                                     id="phone"
                                     name="name"
                                     class="w-full px-3 py-2 border rounded-md focus:outline-none focus:border-[#0083e8]"
