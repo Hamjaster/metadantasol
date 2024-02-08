@@ -137,9 +137,8 @@ const ContactSection = () => {
                                 </label>
                                 <div class="mr-2  inline-flex rounded-md border ml-2 border-gray-300 bg-white px-3 py-2 text-sm leading-5 font-medium text-gray-700 shadow-md cursor-pointer">
                                     <select name="countryCode" id="">
-                                        <option data-countryCode="GB" value="44" Selected>UK (+44)</option>
-                                        <option data-countryCode="US" value="1">USA (+1)</option>
-                                        <optgroup label="Other countries">
+
+                                            <option data-countryCode="nan" value="nan" selected>Select Country Code </option>
                                             <option data-countryCode="DZ" value="213">Algeria (+213)</option>
                                             <option data-countryCode="AD" value="376">Andorra (+376)</option>
                                             <option data-countryCode="AO" value="244">Angola (+244)</option>
@@ -354,7 +353,7 @@ const ContactSection = () => {
                                             <option data-countryCode="YE" value="967">Yemen (South)(+967)</option>
                                             <option data-countryCode="ZM" value="260">Zambia (+260)</option>
                                             <option data-countryCode="ZW" value="263">Zimbabwe (+263)</option>
-                                        </optgroup>
+                                        
                                     </select>
                                 </div>
                                 <input
